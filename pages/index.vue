@@ -1,25 +1,5 @@
-<template>
-  <PageHeader
-    imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
-    title="Klimastadtvertrag"
-    description="Alles im Blick"
-  />
-  <Card>
-    <template #content>
-      <ProgressBarChart :chart-data="value" />
-    </template>
-  </Card>
-  <ul>
-    <template v-for="category in categories" :key="category">
-      <li>
-        {{ category }}: {{ measuresPerCategory.find((item) => item.category === category).numberOfMeasures }}
-      </li>
-
-    </template>
-  </ul>
-</template>
-
 <script setup lang="ts">
+import { CategoryCard } from "../components";
 import actions from '@/data/b-2_actions.json';
 import PageHeader from '~/components/PageHeader.vue';
 
@@ -38,3 +18,33 @@ const value = ref([
   { label: 'verschoben', color: 'var(--p-red-500)', value: 10 }
 ]);
 </script>
+
+<template>
+  <PageHeader
+    imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
+    title="Klimastadtvertrag"
+    description="Alles im Blick"
+  />
+  <Card>
+    <template #content>
+      <ProgressBarChart :chart-data="value" />
+    </template>
+  </Card>
+  <div class="card-grid">
+    <template v-for="category in categories" :key="category">
+      <CategoryCard
+        :title="category"
+        :category="measuresPerCategory"
+        :measures="actions[category]"
+      />
+    </template>
+  </div>
+</template>
+
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+</style>
