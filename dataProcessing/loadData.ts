@@ -1,4 +1,5 @@
 import measures from '@/data/measures.json';
+import implementations from '@/data/implementations.json';
 
 interface ActionOutline {
   "Action name": string;
@@ -38,6 +39,19 @@ export interface Measure {
   "Impact & cost": ImpageAndCost;
 }
 
+export type MeasureStatus = 'in_progress' | 'unknuwn' | 'completed';
+type BaseMeasureProgress = {
+  id: string;
+  status: MeasureStatus;
+}
+
+export type MeasureProgress = BaseMeasureProgress & {
+  measure: 'percentile';
+  progress: number;
+} | BaseMeasureProgress & {
+  measure: 'binary';
+}
+
 export interface Category {
   id: string;
   name: string;
@@ -45,6 +59,9 @@ export interface Category {
 }
 
 const getMeasures = async (): Promise<Measure[]> => measures;
+const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
+  return implementations as MeasureProgress[];
+}
 
 const getRawCategories = async () => {
   const rawCategories = measures.map(measure => ({
@@ -79,8 +96,15 @@ const getCategories = async (): Promise<Category[]> => {
   return withMetaInformation;
 }
 
+const getProgressForMeasure = async (measureId: string) => {
+  const progress = await getMeasureProgress();
+  return progress.find(({ id }) => id === measureId);
+}
+
 export {
   getMeasures,
   getMeasuresForCategory,
   getCategories,
+  getMeasureProgress,
+  getProgressForMeasure,
 }
