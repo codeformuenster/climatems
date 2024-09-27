@@ -1,18 +1,33 @@
 <script setup lang="ts">
 import { CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import { getCategories } from "~/dataProcessing/loadData";
+import { getCategories, getMeasureProgress, type MeasureStatus } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
 
-const numberOfMeasures = (categoriesWithInformation || []).reduce((acc, item) => acc + item.measures.length, 0);
+const progress = await getMeasureProgress();
 
-const value = ref([
-  { label: 'Umgesetzt', color: 'var(--p-green-500)', value: numberOfMeasures },
-  { label: 'Begonnen', color: 'var(--p-yellow-500)', value: 8 },
-  { label: 'nicht begonnen', color: 'var(--p-grey-500)', value: 24 },
-  { label: 'verschoben', color: 'var(--p-red-500)', value: 10 }
-]);
+const rawChartData = progress.reduce((acc, item) => {
+  acc[item.status] = acc[item.status] + 1 || 1;
+  return acc;
+}, {});
+
+const colorScale = {
+  completed: 'var(--p-green-500)',
+  in_progress: 'var(--p-yellow-500)',
+  unknown: 'var(--p-grey-500)',
+};
+
+const chartData = computed(() => {
+  return Object.entries(rawChartData).map(([key, value]) => {
+    console.log(key, value)
+    return {
+      label: key,
+      color: colorScale[key as keyof typeof colorScale],
+      value
+    };
+  });
+})
 </script>
 
 <template>
@@ -26,7 +41,7 @@ const value = ref([
         Gesamtübersicht über alle Maßnahmen
       </template>
       <template #content>
-        <ProgressBarChart :chart-data="value" />
+        <ProgressBarChart :chart-data="chartData" />
       </template>
     </Card>
 
