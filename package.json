@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "generate_deploy": "nuxi generate && touch .output/public/.nojekyll && echo 'codeformuenster.org' > .output/public/CNAME",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
