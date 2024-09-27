@@ -20,7 +20,6 @@ const colorScale = {
 
 const chartData = computed(() => {
   return Object.entries(rawChartData).map(([key, value]) => {
-    console.log(key, value)
     return {
       label: key,
       color: colorScale[key as keyof typeof colorScale],
