@@ -15,7 +15,7 @@ const measuresList = computed(() => {
   return {
     amount,
     items: [
-      ...measures.value.slice(0, 5).map((measure) => measure['Action outline']['Action name']),
+      ...measures.value.slice(0, 5).map((measure) => measure.additionalData?.short_title || measure.original['Action outline']['Action name']),
       ...(amount === 6 ? ["1 weitere Maßnahme"] : []),
       ...(amount > 6 ? [`${amount - 5} weitere Maßnahmen`] : []),
     ]

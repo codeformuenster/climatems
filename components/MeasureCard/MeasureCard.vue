@@ -32,12 +32,12 @@ const { measure } = toRefs(props);
     <Card class="category-card">
       <template #header>
         <div class="category-card--header">
-          <h2 class="category-card--title">{{ measure['Action outline']['Action name'] }}</h2>
+          <h2 class="category-card--title">{{ measure.additionalData?.short_title || measure.original['Action outline']['Action name'] }}</h2>
           <component class="category-card--icon" :is="iconClass" />
         </div>
       </template>
       <template #content>
-        <p class="category-card--text">{{ measure['Action outline']['Action description'] }}</p>
+        <p class="category-card--text">{{ measure.additionalData?.summary || measure.original['Action outline']['Action description'] }}</p>
       </template>
       <template #footer>
         <div class="category-card--footer">

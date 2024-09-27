@@ -2,28 +2,28 @@
   <div class="main-content">
     <Card>
       <template #title>
-        {{  additionalData?.short_title || measure?.['Action outline']['Action name'] }}
+        {{  measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
         <Tag :value="measure?.category" />
       </template>
       <template #content>
         <p class="prosa">
-          {{  additionalData?.summary }}
+          {{  measure?.additionalData?.summary }}
         </p>
-        <div v-if="progress?.measure === 'percent'">
+        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'percent'">
           <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
         </div>
-        <div v-if="progress?.measure === 'percent'">
+        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
-            value: progress?.progress,
+            value: measure?.progress?.[measure?.progress.length - 1].progress,
             color: 'var(--p-green-500)'
             } ]" />
-          {{ progress?.progress }} % erreicht
+          {{ measure?.progress?.[measure?.progress.length - 1].progress }} % erreicht
         </div>
 
-        <div v-if="progress?.measure === 'binary'">
+        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'binary'">
           Aktueller Status:
-          {{ progress?.status === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
+          {{ measure?.progress?.[measure?.progress.length - 1]?.status === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
         </div>
       </template>
     </Card>
@@ -44,7 +44,7 @@
         </Breadcrumb>
     </div>
 
-    <template v-if="!!additionalData?.user_action">
+    <template v-if="!!measure?.additionalData?.user_action">
       <div id="alert-additional-content-1" class="p-4 mb-4 text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
         <div class="flex items-center">
           <svg class="flex-shrink-0 w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -54,17 +54,17 @@
           <h3 class="text-lg font-medium">Werde selber aktiv</h3>
         </div>
         <div class="mt-2 mb-4 text-sm">
-          {{ additionalData?.user_action.description }}
+          {{ measure?.additionalData?.user_action.description }}
         </div>
         <div class="flex">
           <a
             class="text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-xs px-3 py-1.5 me-2 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            :href="additionalData?.user_action.href"
+            :href="measure?.additionalData?.user_action.href"
           >
             <svg class="me-2 h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
               <path d="M10 0C4.612 0 0 5.336 0 7c0 1.742 3.546 7 10 7 6.454 0 10-5.258 10-7 0-1.664-4.612-7-10-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/>
             </svg>
-            {{ additionalData?.user_action.label }}
+            {{ measure?.additionalData?.user_action.label }}
           </a>
         </div>
       </div>
@@ -79,7 +79,7 @@
         <div class="border-t border-gray-100">
           <dl class="divide-y divide-gray-100">
 
-            <template v-for="value, key in measure?.[k]">
+            <template v-for="value, key in measure?.original?.[k]">
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-900">{{key}}</dt>
                 <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0" v-html="value.replaceAll('\n', '<br/>')"></dd>
@@ -94,13 +94,11 @@
 
 <script lang="ts" setup>
 import Chart from 'primevue/chart';
-import { getMeasure, getProgressForMeasure, getAdditionalMeasureData, getProgressListForMeasure } from '~/dataProcessing/loadData';
+import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
 
 const route = useRoute();
 
 const measure = await getMeasure(route.params.measureId as string);
-const progress = await getProgressForMeasure(route.params.measureId as string);
-const progressList = await getProgressListForMeasure(route.params.measureId as string);
 
 const home = ref({
     icon: 'pi pi-home',
@@ -108,7 +106,7 @@ const home = ref({
 });
 const items = ref([
     { label: measure?.category, route: `/category/${measure?.categoryId}`, icon: 'pi pi-tag' },
-    { label: measure?.['Action outline']['Action name'], icon: 'pi pi-tag' },
+    { label: measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'], icon: 'pi pi-tag' },
 ]);
 
 const chartData = {
@@ -116,7 +114,7 @@ const chartData = {
   datasets: [
     {
       label: "Fortschritt",
-      data: progressList.map(p => p.progress),
+      data: measure?.progress.map(p => p.progress),
       fill: false,
       borderColor: "rgb(75, 192, 192)",
       tension: 0.1,
@@ -132,7 +130,6 @@ const chartOptions = {
     }
   }
 }
-const additionalData = await getAdditionalMeasureData(route.params.measureId as string);
 </script>
 
 <style>

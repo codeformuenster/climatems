@@ -41,7 +41,7 @@ interface Implemetation {
   "Next steps"?: string[];
 }
 
-interface ImpageAndCost {
+interface ImpactAndCost {
   "Generated renewable energy"?: string;
   "Removed/substituted energy, volume, or fuel type": string;
   "GHG emissions reduction estimate (total)"?: string;
@@ -49,14 +49,11 @@ interface ImpageAndCost {
   "Total costs and costs by CO2e unit": string;
 }
 
-export interface Measure {
-  id: string;
-  category: string;
-  categoryId: string;
+interface OriginalMeasure {
   "Action outline": ActionOutline;
   "Reference to impact pathway": ReferenceToImpactPathway;
   "Implementation": Implemetation;
-  "Impact & cost": ImpageAndCost;
+  "Impact & cost": ImpactAndCost;
 }
 
 export interface AdditionalMeasureData {
@@ -89,15 +86,43 @@ export interface Category {
   measures: Measure[];
 }
 
-const getMeasures = async (): Promise<Measure[]> => measures;
+
+export interface Measure {
+  id: string;
+  category: string;
+  categoryId: string;
+  original: OriginalMeasure;
+  additionalData?: AdditionalMeasureData
+  progress: MeasureProgress[];
+}
+
+const getMeasures = async (): Promise<Measure[]> => {
+  const progresses = await getAllMeasureProgresses();
+  const additionalData = await getAdditionalData();
+
+  return measures.map((measure) => ({
+    id: measure.id,
+    category: measure.category,
+    categoryId: measure.categoryId,
+    original: measure,
+    additionalData: additionalData.find(({ id }) => id === measure.id),
+    progress: progresses[measure.id] || [],
+  }));
+}
 
 const getMeasure = async (measureId: string): Promise<Measure | undefined> => {
+  const measures = await getMeasures();
+
   return measures.find(({ id }) => id === measureId);
 }
 
 const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
   return implementations20231001 as MeasureProgress[];
 }
+
+
+const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
+
 
 const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgress[]; }> => {
   const implementations = [
@@ -142,6 +167,8 @@ const getRawCategories = async () => {
 }
 
 const getMeasuresForCategory = async (categoryId: string) => {
+  const measures = await getMeasures();
+
   return measures.filter(measure => measure.categoryId === categoryId);
 }
 
@@ -175,11 +202,6 @@ const getCategory = async (categoryId: string) => {
   return categories.find(({ id }) => id === categoryId);
 }
 
-const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
-
-const getAdditionalMeasureData = async (measureId: string): Promise<AdditionalMeasureData | undefined> => {
-  return (await getAdditionalData()).find(({ id }) => id === measureId);
-}
 
 export {
   getMeasures,
@@ -187,10 +209,7 @@ export {
   getCategory,
   getCategories,
   getMeasureProgress,
-  getAllMeasureProgresses,
   getProgressForMeasure,
   getProgressListForMeasure,
   getMeasure,
-  getAdditionalData,
-  getAdditionalMeasureData,
 }

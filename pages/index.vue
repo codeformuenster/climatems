@@ -1,32 +1,15 @@
 <script setup lang="ts">
 import { Search, CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import {getAdditionalData, getCategories, getMeasureProgress, getMeasures, type MeasureStatus} from "~/dataProcessing/loadData";
+import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
 
 const progress = await getMeasureProgress();
 
-const basicMeasures = await getMeasures();
-const additionalData = await getAdditionalData();
+const measures = await getMeasures();
 
 const onlyUserActionable = ref(false);
-
-const measures = computed(() => {
-  const enrichedMeasures = basicMeasures.map((measure) => {
-    const additionalMeasureData = additionalData.find((data) => data.id === measure.id);
-    return {
-      ...measure,
-      ...additionalMeasureData,
-    };
-  });
-
-  if (onlyUserActionable.value) {
-    return enrichedMeasures.filter((measure) => !!measure.user_action);
-  }
-  console.log('foo', enrichedMeasures)
-  return enrichedMeasures;
-});
 
 const rawChartData = progress.reduce((acc, item) => {
   acc[item.status] = acc[item.status] + 1 || 1;

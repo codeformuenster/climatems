@@ -11,7 +11,7 @@
                 <NuxtLink :to="`/category/${fuseresult.item.categoryId}/measure/${fuseresult.item.id}`">
                   <Card>
                     <template #title>
-                      {{ fuseresult.item['Action outline']?.['Action name'] }}
+                      {{ fuseresult.item.additionalData?.short_title || fuseresult.item.original['Action outline']?.['Action name'] }}
                       <Tag :value="fuseresult.item?.category"/>
                     </template>
                   </Card>
@@ -40,7 +40,10 @@ const options = {
   threshold: 0.3,
   // Search in `author` and in `tags` array
   keys: [
-      "Action outline.Action name",
+      "original.Action outline.Action name",
+      "additionalData.short_title",
+      "additionalData.summary",
+      "original.Action outline.Action description",
       "category",
   ],
 }
