@@ -8,8 +8,9 @@
     <!-- Zentrierte Textbox -->
     <div class="absolute inset-0 flex items-center justify-center">
       <div class="relative z-10 bg-white bg-opacity-80 p-6 rounded-lg shadow-lg text-center max-w-lg mx-4">
-        <h2 class="text-2xl text-black font-bold mb-4">{{ title }}</h2>
-        <p class="text-gray-700">{{ description }}</p>
+        <h2 class="text-2xl text-black font-bold">{{ title }}</h2>
+        <div v-if="description" class="mb-4"></div>
+        <p v-if="description" class="text-gray-700">{{ description }}</p>
       </div>
     </div>
   </div>
@@ -32,7 +33,7 @@ export default defineComponent({
     },
     description: {
       type: String,
-      required: true,
+      required: false,
     },
   },
 });
