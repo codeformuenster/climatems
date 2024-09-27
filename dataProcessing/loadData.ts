@@ -126,7 +126,7 @@ const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgre
     acc[item.id].push(item);
     return acc;
   }, {});
-  console.log(groupedResult);
+
   return groupedResult;
 }
 
