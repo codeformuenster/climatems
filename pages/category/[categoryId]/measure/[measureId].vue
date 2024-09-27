@@ -6,6 +6,9 @@
         <Tag :value="measure?.category" />
       </template>
       <template #content>
+        <p class="prosa">
+          {{  additionalData?.summary }}
+        </p>
         <div v-if="progress?.measure === 'percent'">
           <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
         </div>
@@ -19,6 +22,7 @@
         </div>
 
         <div v-if="progress?.measure === 'binary'">
+          Aktueller Status:
           {{ progress?.status === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
         </div>
       </template>
