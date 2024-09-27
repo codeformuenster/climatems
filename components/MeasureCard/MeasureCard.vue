@@ -33,7 +33,9 @@ const { measure } = toRefs(props);
           <component class="category-card--icon" :is="iconClass" />
         </div>
       </template>
-
+      <template #content>
+        <p class="category-card--text">{{ measure['Action outline']['Action description'] }}</p>
+      </template>
       <template #footer>
         <div class="category-card--footer">
           <span class="category-card--link">Mehr erfahren</span>
