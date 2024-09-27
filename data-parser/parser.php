@@ -13,11 +13,11 @@ $filecontent = file_get_contents($filename);
  * @throws Exception
  */
 $searchForKey = function (string $content, string $search, bool $end, string $errorElementName) {
-    $position = strpos(strtolower($content), strtolower($search)) + ($end ? strlen($search) : 0);
+    $position = strpos(strtolower($content), strtolower($search));
     if ($position === false) {
         throw new Exception($search . " konnte nicht als $errorElementName gefunden werden.");
     }
-    return $position;
+    return $position + ($end ? strlen($search) : 0);
 };
 
 $parseActionItem = function($content) use ($searchForKey){
@@ -41,8 +41,8 @@ $parseActionItem = function($content) use ($searchForKey){
         "Impact & cost" => [
             ["Generated renewable energy \n(if applicable)", "Generated renewable energy (if applicable)", "Generated renewable energy"],
             "Removed/substituted energy",
-            "GHG emissions reduction estimate (total)",
-            "Total costs and costs by \nCO2e unit",
+            ["GHG emissions reduction estimate (total) per emission \nsource sector", "GHG emissions reduction estimate (total)"],
+            ["Total costs and costs by \nCO2e unit", "Total costs and costs by CO2e unit"],
         ],
         "end" => []
     ];
