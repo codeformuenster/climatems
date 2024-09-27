@@ -191,5 +191,6 @@ export {
   getProgressForMeasure,
   getProgressListForMeasure,
   getMeasure,
+  getAdditionalData,
   getAdditionalMeasureData,
 }

@@ -1,13 +1,32 @@
 <script setup lang="ts">
 import { Search, CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import {getCategories, getMeasureProgress, getMeasures, type MeasureStatus} from "~/dataProcessing/loadData";
+import {getAdditionalData, getCategories, getMeasureProgress, getMeasures, type MeasureStatus} from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
 
 const progress = await getMeasureProgress();
 
-const measures = await getMeasures();
+const basicMeasures = await getMeasures();
+const additionalData = await getAdditionalData();
+
+const onlyUserActionable = ref(false);
+
+const measures = computed(() => {
+  const enrichedMeasures = basicMeasures.map((measure) => {
+    const additionalMeasureData = additionalData.find((data) => data.id === measure.id);
+    return {
+      ...measure,
+      ...additionalMeasureData,
+    };
+  });
+
+  if (onlyUserActionable.value) {
+    return enrichedMeasures.filter((measure) => !!measure.user_action);
+  }
+  console.log('foo', enrichedMeasures)
+  return enrichedMeasures;
+});
 
 const rawChartData = progress.reduce((acc, item) => {
   acc[item.status] = acc[item.status] + 1 || 1;
@@ -52,6 +71,10 @@ const chartData = computed(() => {
       </template>
     </CardGrid>
 
+    <div class="flex items-center">
+      <Checkbox v-model="onlyUserActionable" binary />
+      <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
+    </div>
     <Search :measures="measures">
     </Search>
   </div>
