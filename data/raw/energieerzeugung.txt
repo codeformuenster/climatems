@@ -1,0 +1,380 @@
+Action outline 	Action name 	Wind-Ausbau: In 2030 soll die Anzahl der Windkraftanlagen auf 42 WEA verdoppelt werden, um jährlich 280 GWh Strom zu erzeugen.  
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030:  
+Im Rahmen einer innovativen, klimaschutzorientierten Energieversorgung werden die Stadt-
+		werke Münster in erheblichem Umfang in regenerative Erzeugungskapazitäten in OnshoreWindenergieanlagen auf Freiflächen investieren.  
+Bis 2030 soll die Anzahl der Windkraftanlagen auf 42 WEA verdoppelt werden, um jährlich 280 GWh Strom zu erzeugen.  
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtweite Stromversorgung 
+	Involved stakeholders 	Stadtwerke, andere Kommunen, Bürger*innen 
+	Comments on implementation 	Implemented until 2030 
+Aktueller Stand: 
+•	Ende 2023 erzeugen die Stadtwerke Münster bereits 92 GWh Windenergie mit ihren eigenen Anlagen. 
+ 
+Nächste Schritte: 
+•	Genehmigung nach dem BImSchG für 1 WEA in Lemgo mit einer Nennleistung von 
+5,7 MW (2024) 
+•	Baubeginn und Inbetriebnahme mind. einer von drei geplanten WEA in Südlohn Eschlohn/Wellschlat mit einer gesamten Nennleistung von 17,1 MW (2024) 
+•	Erhalt der Genehmigungen für die Errichtung von insgesamt mind. 10 Windenergieanlagen im Münsterland 
+•	Ausbauziel 2024: Zubau von 3 WEA 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Jährlich 280 GWh Strom 
+	Removed/substituted energy, volume, or fuel type 	Fossile Energien 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Reduktions-Potenziale: ca. 269.000 t CO2 bis 2028 (Basisjahr 2021) 
+	Total costs and costs by CO2e unit 	Kosten des Vorhabens bis 2028: ca. 215 Mio. € für 26 WEA 
+ 
+
+B-2.2: Individual action outlines 
+Action outline 	Action name 	PV-Ausbau: In 2030 sind PV-Anlagen von den Stadtwerken Münster zugebaut, um 100 GWh Strom durch Sonne zu erzeugen. 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030: 
+Im Rahmen einer innovativen, klimaschutzorientierten Energieversorgung werden die Stadtwerke Münster in erheblichem Umfang in regenerative Erzeugungskapazitäten, konkret in die Errichtung von Photovoltaikanlagen auf Müns-
+	ters 	Dächern, 	investieren.  
+Die Stadtwerke Münster wollen PV-Anlagen (Dachanlagen, Freiflächenanlagen) bis 2030 zubauen, um 100 GWh Strom durch Sonne zu erzeugen. 
+Der Großteil dieser Anlagen wird auf dem Stadtgebiet in Münster realisiert. Dies wird durch das Schaffen von passgenauen Angeboten für die Zielgruppen Industrie/Gewerbe, Wohnungswirtschaft, Stadt Münster und Landwirtschaft geschafft.  
+Reference to impact pathway 	Field of action 	Energy systems 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Industrie/Gewerbe, Wohnungswirtschaft, Stadt Münster, Landwirtschaft, Privat-Kunden, Kleingewerbekunden 
+	Comments on implementation 	Implemented by 2030 
+Stand 2023: 
+•	62 PV-Anlagen mit ca. 9.000 MWh/a Stromerzeugung (Besitz der Stadtwerke 
+MS + Stadtnetze MS) 
+•	8.381 PV-Anlagen in MS mit ca. 105 MWp und 105 Mio. kWh/a Stromerzeugung 
+(nicht im Besitz der Stadtwerke MS) 
+ 
+Nächste Schritte: 
+		•	Zubau von PV-Anlagen mit einer Nennleistung von mind. 4 MWP -> ca. 4,00 GWh/a (2024) 
+•	Umsetzung des ersten Agri-PV-Projektes durch Baubeginn einer bifarcialen (Zaun-) PV-Anlage in Münster-Amelsbüren 
+•	Errichtung einer Freiflächen-PV-Anlage 
+(ZDM II) mit 1 MWp -> 1 GWh/a (2024) 
+•	Umsetzung eines Mieterstrom-Pilotprojektes in Zusammenarbeit mit der Wohn und Stadtbau 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Jährlich 100 GWh Strom durch Sonne 
+	Removed/substituted energy, volume, or fuel type 	Fossil Fuels 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Reduktions-Potenziale der SWMS-Anlagen: 58.000 t CO2/a in 2030 (Basisjahr 2021) 
+	Total costs and costs by CO2e unit 	Kosten des Vorhabens bis 2028: ca. 100 Mio. € für Ausbau von 100 GWh  
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Kommunale Wärme- und Energienutzungsplanung (ENP)  
+	Action type 	Governance and policy 
+	Action description 	-	Erstellung einer iterativen ENP zur Umsetzung der (kommenden) rechtlichen Verpflichtung zur kommunalen Wärmeplanung 
+-	ENP soll zumindest perspektivisch inhaltlich über kommunale Wärmeplanung hinausgehen und Themen wie Strom, Grüne Gase und Kälte integral betrachten. 
+-	Ermittlung von räumlich und zeitlich abgegrenzten Energieversorgungsvarianten zur langfristigen Planungssicherheit für alle Beteiligten unter Berücksichtigung von Dekarbonisierung, Preisstabilisierung und Energiesicherheit – wenn möglich schon im Prozess Zwischenergebnisse herausgeben 
+-	Energieeffizienz von Gebäuden ist parallel wichtige Bedingung. 
+-	Zusammenführung bereits schon laufender und bestehender Konzepte der relevanten Akteure 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Governance and policy 
+	Outcome (according to module B-1.1) 	Dekarbonisierung der Energieversorgung 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster und Politik 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtverwaltung Münster mit relevanten Akteuren, insbesondere Stadtwerke und Stadtnetze Münster 
+	Comments on implementation 	Nächste Schritte: 
+•	Grundsatzbeschluss über Vorgehensweise 
+(Q2/2023) 
+•	Einrichtung ämterübergreifender AG, Beauftragung externer Koordination/Moderation (2023) 
+•	Einrichtung Lenkungsgruppe zur Vereinbarung strategischer Kooperation 
+(bedarfsweise – ggf. Anfang 2024); 
+•	Bedarfsweise Vergabe an externe(s) Fachbüro(s) für inhaltliche Erarbeitung 
+•	Beschaffung eines Tools bzw. Erweiterung des Digitalen Zwillings der Stadtwerke Münster 
+•	Erstmalige Erstellung von ENP/kWP 
+•	Politischer Beschluss ENP-Aufstellung (Q2/2025) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Als informelle Planungsgrundlage keine, erst spätere konkrete Umsetzung wird dies ergeben.  
+	Removed/substituted energy, volume, or fuel type 	Als informelle Planungsgrundlage keine, erst spätere konkrete Umsetzung wird dies ergeben. 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Minderungspotenzial  
+•	Laut gesetzlicher Vorgabe durch das Wärmeplanungsgesetz (WPG) und das Gebäudeenergiegesetz (GEG): Treibhausgasneutralität von Wärmenetzen bis 2045 bzw. Betrieb mit 100 % EE/unvermeidbarer Abwärme  
+•	Laut WPG ab 2030: Anteil EE/unvermeidbare Abwärme in Wärmenetzen mind. 30 %  
+•	Laut WPG ab 2040: Anteil EE/unvermeidbare Abwärme in Wärmenetzen mind. 80 % Wärmebereich 
+CO2-Minderungspotenzial laut Energie- und Treibhausgas-Bilanz Stadt Münster (2021): 
+714.000 t CO2e 
+davon Nah- + Fernwärme laut Energie- und Treibhausgas-Bilanz Stadt Münster (2021): 
+97.000 t CO2e 
+	Total costs and costs by CO2e unit 	Prozesskosten: 200.000 € 
+ 
+
+B-2.2: Individual action outlines 
+Action outline 	Action name 	BEW-Transformationsplan  
+	Action type 	Governance Intervention 
+Technical Intervention 
+	Action description 	Ziel 2030:  
+Mit dem Transformationsplan für Wärmenetze schreiben die Stadtwerke Münster die Transformation zur Grünen Fernwärmeversorgung in Münster weiter fort. Im Jahr 2030 soll der Anteil erneuerbarer Energien in der Fernwärme bei 30 % liegen.  
+Eine vollständige Umstellung auf Grüne Wärmeerzeugung wird, realistisch betrachtet, nicht bis zum Jahr 2030 möglich sein. Es bedarf Übergangslösungen mit umwelteffizienter KraftWärme-Kopplungstechnologie.  
+Dabei setzen die Stadtwerke Münster bei ihrer Wärmestrategie auf verschiedene erneuerbare dezentrale Erzeugungstechniken, das Rückgrat bildet dabei das Fernwärmenetz als bereits großflächige vorhandene und weiter zu verdichtende innerstädtische Verteilstruktur. Ein großer Baustein der Wärmeerzeugung könnte die Tiefe Geothermie werden, die angesichts der geologischen Ausgangssituation eine vielversprechende Option darstellt. Weitere Leittechnologien sind Solarthermie, die elektrische Wärmeerzeugung in Power-to-Heat-Anlagen, Nutzung von Umweltwärme mittels Großwärmepumpen (u. a. aus dem Dortmund-Ems-Kanal und aus Abwasser) als auch saisonale Großwärmespeicher. Teilweise sind bzw. werden diese Technologien auch im Heizkraftwerk angesiedelt.  
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Dekarbonisierung der Fernwärme 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke und Stadtnetze Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Keine Angabe 
+	Comments on implementation 	Stand 2023: 
+• 	Stadtwerke & Stadtnetze erarbeiten einen Transformationsplan für die Dekarbonisierung der Fernwärme mit dem Ziel 100 % EE spätestens im Jahr 2045. Dazu werden 
+		lokale EE-Potenziale bewertet, Standortkonzepte erarbeitet und der weitere Netzausbau und -umbau geplant.  
+ 
+Nächste Schritte: 
+•	Grüne Wärmepotenziale für Münsters Fernwärme sind bekannt (2024). 
+•	BEW Trafoplan Fertigstellung 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Fossil fuel 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Die Stadtwerke Münster nehmen sich vor, durch den Einsatz von 30 % erneuerbarer Wärme in ihrer Fernwärme ein CO2-Reduktions-Potenzial von jährlich ca. 67.000 t CO2 bis zum Jahr 2030 zu erreichen. 
+Diese Annahme bezieht sich auf die CO2-Emissionen unseres Kraftwerks am Hafen im Basisjahr 2021. Das tatsächliche CO2-ReduktionsPotenzial kann in der Realität deutlich abweichen, da die Emissionen vom tatsächlichen Wärmeverbrauch im jeweiligen Jahr abhängen und daher Schwankungen u. a. durch den Ausbau der Fernwärmeversorgung und die Wetterverhältnisse unterliegt. Bei der Berechnung wird zudem unterstellt, dass der Einsatz der erneuerbaren Wärme emissionsfrei ist. 
+Eine konkretere Annahme der CO2-Einsparungspotenziale kann erst nach der Erstellung des Transformationsplans getroffen werden. 
+	Total costs and costs by CO2e unit 	Kosten aller Vorhaben zu Transformation auf 
+Grüne Wärme zwischen 2024 und 2030: ca. 
+149,1 Mio. €  
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Heimatwärme aus der Tiefe: Im Jahr 2030 wollen die Stadtwerke Münster das erste Geothermie-Heizwerk mit einer Bohrdublette in Betrieb nehmen. 
+	Action type 	Technological Intervention 
+	Action description 	Ziel 2030: 
+Im Jahr 2030 wollen die Stadtwerke Münster das erste Geothermie-Heizwerk mit einer Bohrdublette in Betrieb nehmen und speisen damit jährlich bis zu 40 GWh klimaneutral in das Münsteraner Fernwärmenetz ein. Das erreichen die Stadtwerke, indem sie durch stetige 
+Explorationsmaßnahmen einer 3-D-Seismik 
+		und einer Probebohrung das tatsächliche Potenzial der Tiefen Geothermie für Münster auf 1500 m Tiefe beweisen wollen. Der Plan zur Skalierung der Tiefen Geothermie mit weiteren Standorten für die Zukunft wird anschließend konkretisiert und die Planung der zweiten Bohrdublette beginnt. 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtverwaltung, Politik, Stadtwerke und Stadtnetze Münster, Flächeneigentümer*innen 
+	Comments on implementation 	Stand 2023: 
+•	Untersuchung des Potenzials im Rahmen einer Machbarkeitsstudie, hierzu werden 5,77 Mio. € als Förderung vom Land gestellt  
+•	Vergabeprozess für die 3-D-Seismik 
+ 
+Nächste Schritte: 
+•	Flächige 3-D-Seismik zur weiteren Erkundung des Untergrundes (2024) 
+•	Standortentscheidung für erste Explorationsbohrung (ab 2026) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Jährlich bis zu 40 GWh klimaneutrale Wärme 
+	Removed/substituted energy, volume, or fuel type 	Fossil Fuels 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Reduktions-Potenziale: 	siehe 	Action 
+„BEW-Transformationsplan“ 
+	Total costs and costs by CO2e unit 	Kosten aller Vorhaben zu Transformation auf 
+Grüne Wärme zwischen 2024 und 2030: ca. 
+149,1 Mio. €  
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Großwärmepumpen als Multitalent für Umweltwärme-Nutzung 
+	Action type 	Technical intervention 
+	Action description 	Ziel 2030:  
+		4 Großwärmepumpen sollen bis 2030 in Betrieb genommen werden. Diese nutzen gewerblichindustrielle Abwärme, den Dortmund-Ems-Kanal und Klärwerksabwärme. Zusammengerechnet erzeugen diese Anlagen bis zu 100 GWh klimaneutrale Wärme. 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtwerke und Stadtnetze Münster, Stadtverwaltung, awm 
+	Comments on implementation 	Stand 2023:  
+•	Technische Abnahme einer AbwärmeGroßwärmepumpe durch den TÜV Nächste Schritte: 
+•	Konzeptentwicklung für eine Klärwerksabwärme-Nutzung mit den relevanten Stakeholdern (2024) 
+•	Installation der zweiten Großwärmepumpe von 2 MW (2024) 
+•	Einspeisung von erneuerbarer Wärme aus der ersten Großwärmepumpe (2024) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Bis zu 100 GWh klimaneutrale Wärme 
+	Removed/substituted energy, volume, or fuel type 	Fossil Fuels 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Reduktions-Potenziale: 	siehe 	Action 
+„BEW-Transformationsplan“ 
+	Total costs and costs by CO2e unit 	Kosten aller Vorhaben zu Transformation auf 
+Grüne Wärme zwischen 2024 und 2030: ca. 
+149,1 Mio. €  
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Freiflächen-Solarthermie als Beschleuniger der Transformation: Im Jahr 2030 soll FreiflächenSolarthermie in Münster etabliert sein. 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030:   
+Im Jahr 2030 soll Freiflächen-Solarthermie in Münster etabliert sein, da die Technologie erprobt ist.  
+		Durch die Solarthermie könnten die Kunden der Stadtwerke im Sommer eine vollständig klimaneutrale Fernwärmeversorgung erhalten und ab 2030 im Jahr bis zu 50 GWh Wärme mit diesen Anlagen erzeugt werden. Sommerliche Überschüsse sollen mit einem Saisonalspeicher für den Herbst nutzbar gemacht werden.    
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtwerke und Stadtnetze Münster, Flächeneigentümer:innen, Stadtverwaltung  
+	Comments on implementation 	Implemented by 2030 Nächste Schritte: 
+•	Flächensicherung & Projektdesign für das erste solare Pilotprojekt (2024) 
+•	Aufstellung B-PLan für 1. Anlage (2024) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Bis zu 50 GWh/a Wärme 
+	Removed/substituted energy, volume, or fuel type 	Fossil Fuel 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Reduktions-Potenziale: 	siehe 	Action 
+„BEW-Transformationsplan“ 
+	Total costs and costs by CO2e unit 	Kosten aller Vorhaben zu Transformation auf Grüne Wärme zwischen 2024 und 2030: ca. 
+149,1 Mio. € 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Grüne Nahwärme: In 2030 sollen vier Neubaugebiete durch Grüne Nahwärme mit Wärme und „Temperierung“ versorgt werden. 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030:  
+Im Jahr 2030 sollen vier Neubaugebiete durch innovative Nahwärme mit Wärme und „Temperierung“ versorgt werden. Für die BestandsNahwärmenetze Albachten, Roxel, Amelsbüren und Hiltrup wird der zukünftige Weg durch Transformationspläne vorgezeichnet. Im Amelsbürener Wärmenetz soll bis 2030 eine erste erneuerbare Wärmeerzeugungs-Anlage 
+		umgesetzt und in Betrieb gehen. Für eine Abwärmenutzung des neuen Klärwerks in Hiltrup soll die Projektplanung abgeschlossen sein. 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Effiziente und klimaschonende Wärmeversorgung in räumlichen Kontexten entwickeln 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster GmbH 
+	Action scale & addressed entities 	Quartiersebene 
+	Involved stakeholders 	Stadtwerke, Stadtverwaltung, Hauseigentümer*innen, Bewohner*innen 
+	Comments on implementation 	In Erarbeitung 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Siehe Action description  
+	Removed/substituted energy, volume, or fuel type 	Fossile Energien 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Aktuell keine Bezifferung möglich  
+	Total costs and costs by 
+CO2e unit 	Kosten aller Vorhaben zu Transformation auf Grüne Wärme zwischen 2024 und 2030: ca. 
+149,1 Mio. € 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	110kV-Zielnetzplanung: Münsters Süden soll in 2030 durch ein Hochspannungsnetz versorgt werden. 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030: 
+Im Jahre 2030 wollen die Stadtnetze Münster über ein eigenes Hochspannungsnetz verfügen. Dieses Hochspannungsnetz besteht aus zwei redundant ausgelegten Hochspannungskabeln, die ein neues Umspannwerk am 
+Hansa-Businesspark speisen. Mithilfe des 
+
+		neuen Umspannwerks wird der südwestliche Teil Münsters, rund um den Hansa-Businesspark, zuverlässig mit Strom versorgt. Es sorgt auch dafür, dass die vor Ort erneuerbar erzeugten Megawatt aus den umliegenden EE-Anlagen, z. B. aus Photovoltaikanlagen und Windenergieanlagen der Stadtwerke Münster, in das Münsteraner Stromnetz eingespeist und der Energiebedarf Münsters zunehmend aus eigener Stromerzeugung gedeckt werden kann. Somit leistet die Stadtwerke-Münster-Gruppe einen wichtigen Beitrag zur Energie- und Mobilitätswende. 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+Governance and Policy 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtnetze Münster 
+	Action scale & addressed entities 	Stromversorgung des südlichen Teils der Stadt 
+Münster 
+	Involved stakeholders 	Stadtnetze Münster (Stadtwerke Münster) 
+	Comments on implementation 	Implemented until 2030 
+Stand 2023: 
+•	Hohe Auslastung des 110-kV-Netzes in eigenen Bereichen 
+•	Ausbau des Hansa-Business-Parks als Initiator der Stadtnetze-Zielnetzplanung 
+ 
+Nächste Schritte: 
+•	Bei jeder Stationssanierung und Neubau 
+(ca. 20 pro Jahr) in zusammenhängender Bebauung können die Stadtnetze in Zukunft ca. 50 % mehr dezentral erzeugte Energie in unser Netz aufnehmen, da die 
+Stadtnetze ihre Trafokapazität um etwa 50  % erweitern können (größere Stationsgebäude und entsprechende Inneneinrichtungen). 
+•	Die Stadtnetze erneuern auf einem Teilabschnitt die Speisekabel von 185 m² auf 500 m², die Übertragungsleistung verdoppelt sich somit zwischen UW Nord und SH Königsberger Straße. Über diese Verbindung wird vom SH Königsberger Str. ein nicht unerheblicher Teil von Münsters Norden versorgt.  
+		• 	Erweiterung Umspannwerk Mauritz, um den Osten von Münster zukünftig gesichert versorgen zu können (Neubaugebiete und auch die geplanten PV-Freiflächenanlagen) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht bezifferbar, da Stromnetzausbau weiteren Ausbau und zusätzliche Stromeinspeisung erneuerbarer Energien erst ermöglicht. 
+	Removed/substituted energy, volume, or fuel type 	Fossil fuel 
+	GHG emissions reduction estimate (total) per emission source sector 	Nicht bezifferbar, da Stromnetzausbau weiteren Ausbau und zusätzliche Stromeinspeisung erneuerbarer Energien erst ermöglicht. 
+	Total costs and costs by CO2e unit 	Kosten des Vorhabens zwischen 2024 und 
+2028: ca. 58,9 Mio. € 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Netztransformation – Intelligente Niederspannung: In 2030 sind 95 % aller Haushalte mit intelligenten Messsystemen für Strom und 100 % für Gas ausgerüstet. 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030: 
+95 % aller Haushalte sollen mit intelligenten Messsystemen in 2030 ausgerüstet sein 
+(Strom). 
+100 % aller Haushalte mit Gasabnahmegeräten sollen ein intelligentes Messsystem für Gas haben und an das Smart Meter Gateway angeschlossen sein (vgl.: § 20 MsbG & § 40 MsbG) (Gas). 
+100 % aller Haushalte mit Fernwärmeabnahme sollen ein intelligentes Messsystem für Wärmemengen haben und an das Smart Meter Gateway angeschlossen sein (vgl.: § 3 FFVAV ff.) (Fernwärme). 
+Dies ermöglicht aus Netzsicht eine bessere Transparenz der Verbräuche und Leistungen der spartenübergreifenden Abnahmen. Dies ermöglicht beispielsweise die Steuerbarkeit von Verbrauchseinrichtungen (vgl.: § 14a EnWG). 
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Energy Efficiency, Netzstabilität/-sicherheit 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Haushalte 
+	Comments on implementation 	Nächste Schritte: 
+•	Ertüchtigung der Systeme und Abläufe 
+•	1 – 2 Messsysteme pro Woche ab Q1 2024 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	Kosten des Vorhabens bis 2026: ca. 350 Mio. € 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Gasnetztransformation & Wasserstoff 
+	Action type 	Technical Intervention 
+	Action description 	Ziel 2030: 
+Die Stadtnetze Münster GmbH ist Teil der Initiative H2vorOrt, welche mit dem Gasnetzgebietstransformationsplan (GTP) einen branchenweiten Planungsprozess ins Leben gerufen hat, der die Grundlage für die deutschlandweite Wasserstofftransformation im Verteilnetz schafft. H2vorOrt ist ein Zusammenschluss von gegenwärtig 47 Verteilnetzbetreibern im Deutschen Verein des Gas- und Wasserfaches e.V. (DVGW) in Zusammenarbeit mit dem Verband kommunaler Unternehmen (VKU), die ihre Expertisen für einen Hochlauf der Wasserstoffwirtschaft bündeln. Ziel des GTP ist es, die Trans-
+formation der Gasverteilnetze zu beschleunigen und die Einzelplanungen der Netzbetreiber in ein kohärentes Zielbild für ganz Deutschland einzubetten. 
+Dabei geht es u. a. darum, durch die Umwidmung einzelner Übernahmestationen das Verteilnetz an das Wasserstoff-Fernnetz anzu-
+schließen. 	Für 	alle 	weiteren 
+Erzeugungsanlagen, die zukünftig betrieben werden sollen, planen die Stadtnetze Münster konkrete Ausbaupläne für die Versorgung mit klimaneutralen Gasen. Des Weiteren sollen durch gemeinsame Projekte mit den vorgelagerten Netzbetreibern frühzeitig Kapazitäten an 
+		Grünen Gasen gesichert und in die Verteilnetze eingespeist werden.  
+Darüber hinaus haben die Stadtwerke Münster gemeinsam mit der Westenergie AG beschlossen, den Hochlauf von Grünem Wasserstoff in Münster voranzutreiben. Diese Partnerschaft erstreckt sich auch auf ihre Tochtergesellschaften, die Westnetz GmbH und die Stadtnetze Münster GmbH. Durch eine Absichtserklärung (LOI) vereinbaren die vier Unternehmen den Erfahrungsaustausch bezüglich einer Wasserstoff-Infrastruktur und einer potenziellen Lie-
+ferabnahme von Wasserstoff durch die Stadtwerke Münster.  
+Reference to impact pathway 	Field of action 	Energy Systems 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Dekarbonisierung Energieversorgung 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtwerke und Stadtnetze Münster, Betreiber:innen von Biogasanlagen, sonstige Netzbetreiber*innen und Energielieferant*innen 
+	Comments on implementation 	Nächste Schritte: 
+•	Partnerfindung für die Umrüstung bzw. den Neubau der Anlagen 
+•	Technische Analyse der Übergabestationen Haus Kannen und Mecklenbeck 
+II 
+•	Austausch mit Ankerkunden  
+Impact & cost 	Generated renewable energy 
+(if applicable) 	100 % Wasserstoff- oder Biomethanversorgung 
+	Removed/substituted energy, volume, or fuel type 	Fossil Fuel 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Aktuell keine Bezifferung möglich 
+	Total costs and costs by CO2e unit 	Aktuell keine Bezifferung möglich 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Integriertes Flächenkonzept MS: Siedlungs-, Frei-/Grünflächen und Standorte für EE in Balance  
+
+	Action type 	Governance and regulation 
+	Action description 	Mit dem Integrierten Flächenkonzept Münster richtet die Stadt den Blick frühzeitig und proaktiv auf künftige Entwicklungen. Ziel ist es, Entwicklungsflächen unter anderem für neue Wohn- und Arbeitsstätten zu identifizieren, Flächenpotenziale für eine klimaneutrale Energieversorgung zu verorten und gleichzeitig die hochwertigen Freiräume der Stadt als wesentliches Alleinstellungsmerkmal zu schützen und weiterzuentwickeln. Damit soll ein nachhaltiger Rahmen für die zukünftige räumliche Stadtentwicklung geschaffen und zugleich in Bezug auf künftige Wohn- und Arbeitsstättenbedarfe die Handlungsfähigkeit Münsters bewahrt werden.  
+Der IFM-Prozess soll insofern eine fachlich ausgewogene Abwägung der unterschiedlichen Ansprüche an den Raum vorbereiten, er ist informell und wird proaktiv von der Stadt durchgeführt. 
+Reference to impact pathway 	Field of action 	Energy Systems 
+AFOLU 
+	Systemic lever 	Governance and policy 
+Technology 
+	Outcome (according to module B-1.1) 	Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadtplanungsamt und Politik 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtverwaltung, Politik, Stadtwerke und Stadtnetze, sonstige relevante Akteure, Öffentlichkeit 
+	Comments on implementation 	Nächste Schritte: 
+Ratsbeschluss des Konzeptes (1. HJ/2024) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Als informelle Planungsgrundlage keine, erst spätere konkrete Umsetzung wird dies ergeben. 
+	Removed/substituted energy, volume, or fuel type 	Als informelle Planungsgrundlage keine, erst spätere konkrete Umsetzung wird dies ergeben. 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	• 	CO2e-Minderungspotenzial – geschätzte Potenzialausschöpfung 50 % Windenergie: Gesamtpotenzial 
+84 MW Leistung Zubau -> 42 MW 
+Leistung bauliche Umsetzung -> 105 GWh/a (bei 2.500 Vollbenutzungsstunden/a) -> 38.850 t CO2e-Reduktion/a 
+		(bei Emission von 10 t CO2e/GWh Windstrom zu 380 t CO2e/GWh gemittelter Strommix) 
+• 	25 % FF-Solar: Gesamtpotenzial 2.500 ha -> 625 ha bauliche Umsetzung -> 377 GWh/a (bei 0,67 MWp/ha und 900 MWh/MWp und a) -> 128.150 t CO2e-Reduktion/a (bei Emission von 40 t CO2e/GWh Solarstrom minus 380 t CO2e/GWh gemittelter Strommix) 
+	Total costs and costs by CO2e unit 	Prozesskosten: 230.000 EUR 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Glasfaserausbau Münster 
+	Action type 	Technical intervention 
+	Action description 	Ziel 2030:  
+Eine leistungsfähige Glasfaserversorgung wird als Standortfaktor für Münster zukünftig noch viel entscheidender werden, daher stellen die 
+Stadtwerke Münster auch den „digitalen Herzschlag“ ihrer Stadt sicher. Bis zum Jahr 2030 sollen 80 % der Haushalte in Münster mit Glasfaserverbindungen versorgt sein. Dazu haben die Stadtwerke Münster u. a. eine umfassende Kooperation mit der deutschen Telekom vereinbart, bei der die Stadtwerke ihre Expertise für die Verlegung der Glasfaserleitungen einbringen werden und die Telekom ihr Know-how bereitstellt.  
+Aufgrund ihrer höheren Effizienz verbraucht die Glasfasertechnologie deutlich weniger Strom als kupferbasierte Netze (bis zu 17-mal weniger Strom). Dadurch leistet der Glasfaserausbau der Stadtwerke Münster einen entscheidenden Beitrag zum Ziel der Klimaneutralität in Münster.  
+Reference to impact pathway 	Field of action 	Energy systems 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Stromeinsparung 
+Implementation 	Responsible bodies/person for implementation 	Stadtwerke Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Stadtwerke, Stadtnetze Münster, Bürger*innen 
+	Comments on implementation 	Implemented until 2030 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Aufgrund ihrer höheren Effizienz verbraucht die Glasfasertechnologie deutlich weniger Strom als kupferbasierte Netze (bis zu 17-mal weniger Strom). 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	Kosten des Vorhabens zwischen 2024 und 
+2028: ca. 76 Mio. € 
+ 

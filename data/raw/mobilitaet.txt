@@ -1,0 +1,273 @@
+Action outline 	Action name 	Elektrifizierung ÖPNV 
+	Action type 	Technologie 
+	Action description 	Ziel 2030:  
+Ein weiterer wichtiger Baustein für den Herzschlag Münsters ist die Umstellung der Busflotte auf elektrische und emissionsfreie Antriebe sowie die Entwicklung des Verkehrs zu einem systematisch ineinandergreifenden multimodalen Mobilitätssystem. Bis 2029 sollen 100 % der eigenen 116 Busse und ebenso ein Teil der rd. 100 angemieteten Busse aus den dezentralen Depots der privaten Partnerunternehmen am Stadtrand elektrifiziert sein.  
+Parallel wird die dafür notwendige Infrastruktur am Bus-Depot sowie an ausgewählten Haltestellen aufgebaut. Zur Finanzierung des Vorhabens werden verschiedene Förderprogramme genutzt. Auf die Elektrifizierung der Busflotte der Auftragsunternehmen und der regionalen Verkehrsunternehmen wirken die Stadtwerke im Rahmen ihrer Möglichkeiten hin. 
+Das multimodale Mobilitätssystem wird verschiedene Verkehrsmittel integrieren, unter anderem das Stadtteilauto über die Beteiligung der Stadtwerke an dem gleichnamigen lokalen Carsharing-Anbieter. 
+Reference to impact pathway 	Field of action  	Mobilität 
+	Systemic lever 	Technologie 
+	Outcome (according to module B-1.1)  	Elektrifizierung des ÖPNV 
+Implementation 	Responsible bodies/person for implementation   	Stadtwerke Münster 
+	Action scale & addressed entities  	Stadtweit 
+	Involved stakeholders  	Stadt Münster, Auftragsunternehmen der 
+Stadtwerke, regionale Verkehrsunternehmen 
+	Comments on implementation 	Implemented until 2030 Aktueller Stand: 
+		Ende 2023 waren bereits 73 StadtwerkeBusse mit elektrischem Antrieb in Münster unterwegs. 
+Nächste Schritte: 
+Masterplan Mobilität 2035+ ; 
+2024 und 2025 weitere 24 Elektrobusse bestellt, damit sind Ende 2024 85 und Ende 2025 97 E-Busse unterwegs.  
+Weitere Ladestationen an Endhaltestellen in Planung 
+Ziel: bis 2029 Stadtwerkeflotte umgestellt 
+Impact & cost 	Generated renewable energy 
+(if applicable)  	Keine 
+	Removed/substituted energy, volume, or fuel type  	Circa. 2.000.000 l Diesel 
+	GHG emissions reduction estimate (total) per emission source sector / sektoren 	CO2-Reduktions-Potenziale: circa 5.200 t CO2/a in 2030 (Basisjahr 2021) (bezogen auf das ÖPNV-Angebot der Stadtwerke) 
+	Total costs and costs by CO2e unit  	Kosten des Vorhabens zwischen 2024 und 2028: ca. 21,3 Mio. € (bezogen auf das ÖPNV-
+Angebot der Stadtwerke) 
+ 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Ausbau öffentlicher Ladeinfrastruktur 
+	Action type 	Technologie 
+	Action description 	Die öffentliche Ladeinfrastruktur soll fortlaufend weiterentwickelt und ausgebaut werden, sodass zukünftig ein flächendeckendes Angebot an Lademöglichkeiten bereitgestellt werden kann und der Umstieg auf E-Fahrzeuge attraktiver wird. 
+Reference to impact pathway 	Field of action  	Mobilität 
+	Systemic lever  	Technologie 
+	Outcome (according to module B-1.1)  	Ausbau der E-Ladeinfrastruktur 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster, Stadtwerke Münster, Dritte  
+	Action scale & addressed entities  	Stadtweit, Quartiere 
+	Involved stakeholders  	Stadt Münster 
+	Comments on implementation  	Masterplan Mobilität 2035+ 
+-	Ausschreibung von 16 Paketen mit je 4 Standorten im Oktober 2023 erfolgt 
+-	Umsetzung der Standorte nach Vergabe im 
+Januar 2024 innerhalb eines Jahres  
+-	weitere Ausschreibung von Paketen in Vorbereitung  
+Impact & cost 	Generated renewable energy 
+(if applicable)  	Keine 
+	Removed/substituted energy, volume, or fuel type 	Verlagerung Energieträger von fossilen Treibstoffen auf Strom, nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission source sector  	nicht quantifizierbar/messbar 
+	Total costs and costs by CO2e unit  	keine Angaben 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Erweiterung E-Carsharing Angebot 
+	Action type 	Technologie 
+	Action description 	Um den Umweltverbund zu stärken, den stadtweiten Kfz-Bestand zu reduzieren und den Zugang für das stadtweite Carsharing-Angebot (auch E-Carsharing) zu verbessern, werden hierfür Flächen im Verkehrsraum bereitgestellt und potenziellen Anbietern im Ausschreibungsverfahren zur Verfügung gestellt. 
+Reference to impact pathway 	Field of action 	Mobilität 
+	Systemic lever  	Technologie 
+	Outcome (according to module B-1.1)  	Erweiterung des E-Carsharing-Angebots 
+Implementation 	Responsible bodies/person for implementation  	Stadt Münster 
+	Action scale & addressed entities  	Stadtweit, Quartiere 
+	Involved stakeholders  	Keine Angabe 
+	Comments on implementation  	Masterplan Mobilität 2035+ 
+- Ausschreibung von weiteren (E-)Carsharingplätzen im Frühjahr 2024 
+Impact & cost 	Generated renewable energy 
+(if applicable)  	Keine 
+	Removed/substituted energy, volume, or fuel type  	Verlagerung Energieträger von fossilen Treibstoffen auf Strom, nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission source sector  	nicht quantifizierbar/messbar 
+	Total costs and costs by CO2e unit  	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Ausbau Mobilstationen 
+	Action type 	Technologie 
+	Action description 	Durch den Ausbau von Mobilstationen soll die Vernetzung der Verkehrsträger – insbesondere die des Umweltverbundes – verbessert werden. Nach der Festlegung von Qualitätsstandards soll, nach entsprechendem politischem Beschluss über das Standortkonzept, ab 2024 die sukzessive Umsetzung erfolgen. 
+Reference to impact pathway 	Field of action  	Mobilität 
+	Systemic lever  	Technologie 
+	Outcome (according to module B-1.1)  	Ausbau der Mobilstationen und Erweiterung des E-Carsharing-Angebots 
+Implementation 	Responsible bodies/person for implementation  	Stadt Münster 
+	Action scale & addressed entities  	Stadtweit 
+	Involved stakeholders  	Stadtwerke Münster 
+	Comments on implementation  	Masterplan Mobilität 2035+ 
+- Ratsbeschluss zum Standortkonzept Mobilstationen voraussichtlich 21.02.2024 - sukzessive Umsetzung ab 2024 
+Impact & cost 	Generated renewable energy 
+(if applicable)  	Keine 
+	Removed/substituted energy, volume, or fuel type  	Einsparung fossiler Treibstoffe durch Verlagerung MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission source sector  	Nicht quantifizierbar/messbar 
+	Total costs and costs by CO2e unit  	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Parkraumkonzept 
+	Action type 	Technology, governance and policy 
+	Action description 	Es wird ein maßnahmenorientiertes Konzept zur Neuordnung und Anpassung des Parkraumangebots in der Innenstadt entwickelt. Die Ziele dabei sind, das sichtbare Parken im öffentlichen Raum zu reduzieren und damit die Aufenthaltsqualität und Barrierefreiheit zu erhöhen. Hierbei sollen die Bewohnerparkzonen ausgeweitet, ein Parkraumanagement eingeführt und das „faire Parken“ umgesetzt werden.  
+Reference to impact pathway 	Field of action  	Mobilität 
+	Systemic lever  	Technologie, governance and policy 
+	Outcome (according to module B-1.1) 	Etablierung der Maßnahmen aus dem Parkraumkonzept 
+Implementation 	Responsible bodies/person for implementation  	Stadt Münster 
+	Action scale & addressed entities  	Stadtweit, Quartiere 
+	Involved stakeholders  	Keine Angabe 
+	Comments on implementation 	Masterplan Mobilität 2035+ 
+-	interfraktioneller Arbeitskreis Januar/Februar 2024 
+-	Beschluss des Konzeptes voraussichtlich 2. Kette 2024 
+-	Umsetzung erster Maßnahmenbausteine ab 
+2024 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, durch Verkehrsvermeidung und Verlagerung MIV auf Umweltverbund 
+nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	nicht quantifizierbar/messbar 
+	Total costs and costs by CO2e unit  	Keine Angabe 
+ 
+ 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Fahrradnetz 2.0 
+	Action type 	Infrastructure 
+	Action description 	Unter der Überschrift „Fahrradnetz 2.0“ wird eine Hierarchisierung und insgesamte Verbesserung des städtischen Radverkehrsnetzes angestrebt – mit dem Ziel, den Radverkehrsanteil am Umweltverbund weiter zu steigern und damit verkehrsbedingte CO2-Emissionen zu reduzieren. 
+Hierfür wurden im Rahmen der Konzepterstellung verschiedene Handlungsempfehlungen entwickelt, die Anfang 2024 in die politische Beratung eingebracht wurden. 
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Technologie, governance and policy 
+	Outcome (according to module B-1.1) 	Circa 104 Kilometer Fahrradwege 
+Etablierung eines Fahrradnetzes 2.0 mit hohen 
+Standards sowie dem Ausbau der Velorouten 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Keine Angabe 
+	Comments on implementation 	Masterplan Mobilität 2035+ 
+Beschluss zum Fahrradnetz 2.0 im Ausschuss für Verkehr und Mobilität am 07.02.2024 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung 
+MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht quantifizierbar/messbar 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+ 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Geschäftsanweisung „Dienstreisen und -gänge im Umweltverbund“ 
+	Action type 	Governance and policy 
+	Action description 	Definition eines Rahmens für Dienstreisen, der Nachhaltigkeits- und Klimaschutzaspekte verbindlich einbezieht.  
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Governance and policy 
+	Outcome (according to module B-1.1) 	-	Etablierung klimafreundliches Mobilitätsmanagement  
+-	Stadt als Vorbild 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtverwaltung Münster 
+	Involved stakeholders 	Mobilitätsdienstleister 	(bspw. 	Stadtwerke 
+Münster, lokale Sharinganbieter) 
+	Comments on implementation 	Gültig seit 12.12.2023 
+Umgesetzt und in Anwendung 
+Prozess „Klimaneutrale Stadtverwaltung“ 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung 
+MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Circa 3.000 Tonnen 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Ausbau von Mitarbeitendenmobilitäts-Angeboten  
+	Action type 	Technology, governance and policy 
+
+	Action description 	Um die Mitarbeitenden bei der Nutzung des Umweltverbunds für den Arbeitsweg zu unterstützen/zu supporten/zu fördern oder Anreize/Incentives zum Umstieg vom MIV auf den Umweltverbund zu geben, befinden sich verschiedene Projekte in Planung oder sind bereits umgesetzt. 
+ 
+Hierzu gehören bspw.: 
+•	Fahrradleasing (umgesetzt)  
+•	Laden von Pedelec-Akkus (umgesetzt)  
+•	JobTicket (umgesetzt bzw. für Beamte in Bearbeitung)  
+•	Fahrradboxen/weitere Fahrradabstellmöglichkeiten (in Umsetzung/Planung)  
+•	Zertifizierung als fahrradfreundliche Arbeitgeberin  
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Governance and policy 
+	Outcome (according to module B-1.1) 	-	Etablierung klimafreundliches Mobiltitätsmanagement  
+-	Stadt als Vorbild 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtverwaltung Münster 
+	Involved stakeholders 	Mobilitätsdienstleister (bspw. Fahrradleasing-
+Anbieter, Stadtwerke Münster, ADFC) 
+	Comments on implementation 	Prozess „Klimaneutrale Stadtverwaltung" 
+•	Fertigstellung Fahrradboxen im Parkhaus am STH 3 (Eröffnung Q1/2024) 
+•	Fertigstellung Fahrradkeller STH 1 
+(Wiedereröffnung nach akt. Stand 
+04/2024) 
+•	Entscheidung des VV bzgl. JobTicket bei Beamten 
+•	Audit als fahrradfreundliche Arbeitgeberin baldmöglichst 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung 
+MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Circa 6.300 Tonnen 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Reduzierung & Elektrifizierung Fuhrpark 
+	Action type 	Technologie 
+	Action description 	Der städtische Fuhrpark soll fortlaufend auf EMobilität umgestellt werden. Dies passiert bereits bei vielen Ersatzbeschaffungen. Außerdem wird der Umfang des städtischen Fuhrparks kritisch analysiert, um Überkapazitäten abzubauen. Zur Beschleunigung und Systematisierung des Prozesses werden darüber hinaus u. a. die folgenden Instrumente, Projekte und Begleitprozesse initiiert: 
+•	Sondierung Fahrzeugbestand  
+•	Weitere Verlagerung auf Carsharing 
+•	Einführung Fuhrparkmanage-
+ment (perspektivisch)  
+•	Dienstwagen-Pooling  
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Technologie 
+	Outcome (according to module B-1.1) 	-	Etablierung klimafreundliches Mobiltitätsmanagement  
+-	Stadt als Vorbild 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtverwaltung Münster 
+	Involved stakeholders 	Keine Angabe 
+	Comments on implementation 	Prozess „Klimaneutrale Stadtverwaltung“ 
+•	Abstimmung abzufragender Daten bis 04/2024 und ggf. Anschaffung Auswertungstool 
+•	Sondierung Fahrzeugbestand zur Einführung Fuhrparkmanagements Q2/2025 
+•	Einführung Dienstwagen-Pooling Q4/2025 möglichst gemeinsam mit 
+Fuhrparkmanagement 
+ 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung auf Strom 
+nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Circa 2.800 Tonnen 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	S-Bahn-Münsterland 
+	Action type 	Technologie, governance and policy 
+	Action description 	Der Schienenpersonennahverkehr soll in den nächsten Jahren massiv gestärkt und damit eine deutliche Verlagerung des Pendlerverkehrs vom motorisierten Individualverkehr auf den Umweltverbund insgesamt erreicht werden. Dazu sollen neben zusätzlichen Zugfahrten auf den vorhandenen Strecken auch stillgelegte Bahntrassen reaktiviert und neue Haltepunkte gebaut werden. 
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Neu konzipiertes ÖPNV-Angebot 
+	Outcome (according to module B-1.1) 	-	Weitere Fortschritte im Ausbau der Münsterland S-Bahn 
+-	Elektrifizierung des SPNV 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster, Münsterlandkreise  
+	Action scale & addressed entities 	Stadtgebiet Münster 
+	Involved stakeholders 	Deutsche Bahn, Verkehrsverbünde (ZVM, 
+NWL) und weitere 
+	Comments on implementation 	Masterplan Mobilität 2035+ 
+•	Stufe 1 ab 2026:  u. a. Reaktivierung der WLE 
+•	Stufe 2 ab 2032: u. a. Stammstrecke MS und Vermarktung als S-Bahn  
+•	Stufe 3 ab 2040: Vollausbau des Zielkonzeptes 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung 
+MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Bis zu 200.000 t CO2/jährlich bei prognostizierten 212.000 Reisenden/Tag 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Neukonzeption des bestehenden ÖPNV-Angebotes 
+	Action type 	Technologie, governance and policy 
+	Action description 	Das bestehende ÖPNV-Angebot wird fortan weiterentwickelt und -konzeptioniert – mit dem Ziel, den Umweltverbund zu stärken und dadurch die verkehrsbedingten Emissionen zu reduzieren. Ein zentraler Baustein dabei ist die Aufstellung des Nahverkehrsplans.  
+Reference to impact pathway 	Field of action 	Transport 
+	Systemic lever 	Neukonzipiertes ÖPNV-Angebot 
+	Outcome (according to module B-1.1) 	Neukonzipiertes ÖPNV-Angebot 
+ 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtgebiet Münster 
+	Involved stakeholders 	Regionale Verkehrsunternehmen 
+	Comments on implementation 	Masterplan Mobilität 2035+ 
+•	Erste Schritte mit Definition einer Hierarchisierung des zukünftigen Angebotes bereits beschlossen; 
+•	Sukzessive Einführung von Hochleistungsachse im Bestandsnetz ab 2024 
+(moderate Anpassungen) 
+•	Beschluss zur Aufstellung des 4. Nahverkehrsplans Stadt Münster 2./3. 
+Quartal 2024 
+ 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Einsparung fossiler Treibstoffe, Verlagerung 
+MIV auf Umweltverbund nicht quantifizierbar/messbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 

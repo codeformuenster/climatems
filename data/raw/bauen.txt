@@ -1,0 +1,192 @@
+Action outline 	Action name 	Strategie zur Erreichung der Klimaneutralität 2030 für städtische Gebäude 
+	Action type 	Technical Intervention 
+	Action description 	Strategie zur Erreichung der Klimaneutralität 2030 mittels der Sanierung von 46 Standorten auf der Grundlage des Beschlusses zu den Gebäudeleitlinien: „Der Energieverbrauch der städtischen Gebäude soll bis zum Jahr 2030 um 50 % sowie die CO2-Emissionen um 70 % reduziert werden“ (ggü. 1990). 
+Reference to impact pathway 	Field of action 	Built environments 	
+	Systemic lever 	Technology 
+Governance and policy 	
+	Outcome (according to module B-1.1) 	Energieeinsparung, 	Ausbau 
+Energien 	erneuerbarer 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 	
+	Action scale & addressed entities 	Städtische Gebäude 	
+	Involved stakeholders 	Amt 23 
+	Comments on implementation 	https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004048624 
+
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Rund 12,5 Mio. kWh/a 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	2.165 t CO2/a 
+	Total costs and costs by CO2e unit 	Rund 320 Mio. €; die Kosten sollen laut Antrag zur Vorlage „umsetzungsorientiert innerhalb der Dezernatsbudgets bereitgestellt werden“; aktuell sind im Haushalt ca. 10 Mio. €/a veranschlagt. 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Energetische und klimagerechte Quartierssanierung 
+	Action type 	Other Intervention 
+	Action description 	Energetische und klimagerechte Quartierssanierung - Klimaschutz und Klimaanpassung im Quartier: Zentrales Vorhaben zur Erhöhung der allgemeinen Sanierungsrate - Zukunftsfähige, nutzungsflexible Stadtquartiere fördern – Klimaschutz, Wohnangebote, Energieversorgung, Mobilität und Nahversorgung und weitere Themen in Münster integriert betrachten. 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+Funding 
+	Outcome (according to module B-1.1) 	Energieeinsparung, Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Quartiersebene 
+	Involved stakeholders 	Local Stakeholders, Energieberater*innen, Handwerk 
+	Comments on implementation 	Nächste Schritte: 
+Energetische und klimagerechte Quartierssanierung:  
+Es wird im Jahr 2024 eine Ausschreibung für ein Sanierungsmanagement in Kombination mit einem integrierten Kurzkonzept für die ersten beiden Quartiere vorbereitet.  
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt 
+	Removed/substituted energy, volume, or fuel type 	Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt 
+	Total costs and costs by CO2e unit 	Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Gebäudeleitlinien bzw. energetischer Standard für Neubauten 
+	Action type 	Technical Intervention 
+	Action description 	Standards für Neubau- und Sanierungsmaßnahmen städtischer Gebäude 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Energieeinsparung, Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Neubauten 
+	Involved stakeholders 	Amt 23 
+	Comments on implementation 	Der Rat der Stadt Münster hat am 26. August 2020 die überarbeiteten Gebäudeleitlinien mit einem Änderungsantrag für Münster beschlossen. Der Energieverbrauch der städtischen Gebäude soll bis zum Jahr 2030 um 50 % sowie die CO2-Emissionen um 70 % reduziert werden. Sowohl für Neubau- als auch für Umbau- und Sanierungsmaßnahmen gibt es verbindliche Qualitätskriterien und eine Richtschnur für alle am Bauprozess städtischer Gebäude Beteiligten. Die Gebäudeleitlinien gelten dabei für alle Gebäude der Stadt Münster. Die städtischen Tochterunternehmen wurden laut Beschluss auch aufgefordert, die Gebäudeleitlinien zu beschließen und anzuwenden. 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Sanierungsstrategie Wohn- und Stadtbau 
+	Action type 	Technical Intervention 
+	Action description 	Umstellung auf CO2-freie Wärme- und Warmwasserversorgung des Gebäudebestands und 
+Verbrauchsreduktion: Dämmung, Teil- und 
+Vollsanierung, Betriebsoptimierung 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Energieeinsparung, Ausbau erneuerbarer Energien 
+Implementation 	Responsible bodies/person for implementation 	Wohn+Stadtbau GmbH 
+	Action scale & addressed entities 	Bestandsgebäude der Wohn+Stadtbau GmbH 
+	Involved stakeholders 	Wohn+Stadtbau GmbH 
+	Comments on implementation 	1.	Betriebsoptimierung und Förderung von klimafreundlichem Mieterverhalten als „Quickwin" 
+2.	Energetische Sanierung/Dämmung von Gebäuden und Quartieren inkl. PV gemeinsam mit SWM 
+3.	Einsatz nachhaltiger Heizungssysteme und Realisierung von Fernwärmeneuanschlüssen gemeinsam mit SWM 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Vermiedene CO2-Emissionen durch Photovoltaik- und BHKW-Stromproduktion (Nutzung im Gebäude sowie Netzeinspeisung): - 146 Tonnen/Jahr 
+	Total costs and costs by CO2e unit 	227 Mio. € 
+ 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Thermografiebefliegung MS 
+	Action type 	Other interventions 
+	Action description 	Das Pro men: 
+1. 	jekt setzt sich aus drei Phasen zusam-
+Thermografiebefliegung: Aufnahme der Wärmebilder von Münsters Dachlandschaft, Datenauswertung 
+		2. 	Anschreiben der Hauseigentümer*innen sowie Beratungsangebot zur energetischen Sanierung 
+		3. Fortlaufende kostenfreie Energieberatung und Zustellung und Interpretationsunterstützung bei der Auswertung der Thermografieaufnahmen  
+ 
+Rund 25.000 Menschen bzw. rund 60 Prozent der angeschriebenen Hauseigentümer*innen konnten für energetische Fragestellungen sensibilisiert werden.  
+ 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Energieeinsparung 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Gebäudeeigentümer*innen 
+	Involved stakeholders 	Stadtnetze Münster 
+	Comments on implementation 	Beendigung des externen Webportals (12/2023) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar. Indirekt über Energieberatungsangebot und Sichtbarmachung 
+	Removed/substituted energy, volume, or fuel type 	Nicht anwendbar. Indirekt über Energieberatungsangebot und Sichtbarmachung 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht anwendbar. Indirekt über Energieberatungsangebot und Sichtbarmachung 
+	Total costs and costs by CO2e unit 	Nicht anwendbar. Indirekt über Energieberatungsangebot und Sichtbarmachung 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Förderprogramm klimafreundliche Wohngebäude 
+	Action type 	Financial Intervention 
+	Action description 	Seit 1997 investiert die Stadt Münster in die energetische Gebäudesanierung und hat für die Bürger*innen einen Fördertopf bereitgestellt. Seitdem wurde das Förderprogramm regelmäßig neu aufgesetzt und kontinuierlich erweitert. 
+Die Stadt Münster fördert mit dem Förderprogramm vielfältige Maßnahmen zur energetischen Optimierung von Wohngebäuden im Stadtgebiet. Von der Gebäudedämmung und vom Heizungsaustausch über Dachbegrünung bis zu ökologischen Dämmstoffen gibt es viele Möglichkeiten, einen wichtigen Beitrag zur Reduzierung der CO2-Emissionen in Münster zu leisten. 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+Governance and policy 
+	Outcome (according to module B-1.1) 	Energieeinsparung, erneuerbare Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Wohngebäude 
+	Involved stakeholders 	Hauseigentümer*innen 
+	Comments on implementation 	ca. 4,2 Mio. € Fördermittel jährlich 
+08.11.2023 	Ratsbeschluss 	der 	Vorlage 
+V/0574/2023 
+01.01.2024 Inkrafttreten der neuen Richtlinie 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Nicht anwendbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	5.000 t CO2/a 
+	Total costs and costs by CO2e unit 	ca. 4,2 Mio. €/a; 840 €/t CO2 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	PV-Anlagen auf städtischen Gebäuden 
+	Action type 	Technical Intervention 
+	Action description 	Bei allen zukünftigen Neu- und Erweiterungsbauten werden Dachflächen vollflächig mit PV-
+		Anlagen ausgestattet – Ratsvorlage wird erstellt und kommt vor der Sommerpause in die Beratungskette.  
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Erneuerbare Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Städtische Gebäude 
+	Involved stakeholders 	Keine Angabe 
+	Comments on implementation 	Ratsvorlage Q2 2024 – Dachflächen städtischer Immobilien werden vollflächig mit PV ausgestattet. 
+Darüber hinaus werden seit 2019 auch auf Bestandsgebäuden PV-Anlagen errichtet. Dafür stehen aktuell jährlich etwa 1 Mio. €/a zur Verfügung; erster Beschluss dazu: V/0668/2018 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Wird noch erarbeitet 
+	Removed/substituted energy, volume, or fuel type 	Wird noch erarbeitet 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Wird noch erarbeitet 
+	Total costs and costs by CO2e unit 	Wird noch erarbeitet 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Leitfaden klimagerechte Bauleitplanung 
+	Action type 	Governance and policy 
+	Action description 	Der Planungsleitfaden listet die Belange von Klimaschutz und Klimaanpassung auf, die in den jeweiligen Planungsphasen berücksichtigt werden müssen. 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Governance and policy 
+	Outcome (according to module B-1.1) 	Energieeinsparung, erneuerbare Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Planende, Investor*innen und Planungsamt 
+	Comments on implementation 	Bildet den Rahmen für verbindliche und weitere Standards im Neubau (z. B. Solarstandard in der BLP) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Nicht anwendbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht anwendbar 
+	Total costs and costs by CO2e unit 	Nicht anwendbar 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Münsters „Standard für klimagerechtes Bauen“ in „Grundstückskaufverträgen und städtebaulichen Verträgen“ 
+	Action type 	Governance and policy 
+	Action description 	Durch die Kombination aus dem Standard 
+„KfW-Effizienzhaus/-gebäude 40“ und dem Solarstandard wird der CO2-Ausstoß im Betrieb von Neubauten deutlich gesenkt und je nach Gebäude bilanziell auch ein Plusenergie-Standard erreicht, mit dem das Gebäude über das 
+Jahr mehr Energie erzeugt, als es verbraucht. 
+Reference to impact pathway 	Field of action 	Built Environment 
+	Systemic lever 	Governance and policy 
+	Outcome (according to module B-1.1) 	Energieeinsparung, erneuerbare Energien 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Stadtgebiet 
+	Involved stakeholders 	Bauherr*innen, Investor*innen 
+	Comments on implementation 	Abstimmung des Vertragstextes Stabsstelle Klima mit Amt 23 
+Umsetzung des Standards/Textes in Verträgen durch Amt 23 
+		Solarstandard bei Grundstückskaufverträgen und städtebaulichen Verträgen 
+Prüfung der Einhaltung durch Amt 23 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht anwendbar 
+	Removed/substituted energy, volume, or fuel type 	Nicht anwendbar 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	1250 t CO2/a 
+	Total costs and costs by CO2e unit 	Keine Kosten 
+ 

@@ -1,0 +1,157 @@
+Action outline 	Action name 	Ökosoziale Vergaben 
+	Action type 	Procurement actions 
+	Action description 	Der Rat hat den Oberbürgermeister am 
+07.09.2022 beauftragt, in einem gemeinsamen Arbeitskreis von Politik und Verwaltung sozialökologische Kriterien für die Beschaffung von Waren, Diensten und Werken zu entwickeln und ein Verfahren vorzuschlagen, wie man deren Einhaltung gesetzeskonform sichern und überwachen kann.  
+		Die Verwaltung hat dem Arbeitskreis einen Richtlinientext vorgeschlagen und zur Diskussion in den politischen Kreisen mit ihnen nahestehenden Interessenvertretern aus der Zivilgesellschaft überlassen. Die durch die politischen Vertretungen mit Änderungsvorschlägen kommentierte Version befindet sich nun zur Stellungnahme in der Verwaltung, damit der Arbeitskreis sodann abstimmen kann, welche Fassung er dem Rat vorschlägt.    
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtkonzern 
+	Involved stakeholders 	Stadtkonzern, Anbieter 
+	Comments on implementation 	Stellungnahmen der Verwaltung 
+Ratsentscheidung 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Nicht zutreffend 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Nachhaltige Geldanlagen 
+	Action type 	Financial innovations 
+	Action description 	Eine einheitliche Definition für eine nachhaltige Geldanlage gibt es nicht. Grundsätzlich sind nachhaltige Geldanlagen ein verantwortliches, ethisches, soziales und ökologisches Investment. In den Anlageprozess werden Umweltfaktoren, soziale Verantwortung und gute Unternehmensführung einbezogen (ESG   -
+Kriterien). Durch nachhaltiges Investieren wird indirekt der Druck auf Unternehmen und Staaten erhöht, ihrer Verantwortung gegenüber un-
+
+		serer Gesellschaft in höherem Maße nachzukommen. Die Geldanlage hat eine Lenkungsfunktion und stärkt nachhaltig ausgerichtete Unternehmen/Staaten im Wettbewerb.  
+Die Stadt Münster legt Gelder insbesondere zur Reduzierung künftiger Versorgungslasten für die Pensionszahlungen an Beamt*innen in zwei städtischen Spezialfonds an. Beim Versorgungs- und Sanierungsfonds (VUS-Fonds) ist die Stadt Münster alleinige Anlegerin, der Westfälische-Versorgungs-Rücklage-Fonds (WVRFonds) ist ein Zusammenschluss von neun Kommunen.  
+Seit dem Jahr 2016 erfolgt die Kapitalanlage nach nachhaltigen Kriterien. Die vom Fondsmanagement erworbenen Aktien und Unternehmensanleihen müssen bestimmten nachhaltigen Kriterien genügen. Einige Branchen sind vollständig ausgeschlossen (Fracking/Militärwaffen/Atomenergie/klimaschädliche Energie), alle anderen Branchen müssen ein bestimmtes Nachhaltigkeitsniveau erreichen. Bei Unternehmensanleihen muss es sich um sogenannte ‚Green Bonds‘ handeln. Bestimmungen zur Nachhaltigkeit der Geldanlagen sind in der Anlagerichtlinie der Stadt Münster festgehalten.  
+Darüber hinaus hat die Stadt Münster insbesondere in ihrem allein gehaltenen Fonds das ESGReporting deutlich ausgebaut. Der ESG-Bericht und der CO2-Bericht sind mittlerweile fester Bestandteil der halbjährlichen Sitzung des Anlageausschusses. Die Maßnahmen haben den CO2Fußabdruck und das ESG-Rating der gehaltenen Wertpapiere und damit der städtischen Geldanlagen deutlich verbessert.   
+Die Anlagenrichtlinie wurde nun weiterentwickelt und um Nachhaltigkeitskriterien erweitert. Erstmalig werden auch Investitions- bzw. Ausschlusskriterien für den Erwerb von Staatsanleihen definiert.  
+Darüber hinaus müssen für Investitionen in Unternehmen/Staaten zukünftig bestimmte Einstufungen im ESG-Rating erfüllt werden.   
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Stadt Münster 
+	Involved stakeholders 	Investoren 
+	Comments on implementation 	Vorschlag zur Weiterentwicklung der Anlagerichtlinie der Stadt Münster als Beschlussvorlage in die Politik (20.02.2024) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Nicht zutreffend 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Nachhaltigkeitsberichterstattung im Stadtkonzern 
+	Action type 	Finanziell 
+	Action description 	Stärkung von Nachhaltigkeitsberichterstattungen im Stadtkonzern. 
+Die bestehenden Berichterstattungen im Stadtkonzern sind heterogen, da teilweise Pflichten bestehen oder sich abzeichnen (EU-Richtlinie CSRD (Corporate Sustainability Reporting Directive) und teilweise andere Berichtsformate, wie die gemeinwohlorientierte Bilanz, in Nutzung sind.  
+Die Nachhaltigkeitsberichterstattung der städtischen Beteiligungsgesellschaften soll gestärkt werden. Hierzu wird es Empfehlungen im Rahmen des Public-Corporate-Governance-Kodex geben. 
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtkonzern Münster 
+	Involved stakeholders 	Nicht zutreffend 
+	Comments on implementation 	Eine Richtvorgabe und Überblick über die Nachhaltigkeitsberichte wird im Public-Corpo-
+		rate-Governance-Kodex der Stadt Münster abgebildet. Die entsprechende Vorlage für den Kodex ist im April geplant. 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Nicht zutreffend 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Einrichtung eines Bauinvestitionscontrollings 
+	Action type 	Governance 
+	Action description 	Der Antrag A-R/0053/2022 von Bündnis 90/Die Grünen, SPD und Volt an den Rat der Stadt Münster hat zum Inhalt, das „Controlling bezüglich Kosten für Bau und Anmietung zu verbessern“. Hierzu fordert die Politik, ein unabhängiges Bauinvestitionscontrolling aufzubauen und zu etablieren. Dies soll insbesondere dazu dienen, die Investitionskosten im Blick zu haben und zu beurteilen, welche Kostensteigerungen tatsächlich notwendig sind. Außerdem soll das Controlling einen kritischen Blick auf die Bedarfe der einzelnen Ämter werfen und prüfen, inwiefern diese tatsächlich notwendig sind. Politik, Immobilienmanagement und die Bedarfsämter können dies aktuell nicht unabhängig prüfen. 
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Stadtverwaltung Münster 
+	Involved stakeholders 	Nicht zutreffend 
+	Comments on implementation 	Austausch mit anderen Kommunen 
+Erarbeitung einer Geschäftsanweisung 
+Umsetzung 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Nicht zutreffend 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Entwicklung eines Klimahaushaltes 
+	Action type 	Finanziell 
+	Action description 	Das Steuerungselement Finanzen soll mit Aussagen zu Klimawirkungen verbunden werden.  
+Das Instrument Klimahaushalt soll dabei eine Hilfe sein, um zu verstehen, welche Klimaauswirkungen Finanzentscheidungen haben.  
+Da es in Deutschland bisher keine Kommune mit einem echten Klimahaushalt gibt, bedarf es einer Konzeption, die als Prozess zu verstehen ist.  
+Die Klassifizierung in die Kategorien A-D hinsichtlich der Klimaauswirkungen der Investitionsmaßnahmen ist ein erster Schritt, führte jedoch nicht zu einer umfänglichen Transparenz und Übersichtlichkeit. Die Idee besteht darin, die Verbindung aus den Steuerungselementen, Finanzen und Klimawirkung über eine Haushaltsbegleitvorlage zu schaffen, in der zentral die großen/strategischen Vorhaben des städtischen Konzerns im Bereich Klimaschutz und Klimaanpassung gelistet sind. Die Vorlage enthält folgende Elemente:  
+•	Rückblick auf die Bilanzvorlage (Wasserstandsmeldung)  
+•	Einordnung der Vorhaben und Vorhabensachstände (Fortschrittsberichterstattung)  
+•	Zentrale Erfolge und Herausforderungen des Berichtsjahres  
+•	Wirkung der unternommenen Vorhaben über die lokale Ebene hinaus (globale Wechselbezüge) 
+Außerdem gibt es zwei politische Anträge zum Klimabudget. Hierzu hat ein Austausch mit der Politik stattgefunden. Eine jährliche Bilanz hinsichtlich der Erreichung der Klimaneutralität mit 
+		Darstellung der Restbudgets und der Verbindung zu globalen und nationalen Themen soll ebenso hergestellt werden. 
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Stadtkonzern Münster 
+	Involved stakeholders 	Rat der Stadt Münster 
+	Comments on implementation 	Vorlage „Ziele kommunaler Steuerung“ im April einbringen 
+Aufgreifen der Anträge A-R/0010/2023 und AR/0013/2023 
+Positive, neutrale und negative Auswirkungen von Investitionsmaßnahmen auf das Thema Klima sollen im Rahmen einer Haushaltsbegleitvorlage als Ergänzung zum Haushalt dargestellt werden.  
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Nicht zutreffend 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Green Bonds/Grüner Schuldschein 
+	Action type 	Finanziell 
+	Action description 	Im September 2021 hat der Rat der Stadt Münster mit der Vorlage V/0666/2021 die Verwaltung beauftragt, die nachhaltige Kapitalbeschaffung über einen Green Bond zu initiieren. Die Platzierung des Schuldscheins am Markt erfolgte im September 2022 mit folgenden Eckdaten: 
+			 Volumen  	geplant 100 Mio. Euro, realisiert 140 Mio. Euro  	
+
+		Aufteilung  	30 Mio. Euro Stadtwerke 
+Münster/110 Mio. Euro Stadt  
+			Tilgung  	endfällig  	 
+			Laufzeiten  	7 / 10 / 15 / 20 Jahre  	
+			Valuta  	30.09.2022  	
+			Zinszahlungen  	30.09.  	
+			Zinssatz  	Laufzeitbezogener MidSwap-Satz (MS) zzgl. 
+Spread  	
+			Stückelung  	500.000 Euro  	
+			Öffnung 
+Orderbuch  	13.09.2022  	
+			Schließung Orderbuch  	22.09.2022  	
+			  
+Aufgrund des großen Interesses an dem Grünen Schuldschein konnte das ursprüngliche Volumen von 100 auf 140 Mio. Euro erhöht und zugeteilt werden. Erfreulich war, dass alle Laufzeiten von 7 bis 20 Jahren auf Interesse der Investierenden gestoßen sind und bedient werden konnten. Insgesamt haben 16
+Investierende den Schuldschein gezeichnet. Im September 2023 wurde der 1. Allokations- und Wirkungsbericht zum Green Bond vorgelegt. In dem Bericht wird über die Mittelverwendung (Allokationsbericht) und die Nachhaltigkeitswirkung der finanzierten Investitionen beziehungsweise Projekte (Wirkungsbericht) Auskunft gegeben.  
+Für das Jahr 2024 ist die Auflegung eines weiteren Green Bonds über 120 Millionen Euro geplant.  	
+Reference to impact pathway 	Field of action 	Klimahaushalt 
+	Systemic lever 	Finanzierung 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadtkonzern Münster 
+	Involved stakeholders 	Investoren 
+	Comments on implementation 	Platzierung des 2. Green Bonds (2024) 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine Angabe 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	CO2-Potenzial: 
+Die CO2-Einsparung ergibt sich nicht aus der Wahl der Finanzierungsmethode (hier: Green Bond), sondern aus den mit dem Green Bond finanzierten Maßnahmen. Das sind beim 1. Green Bond: 
+•	die Mathilde-Anneke-Gesamtschule,  
+•	die 4. Reinigungsstufe der Kläranlage,  
+•	der Glasfaserausbau (über die Stadtwerke Münster GmbH).  
+	Total costs and costs by CO2e unit 	Kosten:  
+Mit der Auflegung eines Green Bonds sind übliche Kreditfinanzierungskosten verbunden, wobei der Zinssatz leicht unterhalb des Niveaus bei klassischen Krediten liegt. Hinzu kommen Kosten für die Beurteilung der Nachhaltigkeitswirkung durch eine externe Nachhaltigkeitsratingagentur.  
+ 

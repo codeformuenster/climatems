@@ -1,11 +1,9 @@
 <?php
 
 $filename = $argv[1];
-$categorieKey = $argv[2];
+$categorieID = $argv[2];
+$categorieKey = $argv[3];
 $filecontent = file_get_contents($filename);
-
-$contents = explode("B-2.2: Individual action outlines", $filecontent);
-
 /**
  * @param string $content
  * @param string $search
@@ -111,13 +109,21 @@ $parseActionItem = function($content) use ($searchForKey){
     return $result;
 };
 
+$contents = explode("B-2.2: Individual action outlines", $filecontent);
+
 $results = [];
 $i = 1;
 foreach($contents as $content) {
-    $result['id'] = str_replace(' ', '_', strtolower($categorieKey)) . $i++;
+    if (empty(trim($content))) {
+        continue;
+    }
+    $result['id'] = $categorieID . $i++;
+    $result['categoryId'] = $categorieID;
     $result['category'] = $categorieKey;
     $result = array_merge($result, $parseActionItem($content));
     $results [] = $result;
 }
-
 echo json_encode($results);
+if (json_last_error() !== JSON_ERROR_NONE) {
+    echo json_last_error_msg();
+}
