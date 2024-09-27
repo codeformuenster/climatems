@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { CategoryCard } from "../components";
-import actions from '@/data/b-2_actions.json';
 import PageHeader from '~/components/PageHeader.vue';
+import { getCategories } from "~/dataProcessing/loadData";
 
-const categories = Object.keys(actions);
-const measuresPerCategory = categories.map((category) => ({
-  category: category,
-  numberOfMeasures: actions[category].length
-}));
+const categoriesWithInformation = await getCategories();
 
-const numberOfMeasures = (measuresPerCategory || []).reduce((acc, item) => acc + item.numberOfMeasures, 0);
+const numberOfMeasures = (categoriesWithInformation || []).reduce((acc, item) => acc + item.measures.length, 0);
+
+console.log(numberOfMeasures)
+
 
 const value = ref([
   { label: 'Umgesetzt', color: 'var(--p-green-500)', value: numberOfMeasures },
@@ -35,8 +34,8 @@ const value = ref([
     </Card>
 
     <div class="card-grid">
-      <template v-for="category in categories" :key="category">
-        <CategoryCard :title="category" :category="measuresPerCategory" :measures="actions[category]" />
+      <template v-for="category in categoriesWithInformation" :key="category">
+        <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" />
       </template>
     </div>
   </div>
