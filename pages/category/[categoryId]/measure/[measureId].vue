@@ -12,7 +12,7 @@
         <div v-if="progress?.measure === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
-            value: progress.progress,
+            value: progress?.progress,
             color: 'var(--p-green-500)'
             } ]" />
           {{ progress?.progress }} % erreicht

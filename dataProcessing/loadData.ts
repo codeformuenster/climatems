@@ -162,7 +162,7 @@ const getCategories = async (): Promise<Category[]> => {
 
 const getProgressListForMeasure = async (measureId: string) => {
   const progress = await getAllMeasureProgresses();
-  return progress[measureId];
+  return progress[measureId] || [];
 }
 
 const getProgressForMeasure = async (measureId: string) => {
