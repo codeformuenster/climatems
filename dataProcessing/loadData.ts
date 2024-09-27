@@ -70,7 +70,6 @@ const getRawCategories = async () => {
     id: measure.category,
   }));
 
-  console.log(rawCategories)
   return rawCategories.filter((item, pos) => {
     return rawCategories.findIndex(({ id }) => id === item.id) == pos;
   })
