@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.1.5",
     "@nuxt/eslint": "^0.5.7",
     "@primevue/themes": "^4.0.7",
     "nuxt": "^3.13.0",

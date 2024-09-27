@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Measure } from '~/dataProcessing/loadData';
+import { BoltIcon, HomeIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroicons/vue/24/outline';
 
 const props = defineProps<{
   title: string;
@@ -7,7 +8,7 @@ const props = defineProps<{
   measures: Array<Measure>;
 }>();
 
-const { measures } = toRefs(props);
+const { categoryId, measures } = toRefs(props);
 
 const measuresList = computed(() => {
   const amount = measures.value.length;
@@ -19,6 +20,22 @@ const measuresList = computed(() => {
       ...(amount > 6 ? [`${amount - 5} weitere Maßnahmen`] : []),
     ]
   };
+});
+
+const iconClass = computed(() => {
+  if (categoryId.value === "Energieerzeugung") {
+    return BoltIcon;
+  }
+  if (categoryId.value === "Bauen und Sanieren") {
+    return HomeIcon;
+  }
+  if (categoryId.value === "Mobilität") {
+    return PaperAirplaneIcon;
+  }
+  if (categoryId.value === "Klimahaushalt") {
+    return SunIcon;
+  }
+  return TagIcon
 });
 </script>
 
@@ -32,7 +49,7 @@ const measuresList = computed(() => {
       <template #header>
         <div class="category-card--header">
           <h2 class="category-card--title">{{ title }}</h2>
-          <i class="pi pi-sparkles"/>
+          <component class="category-card--icon" :is="iconClass" />
         </div>
       </template>
       <template #content>

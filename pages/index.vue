@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CategoryCard } from "../components";
+import { CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
 import { getCategories, getMeasureProgress, type MeasureStatus } from "~/dataProcessing/loadData";
 
@@ -44,21 +44,15 @@ const chartData = computed(() => {
       </template>
     </Card>
 
-    <div class="card-grid">
+    <CardGrid>
       <template v-for="category in categoriesWithInformation" :key="category">
         <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" />
       </template>
-    </div>
+    </CardGrid>
   </div>
 </template>
 
 <style>
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-}
-
 .main-content {
   display: flex;
   flex-direction: column;
