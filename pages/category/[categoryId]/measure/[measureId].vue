@@ -7,6 +7,9 @@
       </template>
       <template #content>
         <div v-if="progress?.measure === 'percent'">
+          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
+        </div>
+        <div v-if="progress?.measure === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
             value: progress.progress,
@@ -29,7 +32,7 @@
         </div>
         <div class="border-t border-gray-100">
           <dl class="divide-y divide-gray-100">
-            
+
             <template v-for="value, key in measure?.[k]">
               <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt class="text-sm font-medium text-gray-900">{{key}}</dt>
@@ -39,17 +42,40 @@
           </dl>
         </div>
       </div>
-    </template> 
+    </template>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
+import { getMeasure, getProgressForMeasure, getProgressListForMeasure } from '~/dataProcessing/loadData';
+import Chart from 'primevue/chart';
 
 const route = useRoute();
 
 const measure = await getMeasure(route.params.measureId as string);
 const progress = await getProgressForMeasure(route.params.measureId as string);
+const progressList = await getProgressListForMeasure(route.params.measureId as string);
+
+const chartData = {
+  labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
+  datasets: [
+    {
+      label: "Fortschritt",
+      data: progressList.map(p => p.progress),
+      fill: false,
+      borderColor: "rgb(75, 192, 192)",
+      tension: 0.1
+    }
+  ]
+}
+const chartOptions = {
+  scales: {
+    y: {
+      min: 0,
+      max: 100,
+    }
+  }
+}
 </script>
 
 <style>
