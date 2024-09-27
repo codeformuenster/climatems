@@ -1,4 +1,5 @@
 import measures from '@/data/measures.json';
+
 import implementations20210101 from '@/data/implementations/2021-01-01.json';
 import implementations20210401 from '@/data/implementations/2021-04-01.json';
 import implementations20210701 from '@/data/implementations/2021-07-01.json';
@@ -15,6 +16,9 @@ import implementations20240101 from '@/data/implementations/2024-01-01.json';
 import implementations20240401 from '@/data/implementations/2024-04-01.json';
 import implementations20240701 from '@/data/implementations/2024-07-01.json';
 import implementations20241001 from '@/data/implementations/2024-10-01.json';
+
+import additionalData from '@/data/additional_data.json';
+
 
 interface ActionOutline {
   "Action name": string;
@@ -53,6 +57,17 @@ export interface Measure {
   "Reference to impact pathway": ReferenceToImpactPathway;
   "Implementation": Implemetation;
   "Impact & cost": ImpageAndCost;
+}
+
+export interface AdditionalMeasureData {
+  id: string;
+  user_action?: {
+    label: string;
+    href: string;
+    description: string;
+  };
+  short_title?: string;
+  summary: string;
 }
 
 export type MeasureStatus = 'in_progress' | 'unknuwn' | 'completed';
@@ -104,7 +119,7 @@ const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgre
     ...implementations20241001,
   ] as MeasureProgress[];
 
-  const groupedResult = implementations.reduce((acc: { [key: string]: MeasureProgress[]}, item) => {
+  const groupedResult = implementations.reduce((acc: { [key: string]: MeasureProgress[] }, item) => {
     if (!acc[item.id]) {
       acc[item.id] = [item];
     }
@@ -127,7 +142,6 @@ const getRawCategories = async () => {
 }
 
 const getMeasuresForCategory = async (categoryId: string) => {
-  // todo Anpassen, sobald categoryId in measures
   return measures.filter(measure => measure.categoryId === categoryId);
 }
 
@@ -161,6 +175,12 @@ const getCategory = async (categoryId: string) => {
   return categories.find(({ id }) => id === categoryId);
 }
 
+const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
+
+const getAdditionalMeasureData = async (measureId: string): Promise<AdditionalMeasureData | undefined> => {
+  return (await getAdditionalData()).find(({ id }) => id === measureId);
+}
+
 export {
   getMeasures,
   getMeasuresForCategory,
@@ -171,4 +191,5 @@ export {
   getProgressForMeasure,
   getProgressListForMeasure,
   getMeasure,
+  getAdditionalMeasureData,
 }
