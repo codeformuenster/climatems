@@ -25,5 +25,8 @@ export default defineNuxtConfig({
     config: {
       plugins: [tailwindTypography]
     }
+  },
+  router: {
+    base: "/climatems/"
   }
 })
