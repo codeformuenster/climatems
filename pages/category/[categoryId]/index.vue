@@ -4,11 +4,16 @@
   :title="category?.name"
   />
   <div class="main-content">
-  {{ JSON.stringify(category) }}
+    <MeasureCard
+      v-for="(measure, index) in category?.measures"
+      :key="index"
+      :measure="measure"
+    />
   </div>
 </template>
 
 <script lang="ts" setup>
+import MeasureCard from '~/components/MeasureCard/MeasureCard.vue';
 import PageHeader from '~/components/PageHeader.vue';
 import { getCategory } from '~/dataProcessing/loadData';
 
