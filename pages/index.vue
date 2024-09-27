@@ -1,14 +1,11 @@
 <template>
-  <main class="app">
-    <div class="wrapper">
-      <Card>
-        <template #content>
-          <ProgressBarChart :chart-data="value" />
-        </template>
-      </Card>
-    </div>
-
-  </main>
+  <div class="wrapper">
+    <Card>
+      <template #content>
+        <ProgressBarChart :chart-data="value" />
+      </template>
+    </Card>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -22,12 +19,6 @@ const value = ref([
 </script>
 
 <style>
-.app {
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--p-gray-50);
-}
-
 .wrapper {
   display: flex;
   justify-content: center;
