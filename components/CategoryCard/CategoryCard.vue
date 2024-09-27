@@ -9,10 +9,6 @@ const props = defineProps<{
 
 const { measures } = toRefs(props);
 
-defineEmits<{
-  (e: "click", value: string): void;
-}>();
-
 const measuresList = computed(() => {
   const amount = measures.value.length;
   return {
@@ -27,9 +23,10 @@ const measuresList = computed(() => {
 </script>
 
 <template>
-  <div
+  <NuxtLink
     class="category-card"
     :data-is-category="categoryId"
+    :to="`/category/${categoryId}`"
   >
     <Card>
       <template #header>
@@ -58,7 +55,7 @@ const measuresList = computed(() => {
         </div>
       </template>
     </Card>
-  </div>
+  </NuxtLink>
 </template>
 
 <style scoped>
