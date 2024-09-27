@@ -39,7 +39,7 @@ $parseActionItem = function($content) use ($searchForKey){
             "Comments on implementation"
         ],
         "Impact & cost" => [
-            ["Generated renewable energy (if applicable)", "Generated renewable energy"],
+            ["Generated renewable energy \n(if applicable)", "Generated renewable energy (if applicable)", "Generated renewable energy"],
             "Removed/substituted energy",
             "GHG emissions reduction estimate (total)",
             "Total costs and costs by \nCO2e unit",
@@ -122,6 +122,12 @@ foreach($contents as $content) {
     $result['category'] = $categorieKey;
     $result = array_merge($result, $parseActionItem($content));
     $results [] = $result;
+    json_encode($result);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        var_dump($result);
+        echo json_last_error_msg();
+        exit(1);
+    }
 }
 echo json_encode($results);
 if (json_last_error() !== JSON_ERROR_NONE) {
