@@ -46,11 +46,18 @@ export interface Category {
 
 const getMeasures = async (): Promise<Measure[]> => measures;
 
-const getRawCategories = async () => [...new Set(measures.map(measure => ({
-  name: measure.category,
-  // TODO once avaialble
-  id: measure.category,
-})))];
+const getRawCategories = async () => {
+  const rawCategories = measures.map(measure => ({
+    name: measure.category,
+    // TODO once avaialble
+    id: measure.category,
+  }));
+
+  console.log(rawCategories)
+  return rawCategories.filter((item, pos) => {
+    return rawCategories.findIndex(({ id }) => id === item.id) == pos;
+  })
+}
 
 const getMeasuresForCategory = async (categoryId: string) => {
   // todo Anpassen, sobald categoryId in measures
