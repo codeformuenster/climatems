@@ -1,164 +1,202 @@
 [
   {
-    "id": "energieerzeugung1",
-    "summary": "Ziel: Bis 2030 sollen 42 Windkraftanlagen gebaut werden, um 280 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 erzeugen die Stadtwerke Münster bereits 92 GWh Windenergie."
+      "id": "energieerzeugung1",
+      "short_title": "Windkraftausbau bis 2030",
+      "summary": "Ziel: Bis 2030 sollen 42 Windkraftanlagen gebaut werden, um 280 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 erzeugen die Stadtwerke M\u00fcnster bereits 92 GWh Windenergie."
   },
   {
-    "id": "energieerzeugung2",
-    "summary": "Ziel: Bis 2030 sollen Photovoltaikanlagen gebaut werden, um 100 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 gibt es 62 PV-Anlagen der Stadtwerke mit 9.000 MWh/a Stromerzeugung."
+      "id": "energieerzeugung2",
+      "short_title": "PV-Ausbau bis 2030",
+      "summary": "Ziel: Bis 2030 sollen Photovoltaikanlagen gebaut werden, um 100 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 gibt es 62 PV-Anlagen der Stadtwerke mit 9.000 MWh/a Stromerzeugung."
   },
   {
-    "id": "energieerzeugung3",
-    "summary": "Ziel: Ein Plan für die Nutzung von Wärme und Energie in Münster wird erstellt. Fortschritt: Grundsatzbeschluss und Einrichtung von Arbeitsgruppen sind geplant."
+      "id": "energieerzeugung3",
+      "short_title": "Kommunale W\u00e4rme- und Energienutzungsplanung",
+      "summary": "Ziel: Ein Plan f\u00fcr die Nutzung von W\u00e4rme und Energie in M\u00fcnster wird erstellt. Fortschritt: Grundsatzbeschluss und Einrichtung von Arbeitsgruppen sind geplant."
   },
   {
-    "id": "energieerzeugung4",
-    "summary": "Ziel: Bis 2030 soll der Anteil erneuerbarer Energien in der Fernwärme auf 30 % steigen. Fortschritt: Stadtwerke und Stadtnetze erarbeiten einen Transformationsplan."
+      "id": "energieerzeugung4",
+      "short_title": "BEW-Transformationsplan",
+      "summary": "Ziel: Bis 2030 soll der Anteil erneuerbarer Energien in der Fernw\u00e4rme auf 30 % steigen. Fortschritt: Stadtwerke und Stadtnetze erarbeiten einen Transformationsplan."
   },
   {
-    "id": "energieerzeugung5",
-    "summary": "Ziel: Bis 2030 soll das erste Geothermie-Heizwerk in Münster gebaut werden, um 40 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Untersuchung des Potenzials und Vergabeprozess für 3-D-Seismik laufen."
+      "id": "energieerzeugung5",
+      "short_title": "Geothermie-Heizwerk bis 2030",
+      "summary": "Ziel: Bis 2030 soll das erste Geothermie-Heizwerk in M\u00fcnster gebaut werden, um 40 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Untersuchung des Potenzials und Vergabeprozess f\u00fcr 3-D-Seismik laufen."
   },
   {
-    "id": "energieerzeugung6",
-    "summary": "Ziel: Bis 2030 sollen 4 Großwärmepumpen gebaut werden, um 100 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Erste Großwärmepumpe wurde technisch abgenommen."
+      "id": "energieerzeugung6",
+      "short_title": "Gro\u00dfw\u00e4rmepumpen bis 2030",
+      "summary": "Ziel: Bis 2030 sollen 4 Gro\u00dfw\u00e4rmepumpen gebaut werden, um 100 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Erste Gro\u00dfw\u00e4rmepumpe wurde technisch abgenommen."
   },
   {
-    "id": "energieerzeugung7",
-    "summary": "Ziel: Bis 2030 soll Solarthermie in Münster etabliert sein, um 50 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Flächensicherung und Projektdesign für das erste Pilotprojekt sind geplant."
+      "id": "energieerzeugung7",
+      "short_title": "Freifl\u00e4chen-Solarthermie bis 2030",
+      "summary": "Ziel: Bis 2030 soll Solarthermie in M\u00fcnster etabliert sein, um 50 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Fl\u00e4chensicherung und Projektdesign f\u00fcr das erste Pilotprojekt sind geplant."
   },
   {
-    "id": "energieerzeugung8",
-    "summary": "Ziel: Bis 2030 sollen vier Neubaugebiete mit grüner Nahwärme versorgt werden. Fortschritt: Transformationspläne für bestehende Nahwärmenetze werden erstellt."
+      "id": "energieerzeugung8",
+      "short_title": "Gr\u00fcne Nahw\u00e4rme f\u00fcr Neubaugebiete",
+      "summary": "Ziel: Bis 2030 sollen vier Neubaugebiete mit gr\u00fcner Nahw\u00e4rme versorgt werden. Fortschritt: Transformationspl\u00e4ne f\u00fcr bestehende Nahw\u00e4rmenetze werden erstellt."
   },
   {
-    "id": "energieerzeugung9",
-    "summary": "Ziel: Bis 2030 soll ein Hochspannungsnetz im Süden von Münster gebaut werden. Fortschritt: Hohe Auslastung des 110-kV-Netzes und Ausbau des Hansa-Business-Parks."
+      "id": "energieerzeugung9",
+      "short_title": "110kV-Zielnetzplanung",
+      "summary": "Ziel: Bis 2030 soll ein Hochspannungsnetz im S\u00fcden von M\u00fcnster gebaut werden. Fortschritt: Hohe Auslastung des 110-kV-Netzes und Ausbau des Hansa-Business-Parks."
   },
   {
-    "id": "energieerzeugung10",
-    "user_action": {
-      "label": "Smart Meter bestellen",
-      "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1",
-      "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken Münster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
-    },
-    "short_title": "Netztransformation \u2013 Intelligente Niederspannung",
-    "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromzählern und 100 % mit intelligenten Gaszählern ausgestattet sein. Fortschritt: Ertüchtigung der Systeme und Abläufe ab Q1 2024."
+      "id": "energieerzeugung10",
+      "short_title": "Netztransformation \u2013 Intelligente Niederspannung",
+      "user_action": {
+          "label": "Smart Meter bestellen",
+          "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1",
+          "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken M\u00fcnster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
+      },
+      "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromz\u00e4hlern und 100 % mit intelligenten Gasz\u00e4hlern ausgestattet sein. Fortschritt: Ert\u00fcchtigung der Systeme und Abl\u00e4ufe ab Q1 2024."
   },
   {
-    "id": "energieerzeugung11",
-    "summary": "Ziel: Ein Plan zur Umstellung des Gasnetzes auf Wasserstoff wird erstellt. Fortschritt: Partnerfindung und technische Analyse der Übergabestationen laufen."
+      "id": "energieerzeugung11",
+      "short_title": "Gasnetztransformation & Wasserstoff",
+      "summary": "Ziel: Ein Plan zur Umstellung des Gasnetzes auf Wasserstoff wird erstellt. Fortschritt: Partnerfindung und technische Analyse der \u00dcbergabestationen laufen."
   },
   {
-    "id": "energieerzeugung12",
-    "summary": "Ziel: Ein Konzept zur Nutzung von Flächen für erneuerbare Energien und andere Zwecke wird erstellt. Fortschritt: Ratsbeschluss des Konzeptes ist für 1. Halbjahr 2024 geplant."
+      "id": "energieerzeugung12",
+      "short_title": "Integriertes Fl\u00e4chenkonzept MS",
+      "summary": "Ziel: Ein Konzept zur Nutzung von Fl\u00e4chen f\u00fcr erneuerbare Energien und andere Zwecke wird erstellt. Fortschritt: Ratsbeschluss des Konzeptes ist f\u00fcr 1. Halbjahr 2024 geplant."
   },
   {
-    "id": "energieerzeugung13",
-    "summary": "Ziel: Bis 2030 sollen 80 % der Haushalte in Münster mit Glasfaserverbindungen versorgt sein. Fortschritt: Kooperation mit der Deutschen Telekom und Implementierung bis 2030."
+      "id": "energieerzeugung13",
+      "short_title": "Glasfaserausbau M\u00fcnster",
+      "summary": "Ziel: Bis 2030 sollen 80 % der Haushalte in M\u00fcnster mit Glasfaserverbindungen versorgt sein. Fortschritt: Kooperation mit der Deutschen Telekom und Implementierung bis 2030."
   },
   {
-    "id": "bauen_und_sanieren1",
-    "summary": "Ziel: Bis 2030 sollen städtische Gebäude saniert werden, um den Energieverbrauch um 50 % und die CO2-Emissionen um 70 % zu senken. Fortschritt: Sanierung von 46 Standorten ist geplant."
+      "id": "bauen1",
+      "short_title": "Klimaneutralit\u00e4t st\u00e4dtischer Geb\u00e4ude",
+      "summary": "Ziel: Bis 2030 sollen st\u00e4dtische Geb\u00e4ude saniert werden, um den Energieverbrauch um 50 % und die CO2-Emissionen um 70 % zu senken. Fortschritt: Sanierung von 46 Standorten ist geplant."
   },
   {
-    "id": "bauen_und_sanieren2",
-    "summary": "Ziel: Quartiere in Münster sollen energetisch saniert werden. Fortschritt: Ausschreibung für ein Sanierungsmanagement in 2024."
+      "id": "bauen2",
+      "short_title": "Energetische Quartierssanierung",
+      "summary": "Ziel: Quartiere in M\u00fcnster sollen energetisch saniert werden. Fortschritt: Ausschreibung f\u00fcr ein Sanierungsmanagement in 2024."
   },
   {
-    "id": "bauen_und_sanieren3",
-    "summary": "Ziel: Standards für den Bau und die Sanierung städtischer Gebäude werden festgelegt. Fortschritt: Überarbeitete Gebäudeleitlinien wurden 2020 beschlossen."
+      "id": "bauen3",
+      "short_title": "Geb\u00e4udeleitlinien f\u00fcr Neubauten",
+      "summary": "Ziel: Standards f\u00fcr den Bau und die Sanierung st\u00e4dtischer Geb\u00e4ude werden festgelegt. Fortschritt: \u00dcberarbeitete Geb\u00e4udeleitlinien wurden 2020 beschlossen."
   },
   {
-    "id": "bauen_und_sanieren4",
-    "summary": "Ziel: Die Wohn+Stadtbau GmbH stellt auf CO2-freie Wärme- und Warmwasserversorgung um. Fortschritt: Betriebsoptimierung und energetische Sanierung laufen."
+      "id": "bauen4",
+      "short_title": "Sanierungsstrategie Wohn- und Stadtbau",
+      "summary": "Ziel: Die Wohn+Stadtbau GmbH stellt auf CO2-freie W\u00e4rme- und Warmwasserversorgung um. Fortschritt: Betriebsoptimierung und energetische Sanierung laufen."
   },
   {
-    "id": "bauen_und_sanieren5",
-    "summary": "Ziel: Eine Thermografiebefliegung zeigt Wärmeverluste an Gebäuden, um Sanierungen zu fördern. Fortschritt: Rund 25.000 Menschen wurden für energetische Fragestellungen sensibilisiert."
+      "id": "bauen5",
+      "short_title": "Thermografiebefliegung MS",
+      "summary": "Ziel: Eine Thermografiebefliegung zeigt W\u00e4rmeverluste an Geb\u00e4uden, um Sanierungen zu f\u00f6rdern. Fortschritt: Rund 25.000 Menschen wurden f\u00fcr energetische Fragestellungen sensibilisiert."
   },
   {
-    "id": "bauen_und_sanieren6",
-    "summary": "Ziel: Die Stadt Münster fördert die energetische Sanierung von Wohngebäuden. Fortschritt: Neue Richtlinie tritt am 01.01.2024 in Kraft."
+      "id": "bauen6",
+      "short_title": "F\u00f6rderprogramm klimafreundliche Wohngeb\u00e4ude",
+      "summary": "Ziel: Die Stadt M\u00fcnster f\u00f6rdert die energetische Sanierung von Wohngeb\u00e4uden. Fortschritt: Neue Richtlinie tritt am 01.01.2024 in Kraft."
   },
   {
-    "id": "bauen_und_sanieren7",
-    "summary": "Ziel: Bei Neubauten werden Dachflächen mit Photovoltaikanlagen ausgestattet. Fortschritt: Ratsvorlage für Q2 2024 geplant."
+      "id": "bauen7",
+      "short_title": "PV-Anlagen auf st\u00e4dtischen Geb\u00e4uden",
+      "summary": "Ziel: Bei Neubauten werden Dachfl\u00e4chen mit Photovoltaikanlagen ausgestattet. Fortschritt: Ratsvorlage f\u00fcr Q2 2024 geplant."
   },
   {
-    "id": "bauen_und_sanieren8",
-    "summary": "Ziel: Ein Leitfaden für klimagerechte Bauleitplanung wird erstellt. Fortschritt: Bildet den Rahmen für verbindliche Standards im Neubau."
+      "id": "bauen8",
+      "short_title": "Leitfaden klimagerechte Bauleitplanung",
+      "summary": "Ziel: Ein Leitfaden f\u00fcr klimagerechte Bauleitplanung wird erstellt. Fortschritt: Bildet den Rahmen f\u00fcr verbindliche Standards im Neubau."
   },
   {
-    "id": "bauen_und_sanieren9",
-    "summary": "Ziel: Ein Standard für klimagerechtes Bauen wird in Grundstückskaufverträgen festgelegt. Fortschritt: Abstimmung des Vertragstextes und Umsetzung durch Amt 23."
+      "id": "bauen9",
+      "short_title": "Standard f\u00fcr klimagerechtes Bauen",
+      "summary": "Ziel: Ein Standard f\u00fcr klimagerechtes Bauen wird in Grundst\u00fcckskaufvertr\u00e4gen festgelegt. Fortschritt: Abstimmung des Vertragstextes und Umsetzung durch Amt 23."
   },
   {
-    "id": "mobilitaet1",
-    "summary": "Ziel: Bis 2029 sollen alle Busse in Münster elektrisch betrieben werden. Fortschritt: Ende 2023 sind bereits 73 Elektrobusse im Einsatz."
+      "id": "mobilitaet1",
+      "short_title": "Elektrifizierung \u00d6PNV",
+      "summary": "Ziel: Bis 2029 sollen alle Busse in M\u00fcnster elektrisch betrieben werden. Fortschritt: Ende 2023 sind bereits 73 Elektrobusse im Einsatz."
   },
   {
-    "id": "mobilitaet2",
-    "summary": "Ziel: Die Ladeinfrastruktur für Elektrofahrzeuge wird ausgebaut. Fortschritt: Ausschreibung von 16 Paketen mit je 4 Standorten im Oktober 2023."
+      "id": "mobilitaet2",
+      "short_title": "Ausbau \u00f6ffentlicher Ladeinfrastruktur",
+      "summary": "Ziel: Die Ladeinfrastruktur f\u00fcr Elektrofahrzeuge wird ausgebaut. Fortschritt: Ausschreibung von 16 Paketen mit je 4 Standorten im Oktober 2023."
   },
   {
-    "id": "mobilitaet3",
-    "summary": "Ziel: Das Angebot an E-Carsharing wird erweitert. Fortschritt: Ausschreibung von weiteren (E-)Carsharingplätzen im Frühjahr 2024."
+      "id": "mobilitaet3",
+      "short_title": "Erweiterung E-Carsharing Angebot",
+      "summary": "Ziel: Das Angebot an E-Carsharing wird erweitert. Fortschritt: Ausschreibung von weiteren (E-)Carsharingpl\u00e4tzen im Fr\u00fchjahr 2024."
   },
   {
-    "id": "mobilitaet4",
-    "summary": "Ziel: Mobilstationen werden ausgebaut, um die Vernetzung der Verkehrsträger zu verbessern. Fortschritt: Ratsbeschluss zum Standortkonzept Mobilstationen im Februar 2024."
+      "id": "mobilitaet4",
+      "short_title": "Ausbau Mobilstationen",
+      "summary": "Ziel: Mobilstationen werden ausgebaut, um die Vernetzung der Verkehrstr\u00e4ger zu verbessern. Fortschritt: Ratsbeschluss zum Standortkonzept Mobilstationen im Februar 2024."
   },
   {
-    "id": "mobilitaet5",
-    "summary": "Ziel: Ein Konzept zur Neuordnung des Parkraums in der Innenstadt wird entwickelt. Fortschritt: Interfraktioneller Arbeitskreis im Januar/Februar 2024."
+      "id": "mobilitaet5",
+      "short_title": "Parkraumkonzept",
+      "summary": "Ziel: Ein Konzept zur Neuordnung des Parkraums in der Innenstadt wird entwickelt. Fortschritt: Interfraktioneller Arbeitskreis im Januar/Februar 2024."
   },
   {
-    "id": "mobilitaet6",
-    "summary": "Ziel: Das Fahrradnetz in Münster wird verbessert und ausgebaut. Fortschritt: Beschluss zum Fahrradnetz 2.0 im Februar 2024."
+      "id": "mobilitaet6",
+      "short_title": "Fahrradnetz 2.0",
+      "summary": "Ziel: Das Fahrradnetz in M\u00fcnster wird verbessert und ausgebaut. Fortschritt: Beschluss zum Fahrradnetz 2.0 im Februar 2024."
   },
   {
-    "id": "mobilitaet7",
-    "summary": "Ziel: Ein Rahmen für klimafreundliche Dienstreisen wird definiert. Fortschritt: Gültig seit 12.12.2023 und in Anwendung."
+      "id": "mobilitaet7",
+      "short_title": "Dienstreisen im Umweltverbund",
+      "summary": "Ziel: Ein Rahmen f\u00fcr klimafreundliche Dienstreisen wird definiert. Fortschritt: G\u00fcltig seit 12.12.2023 und in Anwendung."
   },
   {
-    "id": "mobilitaet8",
-    "summary": "Ziel: Angebote zur umweltfreundlichen Mobilität für Mitarbeitende werden ausgebaut. Fortschritt: Fertigstellung von Fahrradboxen und Fahrradkellern in 2024."
+      "id": "mobilitaet8",
+      "short_title": "Mitarbeitendenmobilit\u00e4ts-Angebote",
+      "summary": "Ziel: Angebote zur umweltfreundlichen Mobilit\u00e4t f\u00fcr Mitarbeitende werden ausgebaut. Fortschritt: Fertigstellung von Fahrradboxen und Fahrradkellern in 2024."
   },
   {
-    "id": "mobilitaet9",
-    "summary": "Ziel: Der städtische Fuhrpark wird auf Elektrofahrzeuge umgestellt. Fortschritt: Sondierung des Fahrzeugbestands und Einführung von Fuhrparkmanagement."
+      "id": "mobilitaet9",
+      "short_title": "Elektrifizierung Fuhrpark",
+      "summary": "Ziel: Der st\u00e4dtische Fuhrpark wird auf Elektrofahrzeuge umgestellt. Fortschritt: Sondierung des Fahrzeugbestands und Einf\u00fchrung von Fuhrparkmanagement."
   },
   {
-    "id": "mobilitaet10",
-    "summary": "Ziel: Der Schienenpersonennahverkehr wird ausgebaut, um den Pendlerverkehr zu reduzieren. Fortschritt: Reaktivierung der WLE ab 2026."
+      "id": "mobilitaet10",
+      "short_title": "S-Bahn-M\u00fcnsterland",
+      "summary": "Ziel: Der Schienenpersonennahverkehr wird ausgebaut, um den Pendlerverkehr zu reduzieren. Fortschritt: Reaktivierung der WLE ab 2026."
   },
   {
-    "id": "mobilitaet11",
-    "summary": "Ziel: Das bestehende ÖPNV-Angebot wird weiterentwickelt. Fortschritt: Erste Schritte zur Hierarchisierung des zukünftigen Angebots beschlossen."
+      "id": "mobilitaet11",
+      "short_title": "Neukonzeption \u00d6PNV-Angebot",
+      "summary": "Ziel: Das bestehende \u00d6PNV-Angebot wird weiterentwickelt. Fortschritt: Erste Schritte zur Hierarchisierung des zuk\u00fcnftigen Angebots beschlossen."
   },
   {
-    "id": "klimahaushalt1",
-    "summary": "Ziel: Sozial-ökologische Kriterien für die Beschaffung von Waren und Dienstleistungen werden entwickelt. Fortschritt: Stellungnahmen der Verwaltung und Ratsentscheidung stehen aus."
+      "id": "klimahaushalt1",
+      "short_title": "\u00d6kosoziale Vergaben",
+      "summary": "Ziel: Sozial-\u00f6kologische Kriterien f\u00fcr die Beschaffung von Waren und Dienstleistungen werden entwickelt. Fortschritt: Stellungnahmen der Verwaltung und Ratsentscheidung stehen aus."
   },
   {
-    "id": "klimahaushalt2",
-    "summary": "Ziel: Die Stadt Münster investiert in nachhaltige Geldanlagen. Fortschritt: Weiterentwicklung der Anlagerichtlinie als Beschlussvorlage für Februar 2024."
+      "id": "klimahaushalt2",
+      "short_title": "Nachhaltige Geldanlagen",
+      "summary": "Ziel: Die Stadt M\u00fcnster investiert in nachhaltige Geldanlagen. Fortschritt: Weiterentwicklung der Anlagerichtlinie als Beschlussvorlage f\u00fcr Februar 2024."
   },
   {
-    "id": "klimahaushalt3",
-    "summary": "Ziel: Nachhaltigkeitsberichte im Stadtkonzern werden gestärkt. Fortschritt: Richtvorgabe und Überblick im Public-Corporate-Governance-Kodex geplant."
+      "id": "klimahaushalt3",
+      "short_title": "Nachhaltigkeitsberichterstattung",
+      "summary": "Ziel: Nachhaltigkeitsberichte im Stadtkonzern werden gest\u00e4rkt. Fortschritt: Richtvorgabe und \u00dcberblick im Public-Corporate-Governance-Kodex geplant."
   },
   {
-    "id": "klimahaushalt4",
-    "summary": "Ziel: Ein Bauinvestitionscontrolling wird eingerichtet. Fortschritt: Austausch mit anderen Kommunen und Erarbeitung einer Geschäftsanweisung."
+      "id": "klimahaushalt4",
+      "short_title": "Bauinvestitionscontrolling",
+      "summary": "Ziel: Ein Bauinvestitionscontrolling wird eingerichtet. Fortschritt: Austausch mit anderen Kommunen und Erarbeitung einer Gesch\u00e4ftsanweisung."
   },
   {
-    "id": "klimahaushalt5",
-    "summary": "Ziel: Ein Klimahaushalt wird entwickelt, um die Klimaauswirkungen von Finanzentscheidungen zu verstehen. Fortschritt: Vorlage „Ziele kommunaler Steuerung“ im April einbringen."
+      "id": "klimahaushalt5",
+      "short_title": "Entwicklung eines Klimahaushaltes",
+      "summary": "Ziel: Ein Klimahaushalt wird entwickelt, um die Klimaauswirkungen von Finanzentscheidungen zu verstehen. Fortschritt: Vorlage \u201eZiele kommunaler Steuerung\u201c im April einbringen."
   },
   {
-    "id": "klimahaushalt6",
-    "summary": "Ziel: Ein weiterer Green Bond über 120 Millionen Euro wird aufgelegt. Fortschritt: Platzierung des 2. Green Bonds ist für 2024 geplant."
+      "id": "klimahaushalt6",
+      "short_title": "Green Bonds",
+      "summary": "Ziel: Ein weiterer Green Bond \u00fcber 120 Millionen Euro wird aufgelegt. Fortschritt: Platzierung des 2. Green Bonds ist f\u00fcr 2024 geplant."
   }
 ]
