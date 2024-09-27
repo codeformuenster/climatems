@@ -1,0 +1,188 @@
+Action outline 	Action name 	Masterplan Handwerk 
+	Action type 	Rahmenbedingungen 
+	Action description 	Das Handwerk hat eine große Bedeutung für die Bewältigung der anstehenden Zukunftsaufgaben. Das betrifft vor allem auch die Klima- und Energiewende. Das Handwerk kann seine Schlüsselfunktion nur bei entsprechend gestalteten Rahmenbedingungen übernehmen. Daher arbeiten Stadt Münster, Handwerkskammer und Kreishandwerkerschaft an einem gemeinsamen Masterplan, um das Handwerk konkret zu unterstützen und damit optimale Bedingungen für ein starkes Klimahandwerk zu schaffen. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Wirtschaft 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster, Handwerkskammer und Kreishandwerkerschaft 
+	Action scale & addressed entities 	Handwerk 
+	Involved stakeholders 	Handwerk 
+	Comments on implementation 	1. Halbjahr 2024 Verabschiedung Masterplan 
+Handwerk 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Ökoprofit 
+	Action type 	Beratung 
+	Action description 	138 Unternehmen/Institutionen aus Münster profitieren bereits von Einsparungen, die sie durch ihre Teilnahme am Beratungsprojekt 
+Ökoprofit® (Amt für Grünflächen, Umwelt und Nachhaltigkeit) erzielen konnten: Ein Jahr lang stellen Unternehmen und Nachhaltigkeitsberater*innen alle Abläufe eines Betriebes auf den Prüfstand: In Workshops und bei Vor-Ort-Beratungen werden konkrete Maßnahmen entwickelt und umgesetzt, Auszeichnung aller Teilnehmenden als „Ökoprofit-Unternehmen“.  
+Bei den bisher 13 Durchgängen des Projektes konnten bisher insgesamt 20.108 Tonnen CO2 eingespart werden. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Wirtschaft 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadt Münster 
+	Action scale & addressed entities 	Wirtschaft 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	24.01.24.: öffentliche Auszeichnungsveranstaltung 13. Ökoprofit-Runde mit 8 Ersteinsteiger- und 7 Revalidierungsauszeichnungsprüfungen  
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine Angabe 
+	Removed/substituted energy, volume, or fuel type 	30,4 Millionen Kilowattstunden Energie 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Bislang: 20.108 Tonnen CO2 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Wasserstoff 
+	Action type 	Technische Innovation 
+	Action description 	-	Wasserstoff-Koordinator bei der Technologieförderung Münster GmbH seit April 2023: Wasserstoffstrategie für den Wirtschaftsstandort Münster 
+-	H2inBatCellProd (Technologieförderung, Fraunhofer FFB, Westfalen AG, Stadtwerke, Stadtnetze): Einsatz von Grünem Wasserstoff als Energieträger für Trocknungsstrecken und Trockenräume in der Batteriezellenproduktion 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Innovation 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Technologieförderung Münster GmbH 
+	Action scale & addressed entities 	Wirtschaftsstandort 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	H2inBatCellProd: Ende März 2023 Abschluss Machbarkeitsstudie; 31.07.2023 Einreichung Projektskizze beim Projektträger Jülich; im Erfolgsfall: März 2024 Einreichung Vollantrag; im Erfolgsfall: Juli 2024 Projektstart; Update 15.02.2024: offizielle Rückmeldung seitens PtJ wird in den nächsten Wochen erwartet. Parallel wird eine Einreichung beim EU Innovation Fund geprüft; Einsparpotenzial (Projekt): 13.000 bis 
+19.000 Tonnen CO2 pro Jahr 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine Angabe 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	13.000 bis 19.000 Tonnen CO2 pro Jahr 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Allianz für Klimaschutz 
+	Action type 	Netzwerk 
+	Action description 	Zusammenschluss von rund 100 Münsteraner Unternehmen, die sich den städtischen Klimaschutzzielen verschrieben haben und hierfür jedes Jahr eine CO2-Grobbilanz und eine Klimaschutzmaßnahme erarbeiten. Im Gegenzug 
+		erhalten sie dafür von der Stadt eine Begleitung und Unterstützung: vier bis fünf jährliche Netzwerktreffen, vier Newsletter pro Jahr, verschiedene Beratungsangebote (5 bis 10 Beratungen pro Jahr), Öffentlichkeitsarbeit. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Wirtschaft 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stabsstelle Klima, Stadt Münster 
+	Action scale & addressed entities 	Münsteraner Wirtschaft 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	5 bis 10 Beratungen pro Jahr; 2024 voraussichtlich 4 Netzwerktreffen und Newsletter, öffentliche Veranstaltungen 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine Angabe 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	25.000 Euro pro Jahr für die Unterstützung durch Dienstleister, für die Unternehmen sind Mitgliedschaft und Angebote kostenfrei 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Standortentwicklungsstrategie 2030+ 
+	Action type 	Infrastruktur 
+	Action description 	Verankerung des Ziels der Klimaneutralität als strategische Leitlinie in der Standortentwicklungsstrategie 2030+, z. B. klimaneutrale Gewerbegebiete, Ausbau der Infrastrukturen für klimaneutrales Wirtschaften, wie z. B. H2-Netze und Grüne Energie, Stärkung und Weiterentwicklung Münsters als Batterieforschungs-, Produktions-, Nutzungs- und Recyclingstandort, Entwicklung der GreenTech-Region Münsterland 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Standortentwicklung 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadt Münster 
+	Involved stakeholders 	Unternehmen, Hochschulen, Industrie- und Handelskammer Nord Westfalen, Handwerkskammer Münster, Industriegemeinschaft Münster, Initiative Starke Innenstadt etc. 
+	Comments on implementation 	Anfang Mitte 2024 Standortkonferenz; erstes Halbjahr 2024 anschließend Ratsbeschluss 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Informationsveranstaltungen, Workshops, Podcast 
+	Action type 	Social participation and awareness campaigns 
+	Action description 	Informationsveranstaltungen, Workshops, Podcast der Wirtschaftsförderung zu Nachhaltigkeit und Klimaschutz 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Informationen 
+	Outcome (according to module B-1.1) 	Nicht zutreffend 
+Implementation 	Responsible bodies/person for implementation 	Wirtschaftsförderung Münster 
+	Action scale & addressed entities 	Wirtschaft 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	Effizienzforum Wirtschaft 2024; Themenplanung 2024: CO2-Bilanzierung, Nachhaltigkeitsberichterstattung 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Klimastadt-Vertrag 
+	Action type 	Social participation and awareness campaign 
+	Action description 	Im Klimastadt-Vertrag veröffentlichen Münsteraner*innen ihren Beitrag auf dem Weg zur Klimastadt, verpflichten sich dadurch und inspirieren und motivieren weitere Unterstützer*innen. Weil es uns alle braucht! Beginnend mit dem Stadtforum im Juni 2023 können alle Münsteraner*innen – egal ob Unternehmen, Bürger*in, Verein oder andere Einrichtung – Maßnahmen benennen, die sie selbst umsetzten, und so als Beitrag zur Klimastadt zum Klimastadt-Vertrag beisteuern wollen. Jeder Beitrag auf dem Weg zur Klimaneutralität zählt. In einem intensiven Dialog mit Wirtschaft und Hochschulen werden Beiträge zum Klimastadt-Vertrag erarbeitet. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Hochschule 
+	Systemic lever 	Governance 
+	Outcome (according to module B-1.1) 	Umfassend 
+Implementation 	Responsible bodies/person for implementation 	Stabsstelle Klima, Stadt Münster 
+	Action scale & addressed entities 	Stadt Münster 
+	Involved stakeholders 	Gesamte Stadtgesellschaft 
+	Comments on implementation 	Februar 2024 Einreichung Entwurf bei der Europäischen Union; 31.01.2024 Einreichungsschluss Beiträge aus Wissenschaft und Wirtschaft; 01.12.2023 Plakatierungsstart „Beiträge zum Klimastadt-Vertrag“; Ende Februar 2024 Feierliche Unterzeichnung der Beiträge; vsl. 12.01.2024 „Große Fische Runde“ (Wissenschaft und Wirtschaft); 25.01.2024 Termin Politik; 11.03.2024 Einreichung finale Fassung bei der EU 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Siehe B-1.1 
+	Removed/substituted energy, volume, or fuel type 	Siehe B-1.1 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Siehe B-1.1 
+	Total costs and costs by CO2e unit 	Siehe Investmentplan 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Klimaneutrale Gewerbegebiete – im Bestand und in der Entwicklung 
+	Action type 	Infrastruktur 
+	Action description 	1.	Bestandsgewerbegebiete klimaneutral umgestalten: Besetzung einer neuen Stelle bei der Wirtschaftsförderung zum 1. Januar 2024; 2024 Analyse und Umsetzung erster Maßnahmen 
+2.	Neue Gewerbegebiete: u. a. Gewerbegebiet Gelmer – nördlich Heitmannsweg (Bebauungsplanverfahren mit dem Ziel „klimapositiv“ mit Ratsbeschluss 22.03.2023 eingeleitet), Modellquartier Busso-Peus-Straße (zweiphasiger städtebaulicher Wettbewerb: Ratsbeschluss 10.05.2023 – klimapositive Entwicklung, Preisgericht 15.02.2024), Modellquartier Steinfurter Straße (Werkstattverfahren abgeschlossen, Ratsbeschluss 10.05.2023, Beschluss Auslobung Wettbewerb Mitte 2024: klimapositive Entwicklung) ... 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Infrastruktur 
+	Outcome (according to module B-1.1) 	Hohe Gebäudeenergieeffizienz, Flächenschonung 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadt Münster 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	Modellquartier Steinfurter Straße: Beschluss Auslobung Wettbewerb 1. Mitte Quartal 2024; Bebauungsplanverfahren Gewerbegebiet Gelmer – nördlich Heitmannsweg (läuft); Modellquartier Busso-Peus-Straße: Abschluss zweiphasiger städtebaulicher Wettbewerb 15.02.2024; Ab 1/2024 Analyse + Umsetzung 
+		erste Maßnahmen klimaneutrale Umgestaltung Bestandsgewerbegebiete 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Keine Angabe 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe  
+	Total costs and costs by CO2e unit 	Keine Angabe 
+ 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Kreislaufstadt 
+	Action type 	Nachhaltigkeit 
+	Action description 	Deutsches Institut für Urbanistik, Deutscher Städtetag, 22 Kommunen (Wirtschaftsförderung): Im Städteverbund wird ein Modellansatz bestehend aus den Komponenten Leitbild und Ziele, Strategie, Prozesse, Strukturen, Instrumente und Produkte für die Entwicklung von ganzheitlichen kommunalen Kreislaufwirtschaftsstrategien erarbeitet. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Wissenschaft 
+	Systemic lever 	Governance and Policy 
+	Outcome (according to module B-1.1) 	Circular Economy 
+Implementation 	Responsible bodies/person for implementation 	Stadtverwaltung Münster 
+	Action scale & addressed entities 	Stadt Münster 
+	Involved stakeholders 	Stadtgesellschaft 
+	Comments on implementation 	Projektlaufzeit 7/2023 bis 2/2025; 2024 erste konkrete Umsetzungsmaßnahmen in Münster 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Nicht zutreffend 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Nicht zutreffend 
+	Total costs and costs by CO2e unit 	Keine Angabe 
+B-2.2: Individual action outlines 	
+Action outline 	Action name 	Startberatung Energieeffizienz 
+	Action type 	Beratung 
+	Action description 	Klimaschutz-Beratungsangebot für kleine und mittlere Unternehmen mit dem Schwerpunkt Energieeinsparung und nachhaltiger, effizienter Energieeinsatz auf Basis erneuerbarer Energien. 
+Ziel: ganz konkrete Klimaschutzmaßnahmen in den Unternehmen auf den Weg bringen. Niedrigschwelliges Angebot: keine Anträge, Formulare, Kosten für das Unternehmen. 
+Reference to impact pathway 	Field of action 	Wirtschaft und Hochschule 
+	Systemic lever 	Technology 
+	Outcome (according to module B-1.1) 	Energieeinsparung 
+Implementation 	Responsible bodies/person for implementation 	Stabsstelle Klima, Stadt Münster 
+	Action scale & addressed entities 	Wirtschaft 
+	Involved stakeholders 	Unternehmen 
+	Comments on implementation 	Teil des Kontingentes wird für das Projekt „Klimaneutrale Gewerbegebiete“ genutzt; 2024 voraussichtlich 20 Beratungen 
+Impact & cost 	Generated renewable energy 
+(if applicable) 	Nicht zutreffend 
+	Removed/substituted energy, volume, or fuel type 	Keine Angabe 
+	GHG emissions reduction estimate (total) per emission 
+source sector 	Keine Angabe 
+	Total costs and costs by CO2e unit 	Kosten für die Stadt: ca. 25.000 € pro Jahr 
+ 

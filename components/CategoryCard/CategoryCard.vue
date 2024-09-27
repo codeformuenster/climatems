@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import { computed, toRefs } from 'vue';
+import type { Measure } from '~/dataProcessing/loadData';
 
 const props = defineProps<{
   title: string;
-  category: Array<{
-    category: string,
-    numberOfMeasures: any,
-  }>;
-  measures: Array<any>;
+  categoryId: string;
+  measures: Array<Measure>;
 }>();
 
 const { measures } = toRefs(props);
@@ -21,7 +18,7 @@ const measuresList = computed(() => {
   return {
     amount,
     items: [
-      ...measures.value.slice(0, 5).map((measure) => measure['Short Title']),
+      ...measures.value.slice(0, 5).map((measure) => measure['Action outline']['Action name']),
       ...(amount === 6 ? ["1 weitere Maßnahme"] : []),
       ...(amount > 6 ? [`${amount - 5} weitere Maßnahmen`] : []),
     ]
@@ -30,12 +27,15 @@ const measuresList = computed(() => {
 </script>
 
 <template>
-  <div class="category-card" :data-is-category="category">
+  <div
+    class="category-card"
+    :data-is-category="categoryId"
+  >
     <Card>
       <template #header>
         <div class="category-card--header">
           <h2 class="category-card--title">{{ title }}</h2>
-          <i class="pi pi-sparkles"></i>
+          <i class="pi pi-sparkles"/>
         </div>
       </template>
       <template #content>
