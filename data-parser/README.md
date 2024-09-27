@@ -16,9 +16,9 @@ Um die JSON-Daten aus den Rohdateien zu generieren, können folgende Aufrufe ver
 - Der dritte Parameter gibt den Namen der Kategorie an.
 
 ```bash
-php parser.php energieerzeugung.txt energieerzeugung "Energieerzeugung"
-php parser.php bauen.txt bauen "Bauen und Sanieren"
-php parser.php mobilitaet.txt mobilitaet "Mobilität"
-php parser.php klimahaushalt.txt klimahaushalt "Klimahaushalt"
-php parser.php bildung.txt bildung_und_ernaehrung "Bildung und Ernährung"
-php parser.php wirtschaft.txt wirtschaft_und_wissenschaft  "Wirtschaft und Wissenschaft"
+php parser.php ../data/raw/energieerzeugung.txt energieerzeugung "Energieerzeugung"
+php parser.php ../data/raw/bauen.txt bauen "Bauen und Sanieren"
+php parser.php ../data/raw/mobilitaet.txt mobilitaet "Mobilität"
+php parser.php ../data/raw/klimahaushalt.txt klimahaushalt "Klimahaushalt"
+php parser.php ../data/raw/bildung.txt bildung_und_ernaehrung "Bildung und Ernährung"
+php parser.php ../data/raw/wirtschaft.txt wirtschaft_und_wissenschaft  "Wirtschaft und Wissenschaft"
