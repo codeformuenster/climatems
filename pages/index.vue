@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Search, CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
+import {getAdditionalData, getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
 
@@ -10,6 +10,14 @@ const progress = await getMeasureProgress();
 const measures = await getMeasures();
 
 const onlyUserActionable = ref(false);
+
+const filteredMeasures = computed(() => {
+  if (onlyUserActionable.value) {
+    return measures.filter((measure) => !!measure.additionalData?.user_action);
+  }
+
+  return measures;
+});
 
 const rawChartData = progress.reduce((acc, item) => {
   acc[item.status] = acc[item.status] + 1 || 1;
@@ -58,7 +66,7 @@ const chartData = computed(() => {
       <Checkbox v-model="onlyUserActionable" binary />
       <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
     </div>
-    <Search :measures="measures">
+    <Search :measures="filteredMeasures">
     </Search>
   </div>
 </template>
