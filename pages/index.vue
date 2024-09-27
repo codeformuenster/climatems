@@ -1,20 +1,5 @@
-<template>
-  <Card>
-    <template #content>
-      <ProgressBarChart :chart-data="value" />
-    </template>
-  </Card>
-  <ul>
-    <template v-for="category in categories" :key="category">
-      <li>
-        {{ category }}: {{ measuresPerCategory.find((item) => item.category === category).numberOfMeasures }}
-      </li>
-
-    </template>
-  </ul>
-</template>
-
 <script setup lang="ts">
+import { CategoryCard } from "../components";
 import actions from '@/data/b-2_actions.json';
 
 const categories = Object.keys(actions);
@@ -32,3 +17,28 @@ const value = ref([
   { label: 'verschoben', color: 'var(--p-red-500)', value: 10 }
 ]);
 </script>
+
+<template>
+  <Card>
+    <template #content>
+      <ProgressBarChart :chart-data="value" />
+    </template>
+  </Card>
+  <div class="card-grid">
+    <template v-for="category in categories" :key="category">
+      <CategoryCard
+        :title="category"
+        :category="measuresPerCategory"
+        :measures="actions[category]"
+      />
+    </template>
+  </div>
+</template>
+
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+</style>

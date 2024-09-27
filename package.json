@@ -12,6 +12,7 @@
   "dependencies": {
     "@primevue/themes": "^4.0.7",
     "nuxt": "^3.13.0",
+    "primeicons": "^7.0.0",
     "primevue": "^4.0.7",
     "vue": "latest",
     "vue-router": "latest"

@@ -1,0 +1,60 @@
+.category-card {
+  --card-color-light: rgb(252, 250, 245);
+  --card-color-background: rgb(250, 244, 230);
+  --card-color-dark: rgb(219, 161, 24);
+
+  --p-card-background: var(--card-color-background);
+  --p-card-color: #000000;
+  --p-tag-font-size: 0.75rem;
+  --p-tag-font-weight: 400;
+  --p-tag-primary-color: #ffffff;
+  --p-tag-primary-background: var(--card-color-dark);
+  --p-tag-border-radius: 30px;
+  --p-button-outlined-primary-border-color: var(--card-color-dark);
+  --p-button-outlined-primary-color: var(--card-color-dark);
+  --p-button-outlined-primary-hover-background: var(--card-color-light);
+
+  &[data-is-category="energy"] {
+    --card-color-light: rgb(252, 250, 245);
+    --card-color-background: rgb(250, 244, 230);
+    --card-color-dark: rgb(219, 161, 24);
+  }
+}
+
+.category-card--header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--p-card-body-padding);
+  padding-block-end: 0;
+  color: var(--card-color-dark);
+}
+
+.category-card--title {
+  font-size: 0.75rem;
+  color: var(--card-color-dark);
+  text-transform: uppercase;
+}
+
+.category-card--text {
+  margin-block-end: 1rem;
+}
+
+.category-card--actions-title {
+  margin-block-end: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.category-card--actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 80%;
+}
+
+.category-card--footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  padding-block-start: var(--p-card-body-padding);
+}
