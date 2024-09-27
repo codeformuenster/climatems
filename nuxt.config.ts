@@ -25,8 +25,5 @@ export default defineNuxtConfig({
     config: {
       plugins: [tailwindTypography]
     }
-  },
-  app: {
-    baseURL: '/combinems/'
   }
 })
