@@ -1,5 +1,5 @@
 import measures from '@/data/measures.json';
-import implementations from '@/data/implementations.json';
+import implementations from '@/data/implementations/2024-01-01.json';
 
 interface ActionOutline {
   "Action name": string;
@@ -25,14 +25,15 @@ interface Implemetation {
 interface ImpageAndCost {
   "Generated renewable energy"?: string;
   "Removed/substituted energy": string;
-  "GHG emissions reduction estimate (total)": string;
+  "GHG emissions reduction estimate (total)"?: string;
+  "GHG emissions reduction estimate (total) per emission source sector"?: string;
   "Total costs and costs by CO2e unit": string;
 }
 
 export interface Measure {
   id: string;
   category: string;
-  // categoryId: string; coming soon
+  categoryId: string;
   "Action outline": ActionOutline;
   "Reference to impact pathway": ReferenceToImpactPathway;
   "Implementation": Implemetation;
@@ -46,7 +47,7 @@ type BaseMeasureProgress = {
 }
 
 export type MeasureProgress = BaseMeasureProgress & {
-  measure: 'percentile';
+  measure: 'percent';
   progress: number;
 } | BaseMeasureProgress & {
   measure: 'binary';
@@ -59,6 +60,11 @@ export interface Category {
 }
 
 const getMeasures = async (): Promise<Measure[]> => measures;
+
+const getMeasure = async (measureId: string): Promise<Measure | undefined> => {
+  return measures.find(({ id }) => id === measureId);
+}
+
 const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
   return implementations as MeasureProgress[];
 }
@@ -66,8 +72,7 @@ const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
 const getRawCategories = async () => {
   const rawCategories = measures.map(measure => ({
     name: measure.category,
-    // TODO once avaialble
-    id: measure.category,
+    id: measure.categoryId,
   }));
 
   return rawCategories.filter((item, pos) => {
@@ -112,4 +117,5 @@ export {
   getCategories,
   getMeasureProgress,
   getProgressForMeasure,
+  getMeasure,
 }

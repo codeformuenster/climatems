@@ -1,4 +1,5 @@
 import Aura from '@primevue/themes/aura';
+import tailwindTypography from '@tailwindcss/typography';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -18,6 +19,11 @@ export default defineNuxtConfig({
       theme: {
         preset: Aura
       }
+    }
+  },
+  tailwindcss: {
+    config: {
+      plugins: [tailwindTypography]
     }
   }
 })
