@@ -26,8 +26,7 @@ export default defineNuxtConfig({
       plugins: [tailwindTypography]
     }
   },
-  target: 'static',
-  router: {
-    base: '/climatems/'
+  app: {
+    baseURL: '/combinems/'
   }
 })
