@@ -3,8 +3,6 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted } from "vue";
-
 interface ChartData {
   labels: string;
   color: string;

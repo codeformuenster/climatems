@@ -3,7 +3,7 @@
     <Image :src="imageSrc" alt="Image" width="75%" class="flex items-center justify-center"/>
 
     <!-- Hintergrund-Overlay für bessere Lesbarkeit des Textes -->
-    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="absolute inset-0 bg-black opacity-40"/>
 
     <!-- Zentrierte Textbox -->
     <div class="absolute inset-0 flex items-center justify-center">

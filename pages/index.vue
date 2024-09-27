@@ -22,7 +22,7 @@ const value = ref([
 <template>
   <div class="main-content">
     <PageHeader
-      imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
+      image-src="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
       title="Klimastadtvertrag" description="Alles im Blick" />
 
     <Card>
