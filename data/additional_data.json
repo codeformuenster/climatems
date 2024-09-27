@@ -39,7 +39,8 @@
     "id": "energieerzeugung10",
     "user_action": {
       "label": "Smart Meter bestellen",
-      "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1"
+      "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1",
+      "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken Münster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
     },
     "short_title": "Netztransformation \u2013 Intelligente Niederspannung",
     "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromzählern und 100 % mit intelligenten Gaszählern ausgestattet sein. Fortschritt: Ertüchtigung der Systeme und Abläufe ab Q1 2024."
