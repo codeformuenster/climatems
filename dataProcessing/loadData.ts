@@ -24,7 +24,7 @@ interface Implemetation {
 
 interface ImpageAndCost {
   "Generated renewable energy"?: string;
-  "Removed/substituted energy": string;
+  "Removed/substituted energy, volume, or fuel type": string;
   "GHG emissions reduction estimate (total)"?: string;
   "GHG emissions reduction estimate (total) per emission source sector"?: string;
   "Total costs and costs by CO2e unit": string;

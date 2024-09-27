@@ -40,7 +40,7 @@ $parseActionItem = function($content) use ($searchForKey){
         ],
         "Impact & cost" => [
             ["Generated renewable energy \n(if applicable)", "Generated renewable energy (if applicable)", "Generated renewable energy"],
-            "Removed/substituted energy",
+            "Removed/substituted energy, volume, or fuel type",
             ["GHG emissions reduction estimate (total) per emission \nsource sector", "GHG emissions reduction estimate (total)"],
             ["Total costs and costs by \nCO2e unit", "Total costs and costs by CO2e unit"],
         ],

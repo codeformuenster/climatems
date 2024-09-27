@@ -21,7 +21,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "J\u00e4hrlich 280 GWh Strom",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossile Energien",
+      "Removed\/substituted energy, volume, or fuel type": "Fossile Energien",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Reduktions-Potenziale: ca. 269.000 t CO2 bis 2028 (Basisjahr 2021)",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens bis 2028: ca. 215 Mio. \u20ac f\u00fcr 26 WEA"
     }
@@ -48,7 +48,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "J\u00e4hrlich 100 GWh Strom durch Sonne",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil Fuels",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil Fuels",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Reduktions-Potenziale der SWMS-Anlagen: 58.000 t CO2\/a in 2030 (Basisjahr 2021)",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens bis 2028: ca. 100 Mio. \u20ac f\u00fcr Ausbau von 100 GWh"
     }
@@ -75,7 +75,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Als informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
-      "Removed\/substituted energy": ", volume, or fuel type \tAls informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
+      "Removed\/substituted energy, volume, or fuel type": "Als informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Minderungspotenzial  \n\u2022\tLaut gesetzlicher Vorgabe durch das W\u00e4rmeplanungsgesetz (WPG) und das Geb\u00e4udeenergiegesetz (GEG): Treibhausgasneutralit\u00e4t von W\u00e4rmenetzen bis 2045 bzw. Betrieb mit 100 % EE\/unvermeidbarer Abw\u00e4rme  \n\u2022\tLaut WPG ab 2030: Anteil EE\/unvermeidbare Abw\u00e4rme in W\u00e4rmenetzen mind. 30 %  \n\u2022\tLaut WPG ab 2040: Anteil EE\/unvermeidbare Abw\u00e4rme in W\u00e4rmenetzen mind. 80 % W\u00e4rmebereich \nCO2-Minderungspotenzial laut Energie- und Treibhausgas-Bilanz Stadt M\u00fcnster (2021): \n714.000 t CO2e \ndavon Nah- + Fernw\u00e4rme laut Energie- und Treibhausgas-Bilanz Stadt M\u00fcnster (2021): \n97.000 t CO2e",
       "Total costs and costs by CO2e unit": "Prozesskosten: 200.000 \u20ac"
     }
@@ -102,7 +102,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil fuel",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil fuel",
       "GHG emissions reduction estimate (total) per emission source sector": "Die Stadtwerke M\u00fcnster nehmen sich vor, durch den Einsatz von 30 % erneuerbarer W\u00e4rme in ihrer Fernw\u00e4rme ein CO2-Reduktions-Potenzial von j\u00e4hrlich ca. 67.000 t CO2 bis zum Jahr 2030 zu erreichen. \nDiese Annahme bezieht sich auf die CO2-Emissionen unseres Kraftwerks am Hafen im Basisjahr 2021. Das tats\u00e4chliche CO2-ReduktionsPotenzial kann in der Realit\u00e4t deutlich abweichen, da die Emissionen vom tats\u00e4chlichen W\u00e4rmeverbrauch im jeweiligen Jahr abh\u00e4ngen und daher Schwankungen u. a. durch den Ausbau der Fernw\u00e4rmeversorgung und die Wetterverh\u00e4ltnisse unterliegt. Bei der Berechnung wird zudem unterstellt, dass der Einsatz der erneuerbaren W\u00e4rme emissionsfrei ist. \nEine konkretere Annahme der CO2-Einsparungspotenziale kann erst nach der Erstellung des Transformationsplans getroffen werden.",
       "Total costs and costs by CO2e unit": "Kosten aller Vorhaben zu Transformation auf \nGr\u00fcne W\u00e4rme zwischen 2024 und 2030: ca. \n149,1 Mio. \u20ac"
     }
@@ -129,7 +129,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "J\u00e4hrlich bis zu 40 GWh klimaneutrale W\u00e4rme",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil Fuels",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil Fuels",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Reduktions-Potenziale: \tsiehe \tAction \n\u201eBEW-Transformationsplan\u201c",
       "Total costs and costs by CO2e unit": "Kosten aller Vorhaben zu Transformation auf \nGr\u00fcne W\u00e4rme zwischen 2024 und 2030: ca. \n149,1 Mio. \u20ac"
     }
@@ -156,7 +156,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Bis zu 100 GWh klimaneutrale W\u00e4rme",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil Fuels",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil Fuels",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Reduktions-Potenziale: \tsiehe \tAction \n\u201eBEW-Transformationsplan\u201c",
       "Total costs and costs by CO2e unit": "Kosten aller Vorhaben zu Transformation auf \nGr\u00fcne W\u00e4rme zwischen 2024 und 2030: ca. \n149,1 Mio. \u20ac"
     }
@@ -183,7 +183,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Bis zu 50 GWh\/a W\u00e4rme",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil Fuel",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil Fuel",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Reduktions-Potenziale: \tsiehe \tAction \n\u201eBEW-Transformationsplan\u201c",
       "Total costs and costs by CO2e unit": "Kosten aller Vorhaben zu Transformation auf Gr\u00fcne W\u00e4rme zwischen 2024 und 2030: ca. \n149,1 Mio. \u20ac"
     }
@@ -210,7 +210,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Siehe Action description",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossile Energien",
+      "Removed\/substituted energy, volume, or fuel type": "Fossile Energien",
       "GHG emissions reduction estimate (total) per emission source sector": "Aktuell keine Bezifferung m\u00f6glich",
       "Total costs and costs by CO2e unit": "Kosten aller Vorhaben zu Transformation auf Gr\u00fcne W\u00e4rme zwischen 2024 und 2030: ca. \n149,1 Mio. \u20ac"
     }
@@ -237,7 +237,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht bezifferbar, da Stromnetzausbau weiteren Ausbau und zus\u00e4tzliche Stromeinspeisung erneuerbarer Energien erst erm\u00f6glicht.",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil fuel",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil fuel",
       "GHG emissions reduction estimate (total)": "per emission source sector \tNicht bezifferbar, da Stromnetzausbau weiteren Ausbau und zus\u00e4tzliche Stromeinspeisung erneuerbarer Energien erst erm\u00f6glicht.",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens zwischen 2024 und \n2028: ca. 58,9 Mio. \u20ac"
     }
@@ -264,7 +264,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens bis 2026: ca. 350 Mio. \u20ac"
     }
@@ -291,7 +291,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "100 % Wasserstoff- oder Biomethanversorgung",
-      "Removed\/substituted energy": ", volume, or fuel type \tFossil Fuel",
+      "Removed\/substituted energy, volume, or fuel type": "Fossil Fuel",
       "GHG emissions reduction estimate (total) per emission source sector": "Aktuell keine Bezifferung m\u00f6glich",
       "Total costs and costs by CO2e unit": "Aktuell keine Bezifferung m\u00f6glich"
     }
@@ -318,7 +318,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Als informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
-      "Removed\/substituted energy": ", volume, or fuel type \tAls informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
+      "Removed\/substituted energy, volume, or fuel type": "Als informelle Planungsgrundlage keine, erst sp\u00e4tere konkrete Umsetzung wird dies ergeben.",
       "GHG emissions reduction estimate (total) per emission source sector": "\u2022 \tCO2e-Minderungspotenzial \u2013 gesch\u00e4tzte Potenzialaussch\u00f6pfung 50 % Windenergie: Gesamtpotenzial \n84 MW Leistung Zubau -> 42 MW \nLeistung bauliche Umsetzung -> 105 GWh\/a (bei 2.500 Vollbenutzungsstunden\/a) -> 38.850 t CO2e-Reduktion\/a \n\t\t(bei Emission von 10 t CO2e\/GWh Windstrom zu 380 t CO2e\/GWh gemittelter Strommix) \n\u2022 \t25 % FF-Solar: Gesamtpotenzial 2.500 ha -> 625 ha bauliche Umsetzung -> 377 GWh\/a (bei 0,67 MWp\/ha und 900 MWh\/MWp und a) -> 128.150 t CO2e-Reduktion\/a (bei Emission von 40 t CO2e\/GWh Solarstrom minus 380 t CO2e\/GWh gemittelter Strommix)",
       "Total costs and costs by CO2e unit": "Prozesskosten: 230.000 EUR"
     }
@@ -345,7 +345,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tAufgrund ihrer h\u00f6heren Effizienz verbraucht die Glasfasertechnologie deutlich weniger Strom als kupferbasierte Netze (bis zu 17-mal weniger Strom).",
+      "Removed\/substituted energy, volume, or fuel type": "Aufgrund ihrer h\u00f6heren Effizienz verbraucht die Glasfasertechnologie deutlich weniger Strom als kupferbasierte Netze (bis zu 17-mal weniger Strom).",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens zwischen 2024 und \n2028: ca. 76 Mio. \u20ac"
     }
@@ -372,7 +372,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tRund 12,5 Mio. kWh\/a",
+      "Removed\/substituted energy, volume, or fuel type": "Rund 12,5 Mio. kWh\/a",
       "GHG emissions reduction estimate (total) per emission source sector": "2.165 t CO2\/a",
       "Total costs and costs by CO2e unit": "Rund 320 Mio. \u20ac; die Kosten sollen laut Antrag zur Vorlage \u201eumsetzungsorientiert innerhalb der Dezernatsbudgets bereitgestellt werden\u201c; aktuell sind im Haushalt ca. 10 Mio. \u20ac\/a veranschlagt."
     }
@@ -399,7 +399,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt",
-      "Removed\/substituted energy": ", volume, or fuel type \tWird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt",
+      "Removed\/substituted energy, volume, or fuel type": "Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt",
       "GHG emissions reduction estimate (total) per emission source sector": "Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt",
       "Total costs and costs by CO2e unit": "Wird im Rahmen des Sanierungsmanagements in Kombination mit einer Kurzkonzepterstellung ermittelt"
     }
@@ -426,7 +426,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -453,7 +453,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Vermiedene CO2-Emissionen durch Photovoltaik- und BHKW-Stromproduktion (Nutzung im Geb\u00e4ude sowie Netzeinspeisung): - 146 Tonnen\/Jahr",
       "Total costs and costs by CO2e unit": "227 Mio. \u20ac"
     }
@@ -480,7 +480,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar. Indirekt \u00fcber Energieberatungsangebot und Sichtbarmachung",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht anwendbar. Indirekt \u00fcber Energieberatungsangebot und Sichtbarmachung",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht anwendbar. Indirekt \u00fcber Energieberatungsangebot und Sichtbarmachung",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht anwendbar. Indirekt \u00fcber Energieberatungsangebot und Sichtbarmachung",
       "Total costs and costs by CO2e unit": "Nicht anwendbar. Indirekt \u00fcber Energieberatungsangebot und Sichtbarmachung"
     }
@@ -507,7 +507,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht anwendbar",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht anwendbar",
       "GHG emissions reduction estimate (total) per emission source sector": "5.000 t CO2\/a",
       "Total costs and costs by CO2e unit": "ca. 4,2 Mio. \u20ac\/a; 840 \u20ac\/t CO2"
     }
@@ -534,7 +534,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Wird noch erarbeitet",
-      "Removed\/substituted energy": ", volume, or fuel type \tWird noch erarbeitet",
+      "Removed\/substituted energy, volume, or fuel type": "Wird noch erarbeitet",
       "GHG emissions reduction estimate (total) per emission source sector": "Wird noch erarbeitet",
       "Total costs and costs by CO2e unit": "Wird noch erarbeitet"
     }
@@ -561,7 +561,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht anwendbar",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht anwendbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht anwendbar",
       "Total costs and costs by CO2e unit": "Nicht anwendbar"
     }
@@ -588,7 +588,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht anwendbar",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht anwendbar",
       "GHG emissions reduction estimate (total) per emission source sector": "1250 t CO2\/a",
       "Total costs and costs by CO2e unit": "Keine Kosten"
     }
@@ -615,7 +615,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type  \tCirca. 2.000.000 l Diesel",
+      "Removed\/substituted energy, volume, or fuel type": "Circa. 2.000.000 l Diesel",
       "GHG emissions reduction estimate (total)": "per emission source sector \/ sektoren \tCO2-Reduktions-Potenziale: circa 5.200 t CO2\/a in 2030 (Basisjahr 2021) (bezogen auf das \u00d6PNV-Angebot der Stadtwerke)",
       "Total costs and costs by CO2e unit": "Kosten des Vorhabens zwischen 2024 und 2028: ca. 21,3 Mio. \u20ac (bezogen auf das \u00d6PNV-\nAngebot der Stadtwerke)"
     }
@@ -642,7 +642,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tVerlagerung Energietr\u00e4ger von fossilen Treibstoffen auf Strom, nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Verlagerung Energietr\u00e4ger von fossilen Treibstoffen auf Strom, nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total)": "per emission source sector  \tnicht quantifizierbar\/messbar",
       "Total costs and costs by CO2e unit": "keine Angaben"
     }
@@ -669,7 +669,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type  \tVerlagerung Energietr\u00e4ger von fossilen Treibstoffen auf Strom, nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Verlagerung Energietr\u00e4ger von fossilen Treibstoffen auf Strom, nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total)": "per emission source sector  \tnicht quantifizierbar\/messbar",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -696,7 +696,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type  \tEinsparung fossiler Treibstoffe durch Verlagerung MIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe durch Verlagerung MIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total)": "per emission source sector  \tNicht quantifizierbar\/messbar",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -723,7 +723,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, durch Verkehrsvermeidung und Verlagerung MIV auf Umweltverbund \nnicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, durch Verkehrsvermeidung und Verlagerung MIV auf Umweltverbund \nnicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "nicht quantifizierbar\/messbar",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -750,7 +750,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht quantifizierbar\/messbar",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -777,7 +777,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Circa 3.000 Tonnen",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -804,7 +804,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Circa 6.300 Tonnen",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -831,7 +831,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung auf Strom \nnicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung auf Strom \nnicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Circa 2.800 Tonnen",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -858,7 +858,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Bis zu 200.000 t CO2\/j\u00e4hrlich bei prognostizierten 212.000 Reisenden\/Tag",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -885,7 +885,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht anwendbar",
-      "Removed\/substituted energy": ", volume, or fuel type \tEinsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
+      "Removed\/substituted energy, volume, or fuel type": "Einsparung fossiler Treibstoffe, Verlagerung \nMIV auf Umweltverbund nicht quantifizierbar\/messbar",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -912,7 +912,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -939,7 +939,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -966,7 +966,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -993,7 +993,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -1020,7 +1020,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -1047,7 +1047,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine Angabe",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "CO2-Potenzial: \nDie CO2-Einsparung ergibt sich nicht aus der Wahl der Finanzierungsmethode (hier: Green Bond), sondern aus den mit dem Green Bond finanzierten Ma\u00dfnahmen. Das sind beim 1. Green Bond: \n\u2022\tdie Mathilde-Anneke-Gesamtschule,  \n\u2022\tdie 4. Reinigungsstufe der Kl\u00e4ranlage,  \n\u2022\tder Glasfaserausbau (\u00fcber die Stadtwerke M\u00fcnster GmbH).",
       "Total costs and costs by CO2e unit": "Kosten:  \nMit der Auflegung eines Green Bonds sind \u00fcbliche Kreditfinanzierungskosten verbunden, wobei der Zinssatz leicht unterhalb des Niveaus bei klassischen Krediten liegt. Hinzu kommen Kosten f\u00fcr die Beurteilung der Nachhaltigkeitswirkung durch eine externe Nachhaltigkeitsratingagentur."
     }
@@ -1074,7 +1074,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Der Projektantrag \u201eFoorMS2030\u201c bezieht sich auf einen dreij\u00e4hrigen Projektzeitraum. Insge-\nsamt \twurden \tein \tFinanzvolumen \tvon \n802.139,70 \u20ac und ein Eigenanteil von 60.000 \u20ac veranschlagt; u. a. sollen damit 1,75 VZ\u00c4 bei der Stadt und ca. 0,3 VZ\u00c4 bei der FH M\u00fcnster finanziert werden. Sollte der Antrag abgelehnt werden, muss die Finanzierung \u00fcber die Stadt M\u00fcnster diskutiert werden.  \nZu CO2-Einsparungen k\u00f6nnen keine Angaben gemacht werden."
     }
@@ -1101,7 +1101,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1128,7 +1128,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1155,7 +1155,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Kosten: \nF\u00fcr die Durchf\u00fchrung, \u00d6ffentlichkeitsarbeit und Begleitung der Ehrenamtlichen des KlimaTrainings wird eine Summe von ca. 60.000 \u20ac im Jahr aufgewendet.  \nKeine Angabe \nCO2-Reduktionspotenzial: \nBei einer Teilnahme am KlimaTraining kann eine einzelne Person j\u00e4hrlich bis zu 2,4 Tonnen CO2 einsparen. Das entspricht einer Einsparung von ca. 29 Prozent pro Kopf. Die gr\u00f6\u00dften CO2-Reduktionspotenziale ergeben sich in den Bereichen Wohnen und Mobilit\u00e4t. Hier k\u00f6nnen die Emissionen im Schnitt um bis zu 45 Prozent reduziert werden. \nPro Jahr nehmen ca. 80 bis 100 Personen am KlimaTraining teil. Das ergibt ein CO2-Einsparpotenzial bis zu 240 Tonnen j\u00e4hrlich. Das skaliert sich in den Jahren entsprechend hoch.  \nZudem wird mit dem Projekt durch die hohe \u00f6ffentliche Wahrnehmung eine Sensibilisierung weit \u00fcber den reinen Teilnehmendenkreis hinaus generiert."
     }
@@ -1182,7 +1182,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Nicht zutreffend"
     }
@@ -1209,7 +1209,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1236,7 +1236,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1263,7 +1263,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Kosten: \n\t\tBaukosten pro Brunnen (ohne Betriebskosten)   \nTrinkbrunnen:                       > 30.000 Euro  \nTrinkbrunnen-Wandmodell: < 10.000 Euro   \n \nBeispiel: \nJeder M\u00fcnsteraner Stadtteil (17) erh\u00e4lt einen Trinkbrunnen. Annahme: Etwa die H\u00e4lfte der Trinkbrunnen kann als Wandmodell an bestehenden Geb\u00e4uden ohne zus\u00e4tzliches Leitungsnetz und Kanalanschluss umgesetzt werden:   \n9 Trinkbrunnen x 30.000 \u20ac = 270.000 \u20ac   \n8 Wandmodelle x 10.000 \u20ac = 80.000 \u20ac   \nGesamt: 350.000 \u20ac \n \nCO2-Reduktions-Potenzial:   \n-\tTrinkbrunnen: 102 Tonnen CO2-Reduktion bei 17 Trinkbrunnen bei einer Entnahme von 30.000 Litern j\u00e4hrlich (Erfahrungswert)    \n-\tRefill Deutschland: Wassermengen k\u00f6nnen nicht erfasst werden, deshalb ist eine CO2-Reduktion schwer zu beziffern.   \n-\tInformationskampagne \u201eTrinkWasser\u201c:  schwer zu beziffern, da eine Evaluation zur Ver\u00e4nderung des Nutzerverhaltens nicht m\u00f6glich ist."
     }
@@ -1290,7 +1290,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1317,7 +1317,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine Angabe",
-      "Removed\/substituted energy": ", volume, or fuel type \t30,4 Millionen Kilowattstunden Energie",
+      "Removed\/substituted energy, volume, or fuel type": "30,4 Millionen Kilowattstunden Energie",
       "GHG emissions reduction estimate (total) per emission source sector": "Bislang: 20.108 Tonnen CO2",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1344,7 +1344,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine Angabe",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "13.000 bis 19.000 Tonnen CO2 pro Jahr",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1371,7 +1371,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine Angabe",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "25.000 Euro pro Jahr f\u00fcr die Unterst\u00fctzung durch Dienstleister, f\u00fcr die Unternehmen sind Mitgliedschaft und Angebote kostenfrei"
     }
@@ -1398,7 +1398,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1425,7 +1425,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1452,7 +1452,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Siehe B-1.1",
-      "Removed\/substituted energy": ", volume, or fuel type \tSiehe B-1.1",
+      "Removed\/substituted energy, volume, or fuel type": "Siehe B-1.1",
       "GHG emissions reduction estimate (total) per emission source sector": "Siehe B-1.1",
       "Total costs and costs by CO2e unit": "Siehe Investmentplan"
     }
@@ -1479,7 +1479,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Keine Angabe",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1506,7 +1506,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tNicht zutreffend",
+      "Removed\/substituted energy, volume, or fuel type": "Nicht zutreffend",
       "GHG emissions reduction estimate (total) per emission source sector": "Nicht zutreffend",
       "Total costs and costs by CO2e unit": "Keine Angabe"
     }
@@ -1533,7 +1533,7 @@
     },
     "Impact & cost": {
       "Generated renewable energy (if applicable)": "Nicht zutreffend",
-      "Removed\/substituted energy": ", volume, or fuel type \tKeine Angabe",
+      "Removed\/substituted energy, volume, or fuel type": "Keine Angabe",
       "GHG emissions reduction estimate (total) per emission source sector": "Keine Angabe",
       "Total costs and costs by CO2e unit": "Kosten f\u00fcr die Stadt: ca. 25.000 \u20ac pro Jahr"
     }
