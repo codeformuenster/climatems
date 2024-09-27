@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { CategoryCard } from "../components";
 import actions from '@/data/b-2_actions.json';
+import PageHeader from '~/components/PageHeader.vue';
 
 const categories = Object.keys(actions);
 const measuresPerCategory = categories.map((category) => ({
@@ -19,6 +20,11 @@ const value = ref([
 </script>
 
 <template>
+  <PageHeader
+    imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
+    title="Klimastadtvertrag"
+    description="Alles im Blick"
+  />
   <Card>
     <template #content>
       <ProgressBarChart :chart-data="value" />
