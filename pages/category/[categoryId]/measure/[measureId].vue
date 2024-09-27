@@ -28,6 +28,22 @@
       </template>
     </Card>
 
+    <div class="card flex justify-center">
+        <Breadcrumb :home="home" :model="items">
+            <template #item="{ item, props }">
+                <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+                    <a :href="href" v-bind="props.action" @click="navigate">
+                        <span :class="[item.icon, 'text-color']" />
+                        <span class="text-primary font-semibold">{{ item.label }}</span>
+                    </a>
+                </router-link>
+                <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+                    <span class="text-surface-700 dark:text-surface-0">{{ item.label }}</span>
+                </a>
+            </template>
+        </Breadcrumb>
+    </div>
+
     <template v-if="!!additionalData?.user_action">
       <div id="alert-additional-content-1" class="p-4 mb-4 text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
         <div class="flex items-center">
@@ -85,6 +101,15 @@ const route = useRoute();
 const measure = await getMeasure(route.params.measureId as string);
 const progress = await getProgressForMeasure(route.params.measureId as string);
 const progressList = await getProgressListForMeasure(route.params.measureId as string);
+
+const home = ref({
+    icon: 'pi pi-home',
+    route: '/'
+});
+const items = ref([
+    { label: measure?.category, route: `/category/${measure?.categoryId}`, icon: 'pi pi-tag' },
+    { label: measure?.['Action outline']['Action name'], icon: 'pi pi-tag' },
+]);
 
 const chartData = {
   labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
