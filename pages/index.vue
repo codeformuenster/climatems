@@ -7,9 +7,6 @@ const categoriesWithInformation = await getCategories();
 
 const numberOfMeasures = (categoriesWithInformation || []).reduce((acc, item) => acc + item.measures.length, 0);
 
-console.log(numberOfMeasures)
-
-
 const value = ref([
   { label: 'Umgesetzt', color: 'var(--p-green-500)', value: numberOfMeasures },
   { label: 'Begonnen', color: 'var(--p-yellow-500)', value: 8 },
