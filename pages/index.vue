@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import { CardGrid, CategoryCard } from "../components";
+import { Search, CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import { getCategories, getMeasureProgress, type MeasureStatus } from "~/dataProcessing/loadData";
+import {getCategories, getMeasureProgress, getMeasures, type MeasureStatus} from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
 
 const progress = await getMeasureProgress();
+
+const measures = await getMeasures();
 
 const rawChartData = progress.reduce((acc, item) => {
   acc[item.status] = acc[item.status] + 1 || 1;
@@ -49,6 +51,9 @@ const chartData = computed(() => {
         <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" />
       </template>
     </CardGrid>
+
+    <Search :measures="measures">
+    </Search>
   </div>
 </template>
 
