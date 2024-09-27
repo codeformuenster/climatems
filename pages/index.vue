@@ -1,12 +1,12 @@
 <template>
-  <div class="wrapper">
-    <Card>
-      <template #content>
-        <ProgressBarChart :chart-data="value" />
-      </template>
-    </Card>
-    {{ categories }}
-  </div>
+
+  <Card>
+    <template #content>
+      <ProgressBarChart :chart-data="value" />
+    </template>
+  </Card>
+  {{ categories }}
+
 </template>
 
 <script setup lang="ts">
@@ -21,11 +21,3 @@ const value = ref([
   { label: 'verschoben', color: 'var(--p-red-500)', value: 10 }
 ]);
 </script>
-
-<style>
-.wrapper {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-}
-</style>

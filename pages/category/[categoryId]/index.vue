@@ -1,6 +1,6 @@
 <template>
   <div>
     Category
-    {{ $route.params.id }}
+    {{ $route.params.categoryId }}
   </div>
 </template>

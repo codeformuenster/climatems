@@ -1,6 +1,6 @@
 <template>
   <div>
     Measure
-    {{ $route.params.id }}
+    {{ $route.params.measureId }}
   </div>
 </template>
