@@ -100,9 +100,15 @@ const getProgressForMeasure = async (measureId: string) => {
   return progress.find(({ id }) => id === measureId);
 }
 
+const getCategory = async (categoryId: string) => {
+  const categories = await getCategories();
+  return categories.find(({ id }) => id === categoryId);
+}
+
 export {
   getMeasures,
   getMeasuresForCategory,
+  getCategory,
   getCategories,
   getMeasureProgress,
   getProgressForMeasure,
