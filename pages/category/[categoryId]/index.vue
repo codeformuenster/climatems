@@ -3,13 +3,13 @@
   imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
   :title="category?.name"
   />
-  <div class="main-content">
+  <CardGrid>
     <MeasureCard
       v-for="(measure, index) in category?.measures"
       :key="index"
       :measure="measure"
     />
-  </div>
+  </CardGrid>
 </template>
 
 <script lang="ts" setup>

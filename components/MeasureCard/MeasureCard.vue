@@ -26,7 +26,7 @@ const { measure } = toRefs(props);
 </script>
 
 <template>
-    <Card>
+    <Card class="category-card">
       <template #header>
         <div class="category-card--header">
           <h2 class="category-card--title">{{ measure['Action outline']['Action name'] }}</h2>
