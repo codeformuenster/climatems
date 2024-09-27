@@ -82,7 +82,7 @@ const getRawCategories = async () => {
 
 const getMeasuresForCategory = async (categoryId: string) => {
   // todo Anpassen, sobald categoryId in measures
-  return measures.filter(measure => measure.category === categoryId);
+  return measures.filter(measure => measure.categoryId === categoryId);
 }
 
 const getCategories = async (): Promise<Category[]> => {
