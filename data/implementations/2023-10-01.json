@@ -80,5 +80,11 @@
     "progress": 0,
     "evaluation": "quantitative",
     "status": "unknown"
+  },
+  {
+    "id": "mobilitaet1",
+    "measure": "percent",
+    "progress": 63.0,
+    "status": "in_progress"
   }
 ]
