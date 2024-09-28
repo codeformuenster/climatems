@@ -9,6 +9,7 @@ const progress = await getMeasureProgress();
 
 const measures = await getMeasures();
 
+const searchString = ref('');
 const onlyUserActionable = ref(false);
 
 const filteredMeasures = computed(() => {
@@ -59,10 +60,16 @@ const chartData = computed(() => {
     </template>
   </CardGrid>
 
-  <div class="flex items-center">
-    <Checkbox v-model="onlyUserActionable" binary />
-    <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
+  <div class="searchbar">
+    <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
+    <div>
+      <Checkbox v-model="onlyUserActionable" binary />
+      <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
+    </div>
   </div>
-  <Search :measures="filteredMeasures">
-  </Search>
+  <CategoryAccordion
+    :measures="measures"
+    :search-string="searchString"
+    :show-user-actionable="onlyUserActionable"
+  />
 </template>

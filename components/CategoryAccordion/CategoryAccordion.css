@@ -1,0 +1,7 @@
+.category-accordion {
+  --p-accordion-header-padding: 0;
+}
+
+.category-accordion--header {
+  padding: 1rem;
+}
