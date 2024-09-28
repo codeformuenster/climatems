@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import MeasureCard from '~/components/MeasureCard/MeasureCard.vue';
-import { getCategory, getMeasuresForCategory } from '~/dataProcessing/loadData';
+import { getCategory, getMeasuresForCategory, type MeasureProgress } from '~/dataProcessing/loadData';
 
 const route = useRoute();
 
@@ -12,26 +11,38 @@ const breadcrumb = computed(() =>
 
 const measures = await getMeasuresForCategory(route.params.categoryId);
 
-const rawChartData = measures.reduce((acc, item) => {
-  acc[item.status] = acc[item.status] + 1 || 1;
-  return acc;
-}, {});
+const getChange = (progress: MeasureProgress) => {
+  if (progress.values.length === 0) {
+    return null;
+  }
 
-const colorScale = {
-  completed: 'var(--p-green-500)',
-  in_progress: 'var(--p-yellow-500)',
-  unknown: 'var(--p-grey-500)',
+  const lastValue = progress.values[progress.values.length - 1].value;
+
+  if (progress.values.length === 1) {
+    return lastValue.value;
+  }
+
+  const secondLastValue = progress.values[progress.values.length - 2].value;
+
+  return lastValue - secondLastValue;
 };
 
-const chartData = computed(() => {
-  return Object.entries(rawChartData).map(([key, value]) => {
-    return {
-      label: key,
-      color: colorScale[key as keyof typeof colorScale],
-      value
-    };
-  });
-})
+const sortedMeasures = measures.sort((a, b) => {
+  if (!a.lastUpdate && !b.lastUpdate) {
+    return 0;
+  }
+
+  if (!a.lastUpdate) {
+    return 1;
+  }
+
+  if (!b.lastUpdate) {
+    return -1;
+  }
+
+  return new Date(b.lastUpdate).getTime() > new Date(a.lastUpdate).getTime() ? 1 : -1;
+});
+
 </script>
 
 <template>
@@ -46,12 +57,27 @@ const chartData = computed(() => {
       Gesamtübersicht über alle Maßnahmen
     </template>
     <template #content>
-      <ProgressBarChart :chart-data="chartData" />
+      <ProgressBarChart :measures="sortedMeasures" />
     </template>
   </Card>
 
   </template>
   <CardGrid>
-    <MeasureCard v-for="(measure, index) in measures" :key="index" :measure="measure" />
+   
+    <NewsCard
+      v-for="measure in sortedMeasures"
+        :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"
+        :category="measure.category"
+        :status="measure.status"
+        :value="measure.progress.values.length > 0 ? measure.progress.values[measure.progress.values.length - 1].value : 'unknown'"
+        :label="measure.progress?.goal"
+        :type="measure.progress.type"
+        :change="getChange(measure.progress)"
+        change-type="increase"
+        change-semantic="positive"
+        :category-id="measure.categoryId"
+        :measure-id="measure.id"
+    />
+    <!-- <MeasureCard v-for="(measure, index) in measures" :key="index" :measure="measure" /> -->
   </CardGrid>
 </template>

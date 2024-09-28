@@ -127,8 +127,9 @@
           <dt class="text-sm font-medium text-gray-900">
             Kosten der Maßnahme
           </dt>
-          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-              v-html="measure?.original?.['Impact & cost']['Total costs and costs by CO2e unit'].replaceAll('\n', '<br/>')"></dd>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ formatNumber(measure?.additionalData?.cost.value) }} €
+          </dd>
         </div>
       </dl>
     </div>
@@ -165,6 +166,14 @@
           </dt>
           <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
               v-html="measure?.original?.['Implementation']['Involved stakeholders'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Geplante Umsetzung bis
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.additionalData?.cost.until_in_years }}
+          </dd>
         </div>
         <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
           <dt class="text-sm font-medium text-gray-900">
@@ -209,7 +218,7 @@
 
 <script lang="ts" setup>
 import Chart from 'primevue/chart';
-import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
+import { getMeasure } from '~/dataProcessing/loadData';
 import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart as ChartJS, registerables } from 'chart.js';
 import { Breadcrumbs } from '~/components';
@@ -217,6 +226,7 @@ import Accordion from 'primevue/accordion';
 import AccordionPanel from 'primevue/accordionpanel';
 import AccordionHeader from 'primevue/accordionheader';
 import AccordionContent from 'primevue/accordioncontent';
+import {formatNumber} from "chart.js/helpers";
 
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
@@ -235,9 +245,9 @@ const chartData = {
   labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
   datasets: [
     {
-      label: "Fortschritt",
+      label: measure?.progress?.label || "Fortschritt",
       data: measure?.progress?.values.map((v) => {
-        return {x: v.date, y: v.value};
+        return {x: (v.date as Date).toISOString().split('T')[0], y: v.value};
       }),
       fill: false,
       borderColor: "rgb(75, 192, 192)",

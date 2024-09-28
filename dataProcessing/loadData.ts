@@ -41,7 +41,7 @@ interface OriginalMeasure {
   "Impact & cost": ImpactAndCost;
 }
 
-export interface Cost{
+export interface Cost {
   until_in_years?: number;
   value?: number;
   quantity?: number;
@@ -59,7 +59,7 @@ export interface AdditionalMeasureData {
   cost: Cost;
 }
 
-export type MeasureStatus = 'in_progress' | 'unknown' | 'completed';
+export type MeasureStatus = 'in_progress' | 'unknown' | 'completed' | 'stale';
 type BaseMeasureProgress = {
   id: string;
 }
@@ -116,6 +116,10 @@ const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus =
 
   const lastValue = progress.values[progress.values.length - 1];
 
+  if (lastValue.date.getTime() < new Date('2024-01-01').getTime()) {
+    return 'stale';
+  };
+
   if (progress.type === 'percent') {
     if (lastValue.value === 100) {
       status = 'completed';
@@ -153,14 +157,14 @@ const getMeasures = async (): Promise<Measure[]> => {
     original: measure,
     additionalData: additionalData.find(({ id }) => id === measure.id),
     progress: progresses[measure.id] || {
-        id: measure.id,
-        type: 'binary',
-        values: [
-            {
-                value: 'unknown',
-                date: new Date('2024-01-01'),
-            }
-        ],
+      id: measure.id,
+      type: 'binary',
+      values: [
+        {
+          value: 'unknown',
+          date: new Date('2024-01-01'),
+        }
+      ],
     },
     status: getStatusForMeasureProgress(progresses[measure.id]),
   }));
@@ -171,13 +175,6 @@ const getMeasure = async (measureId: string): Promise<Measure | undefined> => {
 
   return measures.find(({ id }) => id === measureId);
 }
-
-const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
-  console.log('alte Implementation muss rausfliegen');
-  return [];
-  // return implementations20231001 as MeasureProgress[];
-}
-
 
 const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
 
@@ -229,11 +226,6 @@ const getProgressListForMeasure = async (measureId: string) => {
   return progress[measureId] || [];
 }
 
-const getProgressForMeasure = async (measureId: string) => {
-  const progress = await getMeasureProgress();
-  return progress.find(({ id }) => id === measureId);
-}
-
 const getCategory = async (categoryId: string) => {
   const categories = await getCategories();
   return categories.find(({ id }) => id === categoryId);
@@ -245,8 +237,6 @@ export {
   getMeasuresForCategory,
   getCategory,
   getCategories,
-  getMeasureProgress,
-  getProgressForMeasure,
   getProgressListForMeasure,
   getMeasure,
 }

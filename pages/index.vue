@@ -1,11 +1,5 @@
 <script setup lang="ts">
-import { CardGrid, CategoryCard, Search } from "../components";
-import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
-
-const categoriesWithInformation = await getCategories();
-console.log(categoriesWithInformation);
-
-const progress = await getMeasureProgress();
+import {getMeasures } from "~/dataProcessing/loadData";
 
 const measures = await getMeasures();
 
@@ -19,27 +13,6 @@ const filteredMeasures = computed(() => {
 
   return measures;
 });
-
-const rawChartData = progress.reduce((acc, item) => {
-  acc[item.status] = acc[item.status] + 1 || 1;
-  return acc;
-}, {});
-
-const colorScale = {
-  completed: 'var(--p-green-500)',
-  in_progress: 'var(--p-yellow-500)',
-  unknown: 'var(--p-grey-500)',
-};
-
-const chartData = computed(() => {
-  return Object.entries(rawChartData).map(([key, value]) => {
-    return {
-      label: key,
-      color: colorScale[key as keyof typeof colorScale],
-      value
-    };
-  });
-})
 
 const scrollToCategories = () => {
   const element = document.getElementById('categories');
@@ -63,7 +36,7 @@ const scrollToCategories = () => {
         Gesamtübersicht über alle Maßnahmen
       </template>
       <template #content>
-        <ProgressBarChart :chart-data="chartData" />
+        <ProgressBarChart :measures="measures" />
       </template>
     </Card>
     <div class="searchbar flex" style="justify-content: space-between; align-items: center;">

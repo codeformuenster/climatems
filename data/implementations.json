@@ -2,7 +2,8 @@
   {
     "id": "energieerzeugung1",
     "type": "count",
-    "unit": "Erzeugte Energie pro Jahr in GWh",
+    "label": "Erzeugte Energie pro Jahr",
+    "unit": "GWh",
     "start": 92,
     "goal": 280,
     "yMin": 0,
@@ -20,7 +21,13 @@
   },
   {
     "id": "energieerzeugung2",
-    "type": "percent",
+    "type": "count",
+    "label": "Erzeugte Energie pro Jahr",
+    "unit": "GWh",
+    "start": 9,
+    "goal": 100,
+    "yMin": 0,
+    "yMax": 120,
     "values": [
       {
         "value": 9,
@@ -141,7 +148,8 @@
   {
     "id": "mobilitaet1",
     "type": "count",
-    "unit": "Anzahl Elektrobusse",
+    "label": "Elektrobusse",
+    "unit": "Anzahl",
     "start": 73,
     "goal": 116,
     "yMin": 0,

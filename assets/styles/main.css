@@ -4,6 +4,7 @@
   --color-status-unknown: rgb(131, 131, 131);
   --color-status-in-progress: var(--p-blue-500);
   --color-status-completed: var(--p-green-500);
+  --color-status-stale: var(--p-red-500);
 
   --color-primary-energy: rgb(218, 175, 4);
   --color-primary-building: rgb(159, 53, 44);
