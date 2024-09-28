@@ -1,0 +1,47 @@
+.category-tag {
+  --category-tag-color: #000000;
+
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 5px;
+  background: var(--category-tag-color);
+  padding: 0.25rem 0.5rem 0.25rem 0.35rem;
+  color: #ffffff;
+
+  &[data-is-category="Energieerzeugung"] {
+    --category-tag-color: var(--color-primary-energy);
+  }
+
+  &[data-is-category="Bauen und Sanieren"] {
+    --category-tag-color: var(--color-primary-building);
+  }
+
+  &[data-is-category="Mobilität"] {
+    --category-tag-color: var(--color-primary-mobility);
+  }
+
+  &[data-is-category="Klimahaushalt"] {
+    --category-tag-color: var(--color-primary-climate);
+  }
+
+  &[data-is-category="Bildung und Ernährung"] {
+    --category-tag-color: var(--color-primary-education);
+  }
+
+  &[data-is-category="Wirtschaft und Wissenschaft"] {
+    --category-tag-color: var(--color-primary-sciene);
+  }
+}
+
+.category-tag--icon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.category-tag--text {
+  font-size: 1rem;
+  font-weight: 400;
+}

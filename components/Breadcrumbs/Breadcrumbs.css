@@ -4,6 +4,8 @@
   --p-breadcrumb-separator-color: var(--color-primary);
 
   margin-block-end: 2rem;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
 .breadcrumbs--link {
