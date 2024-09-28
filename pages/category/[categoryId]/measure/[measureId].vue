@@ -63,7 +63,7 @@
     </div>
   </template>
 
-  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg mb-6">
     <div class="px-4 py-6 sm:px-6">
       <h3 class="text-base font-semibold leading-7 text-gray-900">Maßnahmen-Details</h3>
       <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
@@ -91,7 +91,7 @@
     </div>
   </div>
 
-  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg mb-6">
     <div class="px-4 py-6 sm:px-6">
       <h3 class="text-base font-semibold leading-7 text-gray-900">Auswirkungen</h3>
       <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
@@ -134,7 +134,7 @@
     </div>
   </div>
 
-  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg mb-6">
     <div class="px-4 py-6 sm:px-6">
       <h3 class="text-base font-semibold leading-7 text-gray-900">Umsetzung</h3>
       <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
@@ -176,26 +176,35 @@
       </dl>
     </div>
   </div>
-
-  <template v-for="k in ['Action outline', 'Reference to impact pathway', 'Implementation', 'Impact & cost']">
-    <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+  <div class="rohdaten-accordion">
+    <div class="flex mb-4 gap-2">
       <div class="px-4 py-6 sm:px-6">
-        <h3 class="text-base font-semibold leading-7 text-gray-900">{{ k }}</h3>
+        <h3 class="text-base font-semibold leading-7 text-gray-900">Für tiefer-Interessierte</h3>
         <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">weitere Informationen</p>
       </div>
-      <div class="border-t border-gray-100">
-        <dl class="divide-y divide-gray-100">
-
-          <template v-for="value, key in measure?.original?.[k]">
-            <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-900">{{key}}</dt>
-              <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0" v-html="value.replaceAll('\n', '<br/>')"></dd>
-            </div>
-          </template>
-        </dl>
-      </div>
     </div>
-  </template>
+    <Accordion :value="[]" multiple>
+      <template v-for="(k, index) in ['Action outline', 'Reference to impact pathway', 'Implementation', 'Impact & cost']">
+        <AccordionPanel :value="index">
+
+          <AccordionHeader>{{ k }}</AccordionHeader>
+          <AccordionContent>
+            <div class="border-t border-gray-100">
+              <dl class="divide-y divide-gray-100">
+                <template v-for="(value, key) in measure?.original?.[k]">
+                  <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm font-medium text-gray-900">{{key}}</dt>
+                    <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0" v-html="value.replaceAll('\n', '<br/>')"></dd>
+                  </div>
+                </template>
+              </dl>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+      </template>
+
+    </Accordion>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -204,6 +213,10 @@ import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
 import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart as ChartJS, registerables } from 'chart.js';
 import { Breadcrumbs } from '~/components';
+import Accordion from 'primevue/accordion';
+import AccordionPanel from 'primevue/accordionpanel';
+import AccordionHeader from 'primevue/accordionheader';
+import AccordionContent from 'primevue/accordioncontent';
 
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
