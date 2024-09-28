@@ -73,7 +73,7 @@
 <template>
   <section class="container">
     <h1 class="headline ml-2 mt-2 text-base font-semibold leading-6 text-gray-900">Was gibt es Neues?</h1>
-    <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <dl class="news--card mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       <NewsCard
         v-for="measure in newsMeasures"
         :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"

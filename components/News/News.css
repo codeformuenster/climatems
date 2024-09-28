@@ -3,3 +3,7 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.news--card {
+  margin-block-end: 3rem;
+}

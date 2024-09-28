@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3 class="ml-2 mt-2 text-base font-semibold leading-6 text-gray-900">Hier gab es lange nichts neues</h3>
+    <h2 class="sub-headline">Hier warten wir schon lange auf etwas Neues!</h2>
     <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       <NewsCard
         v-for="measure in newsMeasures"
