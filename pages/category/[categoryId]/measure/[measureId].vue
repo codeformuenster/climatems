@@ -128,7 +128,7 @@
             Kosten der Maßnahme
           </dt>
           <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
-            {{ formatNumber(measure?.additionalData?.cost.value) }} €
+            {{ measure?.additionalData?.cost.value === null ? "keine Angabe/trifft nicht zu" : formatNumber(measure?.additionalData?.cost.value).concat(" €")}}
           </dd>
         </div>
       </dl>
@@ -189,7 +189,7 @@
     <div class="flex mb-4 gap-2">
       <div class="px-4 py-6 sm:px-6">
         <h3 class="text-base font-semibold leading-7 text-gray-900">Für tiefer-Interessierte</h3>
-        <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">weitere Informationen</p>
+        <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Rohdaten aus dem Klimastadtvertrag</p>
       </div>
     </div>
     <Accordion :value="[]" multiple>
@@ -243,7 +243,6 @@ const items = ref([
     { label: measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'], icon: 'pi pi-tag' },
 ]);
 const chartData = {
-  // labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
   datasets: [
     {
       label: measure?.progress?.label || "Fortschritt",
