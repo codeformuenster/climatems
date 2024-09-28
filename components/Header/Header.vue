@@ -4,9 +4,9 @@ import logo from "~/assets/images/logo_climate_ms.svg?url";
 
 <template>
   <header class="header">
-    <div class="header--logo-wrapper">
+    <a href="/" class="header--logo-wrapper">
       <img class="header--logo" :src="logo" />
-    </div>
+    </a>
   </header>
 </template>
 
