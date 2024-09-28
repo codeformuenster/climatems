@@ -55,7 +55,7 @@ const chartData = computed(() => {
   </Card>
   <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
     <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
-    
+
     <div>
       <Checkbox v-model="onlyUserActionable" binary />
       <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
@@ -63,7 +63,7 @@ const chartData = computed(() => {
   </div>
 
   <CategoryAccordion
-    :measures="measures"
+    :measures="filteredMeasures"
     :search-string="searchString"
     :show-user-actionable="onlyUserActionable"
   />
