@@ -43,7 +43,7 @@ const scrollToCategories = () => {
       <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
 
       <div>
-        <Checkbox v-model="onlyUserActionable" binary />
+        <Checkbox v-model="onlyUserActionable" binary input-id="onlyUserActionable"/>
         <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
       </div>
     </div>
