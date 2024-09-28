@@ -129,7 +129,7 @@ const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus =
   } else if (progress.type === 'count') {
     if (lastValue.value === progress.goal) {
       status = 'completed';
-    } else if (parseInt(lastValue.value) > progress.start) {
+    } else if (parseInt(lastValue.value) >= progress.start) {
       status = 'in_progress';
     }
   } else if (progress.type === 'binary' && lastValue.value) {
