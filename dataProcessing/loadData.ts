@@ -98,7 +98,29 @@ export interface Measure {
   categoryId: string;
   original: OriginalMeasure;
   additionalData?: AdditionalMeasureData
-  progress: MeasureProgress;
+  progress: MeasureProgress[];
+  status: MeasureStatus;
+}
+
+const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus => {
+  let status: MeasureStatus = 'unknown';
+  if (!progress) return status;
+  if (progress.type === 'percent') {
+    if (progress.values.value === 100) {
+      status = 'completed';
+    } else if (progress.values.value > 0) {
+      status = 'in_progress';
+    }
+  } else if (progress.type === 'count') {
+    if (progress.values.value === progress.goal) {
+      status = 'completed';
+    } else if (progress.values.value > progress.start) {
+      status = 'in_progress';
+    }
+  } else if (progress.type === 'binary' && progress.values.value) {
+    status = progress.values.value;
+  }
+  return status;
 }
 
 
@@ -112,7 +134,8 @@ const getMeasures = async (): Promise<Measure[]> => {
     categoryId: measure.categoryId,
     original: measure,
     additionalData: additionalData.find(({ id }) => id === measure.id),
-    progress: progresses[measure.id] || undefined,
+    progress: progresses[measure.id] || [],
+    status: getStatusForMeasureProgress(progresses[measure.id]),
   }));
 }
 
