@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import { Layout } from "./components";
+</script>
+
 <template>
   <NuxtLayout>
-    <div class="container mx-auto">
+    <Layout>
       <NuxtPage />
-    </div>
+    </Layout>
   </NuxtLayout>
 </template>

@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { Search, CardGrid, CategoryCard } from "../components";
-import PageHeader from '~/components/PageHeader.vue';
+import { CardGrid, CategoryCard, Search } from "../components";
 import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
@@ -43,75 +42,61 @@ const chartData = computed(() => {
 </script>
 
 <template>
-  <div class="main-content">
-    <PageHeader
-      image-src="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
-      title="Klimastadtvertrag" description="Alles im Blick" />
+  <Card>
+    <template #title>
+      Gesamtübersicht über alle Maßnahmen
+    </template>
+    <template #content>
+      <ProgressBarChart :chart-data="chartData" />
+    </template>
+  </Card>
 
-    <Card>
-      <template #title>
-        Gesamtübersicht über alle Maßnahmen
-      </template>
-      <template #content>
-        <ProgressBarChart :chart-data="chartData" />
-      </template>
-    </Card>
+  <CardGrid>
+    <template v-for="category in categoriesWithInformation" :key="category">
+      <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
+    </template>
+  </CardGrid>
 
-    <CardGrid>
-      <template v-for="category in categoriesWithInformation" :key="category">
-        <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
-      </template>
-    </CardGrid>
-
-    <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-      <NewsCard
-        title="Windkraftausbau bis 2023"
-        category="Energieerzeugung"
-        content="es gibt drei neue windräder"
-        status="in_progress"
-        value="3"
-        label="/ 5 Windrädern"
-        :change="1"
-        change-type="increase"
-        change-semantic="positive"
+  <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="in_progress"
+      value="3"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-type="increase"
+      change-semantic="positive"
+    />
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="completed"
+      value="5"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-semantic="positive"
+      change-type="increase"
       />
-      <NewsCard
-        title="Windkraftausbau bis 2023"
-        category="Energieerzeugung"
-        content="es gibt drei neue windräder"
-        status="completed"
-        value="5"
-        label="/ 5 Windrädern"
-        :change="1"
-        change-semantic="positive"
-        change-type="increase"
-        />
-        
-      <NewsCard
-        title="Windkraftausbau bis 2023"
-        category="Energieerzeugung"
-        content="es gibt drei neue windräder"
-        status="completed"
-        value="5"
-        label="/ 5 Windrädern"
-        :change="1"
-        change-type="decrease"
-        change-semantic="negative"
-      />
-    </dl>
-    <div class="flex items-center">
-      <Checkbox v-model="onlyUserActionable" binary />
-      <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
-    </div>
-    <Search :measures="filteredMeasures">
-    </Search>
+      
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="completed"
+      value="5"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-type="decrease"
+      change-semantic="negative"
+    />
+  </dl>
+  <div class="flex items-center">
+    <Checkbox v-model="onlyUserActionable" binary />
+    <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
   </div>
+  <Search :measures="filteredMeasures">
+  </Search>
 </template>
-
-<style>
-.main-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-</style>

@@ -1,0 +1,19 @@
+.breadcrumbs {
+  --p-breadcrumb-padding: 0;
+  --p-breadcrumb-item-icon-color: var(--color-primary);
+  --p-breadcrumb-separator-color: var(--color-primary);
+
+  margin-block-end: 2rem;
+}
+
+.breadcrumbs--link {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:focus-visible,
+  &:hover,
+  &:active {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+}

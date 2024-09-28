@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint'
   ],
   css: [
-    'primeicons/primeicons.css'
+    'primeicons/primeicons.css',
+    '~/assets/styles/main.css'
   ],
   primevue: {
     options: {
