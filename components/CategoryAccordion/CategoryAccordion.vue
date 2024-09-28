@@ -22,7 +22,6 @@ const options = {
   includeScore: true,
   shouldSort: false,
   threshold: 0.3,
-  // Search in `author` and in `tags` array
   keys: [
       "original.Action outline.Action name",
       "additionalData.short_title",
@@ -32,14 +31,14 @@ const options = {
   ],
 }
 
-const fuse = new Fuse(props.measures, options);
+const fuse = computed(() => new Fuse(props.measures, options));
 
 const filteredCategories = computed(() => {
   let fuseresults;
   if ("" === props.searchString) {
     fuseresults = props.measures.map((item) => ({item, score: 0}));
   } else {
-    fuseresults = fuse.search(props.searchString)
+    fuseresults = fuse.value.search(props.searchString)
   }
   const categories = new Set();
   fuseresults.forEach(fuseresult => categories.add(fuseresult.item.category));
@@ -50,7 +49,7 @@ const filteredMeasures = function(category) {
   if ("" === props.searchString) {
     return props.measures.filter((measure) => measure.category === category).map((item) => ({item, score: 0}));
   }
-  const fuseresults = fuse.search(props.searchString).filter((fuseresult) => fuseresult.item.category === category);
+  const fuseresults = fuse.value.search(props.searchString).filter((fuseresult) => fuseresult.item.category === category);
   return fuseresults;
 };
 
