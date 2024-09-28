@@ -127,8 +127,9 @@
           <dt class="text-sm font-medium text-gray-900">
             Kosten der Maßnahme
           </dt>
-          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-              v-html="measure?.original?.['Impact & cost']['Total costs and costs by CO2e unit'].replaceAll('\n', '<br/>')"></dd>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ formatNumber(measure?.additionalData?.cost.value) }} €
+          </dd>
         </div>
       </dl>
     </div>
@@ -165,6 +166,14 @@
           </dt>
           <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
               v-html="measure?.original?.['Implementation']['Involved stakeholders'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Geplante Umsetzung bis
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.additionalData?.cost.until_in_years }}
+          </dd>
         </div>
         <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
           <dt class="text-sm font-medium text-gray-900">
@@ -217,6 +226,7 @@ import Accordion from 'primevue/accordion';
 import AccordionPanel from 'primevue/accordionpanel';
 import AccordionHeader from 'primevue/accordionheader';
 import AccordionContent from 'primevue/accordioncontent';
+import {formatNumber} from "chart.js/helpers";
 
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
