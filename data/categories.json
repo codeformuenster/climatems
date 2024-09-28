@@ -1,0 +1,26 @@
+[
+  {
+    "id": "energieerzeugung",
+    "description": "Die Kategorie \"Energieerzeugung\" umfasst Maßnahmen zur Förderung und Nutzung erneuerbarer Energien in Münster. Dazu gehören der Ausbau von Windkraft- und Photovoltaikanlagen, die Nutzung von Geothermie und Großwärmepumpen sowie die Entwicklung intelligenter Netze und die Transformation des Gasnetzes hin zu Wasserstoff. Ziel ist es, die Energieversorgung der Stadt klimaneutral zu gestalten und die CO2-Emissionen erheblich zu reduzieren. Durch diese Maßnahmen wird Münster zu einer Vorreiterstadt in Sachen nachhaltiger Energieerzeugung und trägt aktiv zum Klimaschutz bei."
+  },
+  {
+    "id": "bauen",
+    "description": "Die Kategorie \"Bauen und Sanieren\" umfasst Maßnahmen zur energetischen Sanierung und zum klimafreundlichen Neubau von Gebäuden in Münster. Ziel ist es, den Energieverbrauch und die CO2-Emissionen städtischer Gebäude deutlich zu reduzieren. Dazu gehören die Sanierung bestehender Gebäude, die Einführung hoher energetischer Standards für Neubauten, die Förderung klimafreundlicher Wohngebäude und der Ausbau von Photovoltaikanlagen. Durch diese Maßnahmen wird die Stadt Münster nachhaltiger und trägt aktiv zum Klimaschutz bei."
+  },
+  {
+    "id": "mobilitaet",
+    "description": "Die Kategorie \"Mobilität\" umfasst Maßnahmen zur Förderung nachhaltiger und klimafreundlicher Verkehrssysteme in Münster. Dazu gehören die Elektrifizierung des öffentlichen Nahverkehrs, der Ausbau der Ladeinfrastruktur für Elektrofahrzeuge, die Erweiterung des E-Carsharing-Angebots und die Verbesserung des Fahrradnetzes. Ziel ist es, den Anteil umweltfreundlicher Verkehrsmittel zu erhöhen, den motorisierten Individualverkehr zu reduzieren und die CO2-Emissionen zu senken. Durch die Integration verschiedener Verkehrsmittel und die Schaffung eines multimodalen Mobilitätssystems wird die Mobilität in Münster effizienter und umweltfreundlicher gestaltet."
+  },
+  {
+    "id": "klimahaushalt",
+    "description": "Die Kategorie \"Klimahaushalt\" umfasst Maßnahmen, die darauf abzielen, finanzielle Entscheidungen und Investitionen der Stadt Münster nachhaltig und klimafreundlich zu gestalten. Dazu gehören die Einführung ökosozialer Vergabekriterien, nachhaltige Geldanlagen, die Stärkung der Nachhaltigkeitsberichterstattung und die Entwicklung eines Klimahaushalts. Ziel ist es, durch gezielte finanzielle Steuerung und Berichterstattung die Klimawirkungen von Investitionen transparent zu machen und nachhaltige Projekte zu fördern. So wird der Klimaschutz in die Finanzplanung integriert und die Stadt Münster auf ihrem Weg zur Klimaneutralität unterstützt."
+  },
+  {
+    "id": "bildung_und_ernaehrung",
+    "description": "Die Kategorie \"Bildung und Ernährung\" umfasst Maßnahmen, die darauf abzielen, das Bewusstsein und Wissen der Menschen in Münster über nachhaltige Ernährung und Klimaschutz zu fördern. Dazu gehören Projekte zur Verbesserung der Gemeinschaftsverpflegung, Bildungsprogramme für Schulen und die breite Öffentlichkeit sowie Kampagnen zur Förderung gesunder und umweltfreundlicher Ernährungsgewohnheiten. Ziel ist es, durch Bildung und Aufklärung nachhaltige Verhaltensweisen zu fördern und die Stadtgesellschaft aktiv in den Klimaschutz einzubeziehen. So wird ein wichtiger Beitrag zur nachhaltigen Entwicklung und zum Klimaschutz in Münster geleistet."
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft",
+    "description": "Die Kategorie \"Wirtschaft und Wissenschaft\" umfasst Maßnahmen, die Unternehmen und wissenschaftliche Einrichtungen in Münster dabei unterstützen, klimafreundlicher zu werden. Hierzu zählen Beratungsangebote, technische Innovationen und Netzwerke, die den Austausch und die Zusammenarbeit fördern. Ziel ist es, durch gezielte Unterstützung und strategische Planung die Wirtschaft nachhaltig zu gestalten und wissenschaftliche Erkenntnisse in praktische Klimaschutzmaßnahmen umzusetzen. So wird der Wirtschaftsstandort Münster gestärkt und gleichzeitig ein wichtiger Beitrag zum Klimaschutz geleistet."
+  }
+]

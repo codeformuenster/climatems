@@ -5,6 +5,7 @@ import { BoltIcon, HomeIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroic
 const props = defineProps<{
   title: string;
   categoryId: string;
+  description: string;
   measures: Array<Measure>;
 }>();
 
@@ -53,7 +54,7 @@ const iconClass = computed(() => {
         </div>
       </template>
       <template #content>
-        <p class="category-card--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+        <p class="category-card--text">{{ description }}</p>
         <h3 class="category-card--measures-title">mit folgenden Maßnahmen:</h3>
         <ul class="category-card--measures">
           <li

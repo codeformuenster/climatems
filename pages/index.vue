@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { Search, CardGrid, CategoryCard } from "../components";
 import PageHeader from '~/components/PageHeader.vue';
-import {getAdditionalData, getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
+import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
+console.log(categoriesWithInformation);
 
 const progress = await getMeasureProgress();
 
@@ -58,7 +59,7 @@ const chartData = computed(() => {
 
     <CardGrid>
       <template v-for="category in categoriesWithInformation" :key="category">
-        <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" />
+        <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
       </template>
     </CardGrid>
 

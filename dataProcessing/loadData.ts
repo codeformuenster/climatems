@@ -19,6 +19,8 @@ import implementations20241001 from '@/data/implementations/2024-10-01.json';
 
 import additionalData from '@/data/additional_data.json';
 
+import categoryData from '@/data/categories.json';
+
 
 interface ActionOutline {
   "Action name": string;
@@ -83,6 +85,7 @@ export type MeasureProgress = BaseMeasureProgress & {
 export interface Category {
   id: string;
   name: string;
+  description: string;
   measures: Measure[];
 }
 
@@ -95,6 +98,7 @@ export interface Measure {
   additionalData?: AdditionalMeasureData
   progress: MeasureProgress[];
 }
+
 
 const getMeasures = async (): Promise<Measure[]> => {
   const progresses = await getAllMeasureProgresses();
@@ -177,10 +181,12 @@ const getCategories = async (): Promise<Category[]> => {
 
   const withMetaInformation = await Promise.all(categories.map(async category => {
     const measures = await getMeasuresForCategory(category.id);
+    const description = categoryData.find(({ id }) => id === category.id)?.description || '';
 
     return {
       ...category,
       measures,
+      description
     };
   }))
 
