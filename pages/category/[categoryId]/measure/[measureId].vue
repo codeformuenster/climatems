@@ -63,6 +63,120 @@
     </div>
   </template>
 
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+    <div class="px-4 py-6 sm:px-6">
+      <h3 class="text-base font-semibold leading-7 text-gray-900">Maßnahmen-Details</h3>
+      <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
+        Darum geht es
+      </p>
+    </div>
+    <div class="border-t border-gray-100">
+      <dl class="divide-y divide-gray-100">
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Worum geht es?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.original?.['Action outline']['Action name'] }}
+          </dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Was wird im Detail geplant?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+              v-html="measure?.original?.['Action outline']['Action description'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+    <div class="px-4 py-6 sm:px-6">
+      <h3 class="text-base font-semibold leading-7 text-gray-900">Auswirkungen</h3>
+      <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
+        Fakten die erreicht werden wollen
+      </p>
+    </div>
+    <div class="border-t border-gray-100">
+      <dl class="divide-y divide-gray-100">
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6" v-if="measure?.original?.['Impact & cost']['Generated renewable energy (if applicable)'] !==''">
+          <dt class="text-sm font-medium text-gray-900">
+            Neu generierte erneuerbare Energien
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.original?.['Impact & cost']['Generated renewable energy (if applicable)'] }}
+          </dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Welcher Energieträger wurde reduziert/ersetzt?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.original?.['Impact & cost']['Removed/substituted energy, volume, or fuel type'] }}
+          </dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Geschätzte potentielle CO2-Einsparung
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+              v-html="measure?.original?.['Impact & cost']['GHG emissions reduction estimate (total) per emission source sector']?.replaceAll('\n', '<br/>')"></dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Kosten der Maßnahme
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+              v-html="measure?.original?.['Impact & cost']['Total costs and costs by CO2e unit'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+    <div class="px-4 py-6 sm:px-6">
+      <h3 class="text-base font-semibold leading-7 text-gray-900">Umsetzung</h3>
+      <p class="mt-1 max-w-6xl text-sm leading-6 text-gray-500">
+        Details zur Umsetzung der Maßnahme
+      </p>
+    </div>
+    <div class="border-t border-gray-100">
+      <dl class="divide-y divide-gray-100">
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Welchen Bereich betrifft die Maßnahme?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.original?.['Implementation']['Action scale & addressed entities'] }}
+          </dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Wer macht es?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0">
+            {{ measure?.original?.['Implementation']['Responsible bodies/person for implementation'] }}
+          </dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Wer ist noch beteiligt?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+              v-html="measure?.original?.['Implementation']['Involved stakeholders'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+        <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-900">
+            Was sind die konkreten Schritte/Fortschritte?
+          </dt>
+          <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+              v-html="measure?.original?.['Implementation']['Comments on implementation'].replaceAll('\n', '<br/>')"></dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
   <template v-for="k in ['Action outline', 'Reference to impact pathway', 'Implementation', 'Impact & cost']">
     <div class="overflow-hidden bg-white shadow sm:rounded-lg">
       <div class="px-4 py-6 sm:px-6">
