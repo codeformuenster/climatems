@@ -59,27 +59,29 @@ type BaseMeasureProgress = {
 }
 
 export type MeasureProgress = BaseMeasureProgress & {
-  type: 'percent';
-  values: {
-    value: number,
-    date: Date,
-  }
+    type: 'percent';
+    values: {
+        value: number,
+        date: Date,
+    } []
 } |
-BaseMeasureProgress & {
-  type: 'count';
-  unit: string;
-  start: number;
-  goal: number;
-  values: {
-    value: number,
-    date: Date,
-  }
+    BaseMeasureProgress & {
+    type: 'count';
+    unit: string;
+    start: number;
+    goal: number;
+    yMin: number;
+    yMax: number;
+    values: {
+        value: number,
+        date: Date,
+    } []
 } | BaseMeasureProgress & {
-  type: 'binary';
-  values: {
-    value: MeasureStatus,
-    date: Date,
-  }
+    type: 'binary';
+    values: {
+        value: MeasureStatus,
+        date: Date,
+    } []
 }
 
 export interface Category {

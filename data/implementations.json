@@ -139,6 +139,8 @@
     "unit": "Anzahl Elektrobusse",
     "start": 73,
     "goal": 116,
+    "yMin": 0,
+    "yMax": 120,
     "values": [
       {
         "value": 17,

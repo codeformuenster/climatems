@@ -2,56 +2,62 @@
   <div class="main-content">
     <Card>
       <template #title>
-        {{  measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
-        <Tag :value="measure?.category" />
+        {{ measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
+        <Tag :value="measure?.category"/>
       </template>
       <template #content>
         <p class="prosa">
-          {{  measure?.additionalData?.summary }}
+          {{ measure?.additionalData?.summary }}
         </p>
         <div v-if="measure?.progress?.type === 'percent'">
-          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
+          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]"/>
         </div>
         <div v-if="measure?.progress?.type === 'count'">
-          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
+          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]"/>
         </div>
         <div v-if="measure?.progress?.type === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
             value: measure?.progress?.values[measure?.progress?.values.length - 1].value,
             color: 'var(--p-green-500)'
-            } ]" />
+            } ]"/>
           {{ measure?.progress?.values[measure?.progress?.values.length - 1].value }} % erreicht
         </div>
 
         <div v-if="measure?.progress?.type === 'binary'">
           Aktueller Status:
-          {{ measure?.progress?.values[measure?.progress?.values.length - 1]?.value === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
+          {{
+            measure?.progress?.values[measure?.progress?.values.length - 1]?.value === 'completed' ? 'Erreicht' : 'Nicht erreicht'
+          }}
         </div>
       </template>
     </Card>
 
     <div class="card flex justify-center">
-        <Breadcrumb :home="home" :model="items">
-            <template #item="{ item, props }">
-                <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
-                    <a :href="href" v-bind="props.action" @click="navigate">
-                        <span :class="[item.icon, 'text-color']" />
-                        <span class="text-primary font-semibold">{{ item.label }}</span>
-                    </a>
-                </router-link>
-                <a v-else :href="item.url" :target="item.target" v-bind="props.action">
-                    <span class="text-surface-700 dark:text-surface-0">{{ item.label }}</span>
-                </a>
-            </template>
-        </Breadcrumb>
+      <Breadcrumb :home="home" :model="items">
+        <template #item="{ item, props }">
+          <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+            <a :href="href" v-bind="props.action" @click="navigate">
+              <span :class="[item.icon, 'text-color']"/>
+              <span class="text-primary font-semibold">{{ item.label }}</span>
+            </a>
+          </router-link>
+          <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+            <span class="text-surface-700 dark:text-surface-0">{{ item.label }}</span>
+          </a>
+        </template>
+      </Breadcrumb>
     </div>
 
     <template v-if="!!measure?.additionalData?.user_action">
-      <div id="alert-additional-content-1" class="p-4 mb-4 text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
+      <div id="alert-additional-content-1"
+           class="p-4 mb-4 text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800"
+           role="alert">
         <div class="flex items-center">
-          <svg class="flex-shrink-0 w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
+          <svg class="flex-shrink-0 w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+               fill="currentColor" viewBox="0 0 20 20">
+            <path
+                d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
           </svg>
           <span class="sr-only">Info</span>
           <h3 class="text-lg font-medium">Werde selber aktiv</h3>
@@ -126,11 +132,33 @@ const chartData = {
     }
   ]
 }
-const chartOptions = {
-  scales: {
-    y: {
-      min: 0,
-      max: 100,
+let chartOptions;
+if (measure?.progress?.type === 'count') {
+  chartOptions = {
+    scales: {
+      y: {
+        min: measure.progress.yMin,
+        max: measure.progress.yMax,
+        title: {
+          display: true,
+          text: measure.progress.unit,
+          padding: {top: 20, left: 0, right: 0, bottom: 0}
+        }
+      }
+    }
+  }
+} else {
+  chartOptions = {
+    scales: {
+      y: {
+        min: 0,
+        max: 100,
+        title: {
+          display: true,
+          text: '%',
+          padding: {top: 20, left: 0, right: 0, bottom: 0}
+        }
+      }
     }
   }
 }
