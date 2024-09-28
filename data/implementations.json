@@ -155,5 +155,15 @@
         "date": "2024-09-01"
       }
     ]
+  },
+  {
+    "id": "mobilitaet7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "completed",
+        "date": "2024-01-01"
+      }
+    ]
   }
 ]

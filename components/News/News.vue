@@ -26,6 +26,11 @@ const measures = await getMeasures();
 
 const NUMBER_OF_NEWS = 6;
 
+const IDS = [
+  'mobilitaet1',  
+  'mobilitaet7',
+]
+
 const getChange = (progress: MeasureProgress) => {
   if (progress.values.length === 0) {
     return null;
@@ -58,5 +63,5 @@ const sortedMeasures = measures.sort((a, b) => {
 });
 
 
-const newsMeasures = sortedMeasures.slice(0, NUMBER_OF_NEWS);
+const newsMeasures = sortedMeasures.filter((measure) => IDS.includes(measure.id));
   </script>
