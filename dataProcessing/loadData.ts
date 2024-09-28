@@ -59,13 +59,13 @@ type BaseMeasureProgress = {
 }
 
 export type MeasureProgress = BaseMeasureProgress & {
-    type: 'percent';
-    values: {
-        value: number,
-        date: Date,
-    } []
+  type: 'percent';
+  values: {
+    value: number,
+    date: Date,
+  }[]
 } |
-    BaseMeasureProgress & {
+  BaseMeasureProgress & {
     type: 'count';
     unit: string;
     start: number;
@@ -73,16 +73,16 @@ export type MeasureProgress = BaseMeasureProgress & {
     yMin: number;
     yMax: number;
     values: {
-        value: number,
-        date: Date,
-    } []
-} | BaseMeasureProgress & {
+      value: number,
+      date: Date,
+    }[]
+  } | BaseMeasureProgress & {
     type: 'binary';
     values: {
-        value: MeasureStatus,
-        date: Date,
-    } []
-}
+      value: MeasureStatus,
+      date: Date,
+    }[]
+  }
 
 export interface Category {
   id: string;
@@ -96,6 +96,7 @@ export interface Measure {
   id: string;
   category: string;
   categoryId: string;
+  lastUpdate?: Date;
   original: OriginalMeasure;
   additionalData?: AdditionalMeasureData
   progress: MeasureProgress[];
@@ -132,6 +133,13 @@ const getMeasures = async (): Promise<Measure[]> => {
     id: measure.id,
     category: measure.category,
     categoryId: measure.categoryId,
+    lastUpdate: (progresses[measure.id]?.values || []).reduce((acc, val) => {
+      const newDate = new Date(val.date);
+      if (!acc) return newDate
+
+      if (newDate.getTime() > acc.getTime()) return newDate
+      return acc;
+    }, null),
     original: measure,
     additionalData: additionalData.find(({ id }) => id === measure.id),
     progress: progresses[measure.id] || [],
@@ -158,7 +166,7 @@ const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
 const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgress; }> => {
 
   return implementations.reduce((acc, progress) => {
-    acc[progress.id] = {...progress, values: progress.values.map(({ value, date }) => ({ value, date: new Date(date) }))};
+    acc[progress.id] = { ...progress, values: progress.values.map(({ value, date }) => ({ value, date: new Date(date) })) };
     return acc;
   }, {});
 }
