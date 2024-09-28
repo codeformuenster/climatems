@@ -578,5 +578,18 @@
             "value": 25000,
             "quantity": null
         }
+    },
+    {
+        "id": "initiative2",
+        "cost": {
+            "until_in_years": null,
+            "value": null,
+            "quantity": null
+        },
+        "user_action": {
+            "label": "Nimm am Münsterhack teil!",
+            "href": "https://muensterhack.de/",
+            "description": "Beim Münsterhack kannst du dich mit anderen Münsteraner*innen vernetzen und gemeinsam an digitalen Lösungen für die Stadt arbeiten."
+        }
     }
 ]

@@ -77,6 +77,11 @@ const getStatusProps = (status: string) => {
       };
   }
 };
+
+const getCategoryLink = (category: string) => {
+  const cat = props.measures.find((m) => m.category === category);
+  return `/category/${cat.categoryId}`;
+};
 </script>
 
 <template>
@@ -90,6 +95,12 @@ const getStatusProps = (status: string) => {
             </div>
             <h3>{{ category }}</h3>
           </div>
+          <NuxtLink
+            :to="getCategoryLink(category)"
+            style="width: 150px"
+          >
+            zur Kategorie
+          </NuxtLink>
         </AccordionHeader>
         <AccordionContent>
           <ul class="category-accordion--list">

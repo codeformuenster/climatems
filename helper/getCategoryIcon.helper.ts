@@ -1,4 +1,4 @@
-import { AcademicCapIcon, BeakerIcon, BoltIcon, HomeIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroicons/vue/24/outline';
+import { AcademicCapIcon, BeakerIcon, BoltIcon, HomeIcon, MegaphoneIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroicons/vue/24/outline';
 
 export const getCategoryIcon = (categoryId: string)=> {
   if (categoryId === "Energieerzeugung") {
@@ -18,6 +18,9 @@ export const getCategoryIcon = (categoryId: string)=> {
   }
   if (categoryId === "Wirtschaft und Wissenschaft") {
     return BeakerIcon;
+  }
+  if (categoryId === "Stadtgesellschaftliche Projekte") {
+    return MegaphoneIcon;
   }
   return TagIcon;
 };

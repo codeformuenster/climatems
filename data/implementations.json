@@ -50,8 +50,8 @@
     "type": "binary",
     "values": [
       {
-        "value": "unknown",
-        "date": "2024-01-01"
+        "value": "in_progress",
+        "date": "2023-04-21"
       }
     ]
   },
@@ -184,8 +184,8 @@
     "type": "binary",
     "values": [
       {
-        "value": "in_progress",
-        "date": "2023-01-01"
+        "value": "completed",
+        "date": "2024-03-26"
       }
     ]
   }

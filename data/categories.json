@@ -22,5 +22,9 @@
   {
     "id": "wirtschaft_und_wissenschaft",
     "description": "Die Kategorie \"Wirtschaft und Wissenschaft\" umfasst Maßnahmen, die Unternehmen und wissenschaftliche Einrichtungen in Münster dabei unterstützen, klimafreundlicher zu werden. Hierzu zählen Beratungsangebote, technische Innovationen und Netzwerke, die den Austausch und die Zusammenarbeit fördern. Ziel ist es, durch gezielte Unterstützung und strategische Planung die Wirtschaft nachhaltig zu gestalten und wissenschaftliche Erkenntnisse in praktische Klimaschutzmaßnahmen umzusetzen. So wird der Wirtschaftsstandort Münster gestärkt und gleichzeitig ein wichtiger Beitrag zum Klimaschutz geleistet."
+  },
+  {
+    "id": "urban_social_projects",
+    "description": "Die Kategorie \"Stadtgesellschaftliche Projekte\" umfasst Projekte und Iniativen von Vereinen"
   }
 ]
