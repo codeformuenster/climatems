@@ -53,13 +53,15 @@ const chartData = computed(() => {
       <ProgressBarChart :chart-data="chartData" />
     </template>
   </Card>
-  <div class="searchbar">
+  <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
     <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
+    
     <div>
       <Checkbox v-model="onlyUserActionable" binary />
-      <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
+      <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
     </div>
   </div>
+
   <CategoryAccordion
     :measures="measures"
     :search-string="searchString"
