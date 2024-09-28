@@ -63,6 +63,19 @@
     </div>
   </template>
 
+  <Card v-if="measure?.additionalData?.cost.value">
+    <template #content>
+      <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+        <div class="px-4 py-6 sm:px-6">
+          <h3 class="text-base font-semibold leading-7 text-gray-900">Kosten</h3>
+          <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Umsetzung bis: {{ measure?.additionalData?.cost.until_in_years }}</p>
+          <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Kosten: {{ measure?.additionalData?.cost.value }}</p>
+          <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Anzahl geplanter Einheiten: {{ measure?.additionalData?.cost.quantity }}</p>
+      </div>
+      </div>
+    </template> 
+  </Card>
+
   <template v-for="k in ['Action outline', 'Reference to impact pathway', 'Implementation', 'Impact & cost']">
     <div class="overflow-hidden bg-white shadow sm:rounded-lg">
       <div class="px-4 py-6 sm:px-6">
