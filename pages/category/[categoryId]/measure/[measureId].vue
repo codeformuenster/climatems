@@ -245,7 +245,7 @@ const chartData = {
   labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
   datasets: [
     {
-      label: "Fortschritt",
+      label: measure?.progress?.label || "Fortschritt",
       data: measure?.progress?.values.map((v) => {
         return {x: (v.date as Date).toISOString().split('T')[0], y: v.value};
       }),
