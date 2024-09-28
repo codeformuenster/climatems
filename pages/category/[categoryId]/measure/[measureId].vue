@@ -1,15 +1,11 @@
 <template>
   <Breadcrumbs :items="items"/>
-  <section class="container">
+  <section class="container" style="margin-bottom: 2rem;">
     <h1 class="headline" :data-is-measure="true">
       {{ measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
       <CategoryTag :title="measure?.category || ''" :category-id="measure?.category || ''" />
     </h1>
     <Card>
-      <template #title>
-        {{ measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
-        <Tag :value="measure?.category"/>
-      </template>
       <template #content>
         <p class="prosa">
           {{ measure?.additionalData?.summary }}
@@ -46,6 +42,18 @@
       </p>
       <div class="action-section--button">
         <Button as="a" :label="measure?.additionalData?.user_action.label" :href="measure?.additionalData?.user_action.href" outlined />
+      </div>
+    </div> 
+  </section>
+
+  <section class="action-section section error" v-if="measure?.status === 'stale'">
+    <div id="alert-additional-content-1" class="container" role="alert">
+      <h1 class="headline">Frage nach!</h1>
+      <p class="action-section--text">
+        Frage jetzt die Verantwortlichen nach neuen Informationen!
+      </p>
+      <div class="action-section--button">
+        <Button as="a" label="Jetzt Daten anfragen" href="https://fragdenstaat.de/" outlined target="_blank" />
       </div>
     </div>
   </section>
@@ -244,7 +252,7 @@ const chartData = {
     }
   ]
 }
-console.log(measure?.progress?.values[0]?.date.toISOString().substring(0, 10));
+
 const chartOptions = {
   scales: {
     x: {
@@ -336,6 +344,10 @@ const chartOptions = {
     color: #fff;
     margin-block: 0;
     font-weight: 400;
+  }
+
+  &.error {
+    background: var(--p-red-400);
   }
 }
 
