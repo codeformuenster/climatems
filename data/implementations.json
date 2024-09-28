@@ -178,5 +178,15 @@
         "date": "2024-01-01"
       }
     ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2023-01-01"
+      }
+    ]
   }
 ]
