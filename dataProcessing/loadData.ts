@@ -1,21 +1,5 @@
 import measures from '@/data/measures.json';
-
-import implementations20210101 from '@/data/implementations/2021-01-01.json';
-import implementations20210401 from '@/data/implementations/2021-04-01.json';
-import implementations20210701 from '@/data/implementations/2021-07-01.json';
-import implementations20211001 from '@/data/implementations/2021-10-01.json';
-import implementations20220101 from '@/data/implementations/2022-01-01.json';
-import implementations20220401 from '@/data/implementations/2022-04-01.json';
-import implementations20220701 from '@/data/implementations/2022-07-01.json';
-import implementations20221001 from '@/data/implementations/2022-10-01.json';
-import implementations20230101 from '@/data/implementations/2023-01-01.json';
-import implementations20230401 from '@/data/implementations/2023-04-01.json';
-import implementations20230701 from '@/data/implementations/2023-07-01.json';
-import implementations20231001 from '@/data/implementations/2023-10-01.json';
-import implementations20240101 from '@/data/implementations/2024-01-01.json';
-import implementations20240401 from '@/data/implementations/2024-04-01.json';
-import implementations20240701 from '@/data/implementations/2024-07-01.json';
-import implementations20241001 from '@/data/implementations/2024-10-01.json';
+import implementations from '@/data/implementations.json';
 
 import additionalData from '@/data/additional_data.json';
 
@@ -69,17 +53,33 @@ export interface AdditionalMeasureData {
   summary: string;
 }
 
-export type MeasureStatus = 'in_progress' | 'unknuwn' | 'completed';
+export type MeasureStatus = 'in_progress' | 'unknown' | 'completed';
 type BaseMeasureProgress = {
   id: string;
-  status: MeasureStatus;
 }
 
 export type MeasureProgress = BaseMeasureProgress & {
-  measure: 'percent';
-  progress: number;
+  type: 'percent';
+  values: {
+    value: number,
+    date: Date,
+  }
+} |
+BaseMeasureProgress & {
+  type: 'count';
+  unit: string;
+  start: number;
+  goal: number;
+  values: {
+    value: number,
+    date: Date,
+  }
 } | BaseMeasureProgress & {
-  measure: 'binary';
+  type: 'binary';
+  values: {
+    value: MeasureStatus,
+    date: Date,
+  }
 }
 
 export interface Category {
@@ -121,42 +121,21 @@ const getMeasure = async (measureId: string): Promise<Measure | undefined> => {
 }
 
 const getMeasureProgress = async (): Promise<MeasureProgress[]> => {
-  return implementations20231001 as MeasureProgress[];
+  console.log('alte Implementation muss rausfliegen');
+  return [];
+  // return implementations20231001 as MeasureProgress[];
 }
 
 
 const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
 
 
-const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgress[]; }> => {
-  const implementations = [
-    ...implementations20210101,
-    ...implementations20210401,
-    ...implementations20210701,
-    ...implementations20211001,
-    ...implementations20220101,
-    ...implementations20220401,
-    ...implementations20220701,
-    ...implementations20221001,
-    ...implementations20230101,
-    ...implementations20230401,
-    ...implementations20230701,
-    ...implementations20231001,
-    ...implementations20240101,
-    ...implementations20240401,
-    ...implementations20240701,
-    ...implementations20241001,
-  ] as MeasureProgress[];
+const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgress; }> => {
 
-  const groupedResult = implementations.reduce((acc: { [key: string]: MeasureProgress[] }, item) => {
-    if (!acc[item.id]) {
-      acc[item.id] = [item];
-    }
-    acc[item.id].push(item);
+  return implementations.reduce((acc, progress) => {
+    acc[progress.id] = {...progress, values: progress.values.map(({ value, date }) => ({ value, date: new Date(date) }))};
     return acc;
   }, {});
-
-  return groupedResult;
 }
 
 const getRawCategories = async () => {

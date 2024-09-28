@@ -1,5 +1,5 @@
-{
-  "energieerzeugung1": {
+[
+  {
     "id": "energieerzeugung1",
     "type": "percent",
     "values": [
@@ -13,7 +13,7 @@
       }
     ]
   },
-  "energieerzeugung2": {
+  {
     "id": "energieerzeugung2",
     "type": "percent",
     "values": [
@@ -23,8 +23,8 @@
       }
     ]
   },
-  "energieerzeugung3": {
-    "id" : "energieerzeugung3",
+  {
+    "id": "energieerzeugung3",
     "type": "binary",
     "values": [
       {
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "energieerzeugung4": {
+  {
     "id": "energieerzeugung4",
     "type": "binary",
     "values": [
@@ -43,7 +43,7 @@
       }
     ]
   },
-  "energieerzeugung5": {
+  {
     "id": "energieerzeugung5",
     "type": "binary",
     "values": [
@@ -53,7 +53,7 @@
       }
     ]
   },
-  "energieerzeugung6": {
+  {
     "id": "energieerzeugung6",
     "type": "binary",
     "values": [
@@ -63,7 +63,7 @@
       }
     ]
   },
-  "energieerzeugung7": {
+  {
     "id": "energieerzeugung7",
     "type": "binary",
     "values": [
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "energieerzeugung8": {
+  {
     "id": "energieerzeugung8",
     "type": "binary",
     "values": [
@@ -83,7 +83,7 @@
       }
     ]
   },
-  "energieerzeugung9": {
+  {
     "id": "energieerzeugung9",
     "type": "binary",
     "values": [
@@ -93,7 +93,7 @@
       }
     ]
   },
-  "energieerzeugung10": {
+  {
     "id": "energieerzeugung10",
     "type": "binary",
     "values": [
@@ -103,7 +103,7 @@
       }
     ]
   },
-  "energieerzeugung11": {
+  {
     "id": "energieerzeugung11",
     "type": "binary",
     "values": [
@@ -113,7 +113,7 @@
       }
     ]
   },
-  "energieerzeugung12": {
+  {
     "id": "energieerzeugung12",
     "type": "binary",
     "values": [
@@ -123,7 +123,7 @@
       }
     ]
   },
-  "energieerzeugung13": {
+  {
     "id": "energieerzeugung13",
     "type": "binary",
     "values": [
@@ -133,7 +133,7 @@
       }
     ]
   },
-  "mobilitaet1": {
+  {
     "id": "mobilitaet1",
     "type": "count",
     "unit": "Anzahl Elektrobusse",
@@ -194,4 +194,4 @@
       }
     ]
   }
-}
+]
