@@ -44,6 +44,7 @@ const chartData = computed(() => {
 
 <template>
   <News></News>
+  <About />
   <Card>
     <template #title>
       Gesamtübersicht über alle Maßnahmen
