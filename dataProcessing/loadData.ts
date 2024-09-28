@@ -104,21 +104,25 @@ export interface Measure {
 
 const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus => {
   let status: MeasureStatus = 'unknown';
+
   if (!progress) return status;
+
+  const lastValue = progress.values[progress.values.length - 1];
+
   if (progress.type === 'percent') {
-    if (progress.values.value === 100) {
+    if (lastValue.value === 100) {
       status = 'completed';
-    } else if (progress.values.value > 0) {
+    } else if (parseInt(lastValue.value, 10) > 0) {
       status = 'in_progress';
     }
   } else if (progress.type === 'count') {
-    if (progress.values.value === progress.goal) {
+    if (lastValue.value === progress.goal) {
       status = 'completed';
-    } else if (progress.values.value > progress.start) {
+    } else if (parseInt(lastValue.value) > progress.start) {
       status = 'in_progress';
     }
-  } else if (progress.type === 'binary' && progress.values.value) {
-    status = progress.values.value;
+  } else if (progress.type === 'binary' && lastValue.value) {
+    status = lastValue.value;
   }
   return status;
 }
