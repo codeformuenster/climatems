@@ -41,6 +41,12 @@ interface OriginalMeasure {
   "Impact & cost": ImpactAndCost;
 }
 
+export interface Cost{
+  until_in_years?: number;
+  value?: number;
+  quantity?: number;
+}
+
 export interface AdditionalMeasureData {
   id: string;
   user_action?: {
@@ -50,6 +56,7 @@ export interface AdditionalMeasureData {
   };
   short_title?: string;
   summary: string;
+  cost: Cost;
 }
 
 export type MeasureStatus = 'in_progress' | 'unknown' | 'completed';
