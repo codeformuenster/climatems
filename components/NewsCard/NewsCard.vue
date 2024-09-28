@@ -12,7 +12,7 @@
       <dd class="ml-16 flex items-baseline pb-6 sm:pb-7">
         <div
           class="flex items-baseline text-2xl font-semibold"
-          :style="{ color: statusColors[status] }"
+          :style="{ color: statusColors[status || 'unknown'] }"
         >
           <template v-if="type === 'count'">
             {{value}}
@@ -20,6 +20,10 @@
 
           <template v-if="type === 'percent'">
             {{value}} %
+          </template>
+
+          <template v-if="!type">
+            Unbekannt
           </template>
 
           <template v-if="type === 'binary'">
@@ -34,7 +38,6 @@
           :class="['h-5 w-5 flex-shrink-0 self-center', { 'rotate-180': changeType === 'decrease'}]" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M10 17a.75.75 0 01-.75-.75V5.612L5.29 9.77a.75.75 0 01-1.08-1.04l5.25-5.5a.75.75 0 011.08 0l5.25 5.5a.75.75 0 11-1.08 1.04l-3.96-4.158V16.25A.75.75 0 0110 17z" clip-rule="evenodd" />
           </svg>
-          <span class="sr-only"> Increased by </span>
           {{  change }}
         </p>
        
@@ -44,7 +47,7 @@
               :to="`/category/${categoryId}/measure/${measureId}`"
               class="font-medium text-indigo-600 hover:text-indigo-500"
               :style="{
-                color: statusColors[status],
+                color: statusColors[status || 'unknown'],
               }"
             >Zur Maßnahme
             </NuxtLink>
@@ -61,7 +64,7 @@ import type { MeasureStatus } from '~/dataProcessing/loadData';
 const statusColors = {
   completed: 'var(--p-green-500)',
   in_progress: 'var(--p-blue-500)',
-  unknown: 'var(--p-grey-500)',
+  unknown: 'var(--p-gray-500)',
 };
 
 const binaryValues = {

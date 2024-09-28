@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import MeasureCard from '~/components/MeasureCard/MeasureCard.vue';
-import { getCategory, getMeasuresForCategory } from '~/dataProcessing/loadData';
+import { getCategory, getMeasuresForCategory, type MeasureProgress } from '~/dataProcessing/loadData';
 
 const route = useRoute();
 
@@ -32,6 +32,58 @@ const chartData = computed(() => {
     };
   });
 })
+
+const getStatus = (progress: MeasureProgress) => {
+  if (progress.values.length === 0) {
+    return 'unknown';
+  }
+
+  const lastValue = progress.values[progress.values.length - 1];
+
+  if (progress.type === 'binary') {
+    return lastValue.value;
+  }
+
+  if (progress.type === 'count') {
+    return parseInt(lastValue.value, 10) >= progress.goal ? 'completed' : 'in_progress';
+  }
+
+  if (progress.type === 'percent') {
+    return lastValue.value === 100 ? 'completed' : 'in_progress';
+  }
+};
+
+const getChange = (progress: MeasureProgress) => {
+  if (progress.values.length === 0) {
+    return null;
+  }
+
+  const lastValue = progress.values[progress.values.length - 1].value;
+
+  if (progress.values.length === 1) {
+    return lastValue.value;
+  }
+
+  const secondLastValue = progress.values[progress.values.length - 2].value;
+
+  return lastValue - secondLastValue;
+};
+const sortedMeasures = measures.sort((a, b) => {
+  if (!a.lastUpdate && !b.lastUpdate) {
+    return 0;
+  }
+
+  if (!a.lastUpdate) {
+    return 1;
+  }
+
+  if (!b.lastUpdate) {
+    return -1;
+  }
+
+  return new Date(b.lastUpdate).getTime() > new Date(a.lastUpdate).getTime() ? 1 : -1;
+});
+
 </script>
 
 <template>
@@ -52,6 +104,21 @@ const chartData = computed(() => {
 
   </template>
   <CardGrid>
-    <MeasureCard v-for="(measure, index) in measures" :key="index" :measure="measure" />
+   
+    <NewsCard
+      v-for="measure in sortedMeasures"
+        :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"
+        :category="measure.category"
+        :status="getStatus(measure.progress)"
+        :value="measure.progress.values.length > 0 ? measure.progress.values[measure.progress.values.length - 1].value : 'unknown'"
+        :label="measure.progress?.goal"
+        :type="measure.progress.type"
+        :change="getChange(measure.progress)"
+        change-type="increase"
+        change-semantic="positive"
+        :category-id="measure.categoryId"
+        :measure-id="measure.id"
+    />
+    <!-- <MeasureCard v-for="(measure, index) in measures" :key="index" :measure="measure" /> -->
   </CardGrid>
 </template>
