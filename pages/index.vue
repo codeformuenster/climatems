@@ -40,31 +40,53 @@ const chartData = computed(() => {
     };
   });
 })
+
+const scrollToCategories = () => {
+  const element = document.getElementById('categories');
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 </script>
 
 <template>
-  <News></News>
-  <About />
-  <Card>
-    <template #title>
-      Gesamtübersicht über alle Maßnahmen
-    </template>
-    <template #content>
-      <ProgressBarChart :chart-data="chartData" />
-    </template>
-  </Card>
-  <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
-    <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
+  <section class="container">
+    <News @scroll-to-categories="scrollToCategories" />
+  </section>
+  <section>
+    <About />
+  </section>
+  <section id="categories" class="categories container">
+    <h1 class="headline">Maßnahmen nach Kategorie</h1>
+    <Card>
+      <template #title>
+        Gesamtübersicht über alle Maßnahmen
+      </template>
+      <template #content>
+        <ProgressBarChart :chart-data="chartData" />
+      </template>
+    </Card>
+    <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
+      <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
 
-    <div>
-      <Checkbox v-model="onlyUserActionable" binary />
-      <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
+      <div>
+        <Checkbox v-model="onlyUserActionable" binary />
+        <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
+      </div>
     </div>
-  </div>
-
-  <CategoryAccordion
-    :measures="filteredMeasures"
-    :search-string="searchString"
-    :show-user-actionable="onlyUserActionable"
-  />
+    <CategoryAccordion
+      :measures="filteredMeasures"
+      :search-string="searchString"
+      :show-user-actionable="onlyUserActionable"
+    />
+  </section>
 </template>
+
+<style scoped>
+  .categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block-start: 3rem;
+  }
+</style>

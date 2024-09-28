@@ -1,6 +1,6 @@
 :root {
-  --color-primary: rgb(16, 104, 51);
-  --color-primary-hover: rgb(3, 86, 36);
+  --color-primary: rgb(6, 117, 164);
+  --color-primary-hover: rgb(4, 97, 136);
   --color-status-unknown: rgb(131, 131, 131);
   --color-status-in-progress: var(--p-blue-500);
   --color-status-completed: var(--p-green-500);
@@ -11,6 +11,28 @@
   --color-primary-climate: rgb(11, 95, 31);
   --color-primary-education: rgb(202, 119, 0);
   --color-primary-sciene: rgb(127, 38, 184);
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("~/assets/fonts/RobotoCondensed.ttf") format("truetype");
+}
+
+body {
+  --p-button-primary-background: var(--color-primary);
+  --p-button-primary-border-color: var(--color-primary);
+  --p-button-primary-hover-background: var(--color-primary-hover);
+  --p-button-primary-hover-border-color: var(--color-primary-hover);
+  --p-button-primary-active-background: var(--color-primary-hover);
+  --p-button-primary-active-border-color: var(--color-primary-hover);
+}
+
+.headline {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-block-end: 3rem;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
 }
 
 .container {
