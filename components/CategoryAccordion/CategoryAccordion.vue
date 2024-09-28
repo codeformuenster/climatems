@@ -1,6 +1,7 @@
 <script lang="ts" setup>
-import type {Measure} from "~/dataProcessing/loadData";
+import type { Measure } from "~/dataProcessing/loadData";
 import Fuse from 'fuse.js';
+import { getCategoryIcon } from "~/helper";
 
 const props = defineProps<{
   measures: Array<Measure>;
@@ -59,6 +60,9 @@ const filteredMeasures = function(category) {
       <AccordionPanel v-for="(category, index) in filteredCategories" :key="index" :value="index">
         <AccordionHeader>
           <div class="category-accordion--header">
+            <div class="category-accordion--icon">
+              <component :is="getCategoryIcon(category)" />
+            </div>
             <h3>{{ category }}</h3>
           </div>
         </AccordionHeader>

@@ -3,5 +3,14 @@
 }
 
 .category-accordion--header {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
   padding: 1rem;
+  width: 100%;
+}
+
+.category-accordion--icon {
+  width: 1.5rem;
+  height: auto;
 }
