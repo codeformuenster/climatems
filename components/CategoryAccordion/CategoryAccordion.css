@@ -1,5 +1,43 @@
 .category-accordion {
   --p-accordion-header-padding: 0;
+  --p-accordion-header-background: transparent;
+  --p-accordion-header-hover-background: transparent;
+  --p-accordion-content-background: transparent;
+  --accordion-primary-color: #000000;
+}
+
+.p-accordionpanel {
+  border: 1px solid var(--accordion-primary-color);
+  border-radius: 0.5rem;
+  margin-block-end: 1rem;
+
+  &[data-is-category="Energieerzeugung"] {
+    --accordion-primary-color: var(--color-primary-energy);
+  }
+
+  &[data-is-category="Bauen und Sanieren"] {
+    --accordion-primary-color: var(--color-primary-building);
+  }
+
+  &[data-is-category="Mobilität"] {
+    --accordion-primary-color: var(--color-primary-mobility);
+  }
+
+  &[data-is-category="Klimahaushalt"] {
+    --accordion-primary-color: var(--color-primary-climate);
+  }
+
+  &[data-is-category="Bildung und Ernährung"] {
+    --accordion-primary-color: var(--color-primary-education);
+  }
+
+  &[data-is-category="Wirtschaft und Wissenschaft"] {
+    --accordion-primary-color: var(--color-primary-sciene);
+  }
+}
+
+.p-accordionheader {
+  padding-inline-end: 1rem;
 }
 
 .category-accordion--header {
@@ -8,9 +46,51 @@
   gap: 0.5rem;
   padding: 1rem;
   width: 100%;
+  color: var(--accordion-primary-color);
 }
 
 .category-accordion--icon {
   width: 1.5rem;
   height: auto;
+}
+
+.category-accordion--list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.category-accordion--list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  a {
+    &:focus-visible,
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.category-accordion--status {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+  color: #ffffff;
+
+  &[data-has-status="unknown"] {
+    background: var(--color-status-unknown);
+  }
+
+  &[data-has-status="in_progress"] {
+    background: var(--color-status-in-progress);
+  }
+
+  &[data-has-status="completed"] {
+    background: var(--color-status-completed);
+  }
 }

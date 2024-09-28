@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { CheckIcon, ClockIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/outline';
 import type { Measure } from "~/dataProcessing/loadData";
 import Fuse from 'fuse.js';
 import { getCategoryIcon } from "~/helper";
@@ -35,6 +36,7 @@ const fuse = new Fuse(props.measures, options);
 
 const filteredCategories = computed(() => {
   let fuseresults;
+  console.log(props.measures)
   if ("" === props.searchString) {
     fuseresults = props.measures.map((item) => ({item, score: 0}));
   } else {
@@ -52,12 +54,32 @@ const filteredMeasures = function(category) {
   const fuseresults = fuse.search(props.searchString).filter((fuseresult) => fuseresult.item.category === category);
   return fuseresults;
 };
+
+const getStatusProps = (status: string) => {
+  switch (status) {
+    case 'completed':
+      return {
+        text: 'Abgeschlossen',
+        icon: CheckIcon,
+      };
+    case 'in_progress':
+    return {
+        text: 'In Bearbeitung',
+        icon: ClockIcon,
+      };
+    default:
+    return {
+        text: 'Unbekannt',
+        icon: QuestionMarkCircleIcon,
+      };
+  }
+};
 </script>
 
 <template>
   <div class="category-accordion">
     <Accordion :value="openAccordionPanels" multiple>
-      <AccordionPanel v-for="(category, index) in filteredCategories" :key="index" :value="index">
+      <AccordionPanel v-for="(category, index) in filteredCategories" :key="index" :value="index" :data-is-category="category">
         <AccordionHeader>
           <div class="category-accordion--header">
             <div class="category-accordion--icon">
@@ -67,8 +89,11 @@ const filteredMeasures = function(category) {
           </div>
         </AccordionHeader>
         <AccordionContent>
-          <ul>
-            <li v-for="fuseresult in filteredMeasures(category)" :key="fuseresult.item.id">
+          <ul class="category-accordion--list">
+            <li v-for="fuseresult in filteredMeasures(category)" :key="fuseresult.item.id" class="category-accordion--list-item">
+              <span v-tooltip.top="getStatusProps(fuseresult.item.status).text" class="category-accordion--status" :data-has-status="fuseresult.item.status">
+                <component :is="getStatusProps(fuseresult.item.status).icon" />
+              </span>
               <NuxtLink :to="`/category/${fuseresult.item.categoryId}/measure/${fuseresult.item.id}`">
                 {{ fuseresult.item.additionalData?.short_title || fuseresult.item.original['Action outline']?.['Action name'] }}
               </NuxtLink>

@@ -1,4 +1,4 @@
-import { BoltIcon, HomeIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroicons/vue/24/outline';
+import { AcademicCapIcon, BeakerIcon, BoltIcon, HomeIcon, PaperAirplaneIcon, SunIcon, TagIcon } from '@heroicons/vue/24/outline';
 
 export const getCategoryIcon = (categoryId: string)=> {
   if (categoryId === "Energieerzeugung") {
@@ -12,6 +12,12 @@ export const getCategoryIcon = (categoryId: string)=> {
   }
   if (categoryId === "Klimahaushalt") {
     return SunIcon;
+  }
+  if (categoryId === "Bildung und Ernährung") {
+    return AcademicCapIcon;
+  }
+  if (categoryId === "Wirtschaft und Wissenschaft") {
+    return BeakerIcon;
   }
   return TagIcon;
 };
