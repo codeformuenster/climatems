@@ -1,0 +1,43 @@
+.footer {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 300px;
+  padding: 2rem;
+  background: rgb(0, 0, 0);
+}
+
+.footer--top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer--top,
+.footer--bottom {
+  padding-inline: 2rem;
+}
+
+.footer--muensterhack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.footer--text-muensterhack {
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.footer--logo-muensterhack {
+  width: 100px;
+  height: auto;
+}
+
+.footer--text {
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}

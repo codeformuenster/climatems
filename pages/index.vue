@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { Search, CardGrid, CategoryCard } from "../components";
-import PageHeader from '~/components/PageHeader.vue';
+import { CardGrid, CategoryCard, Search } from "../components";
 import {getCategories, getMeasureProgress, getMeasures } from "~/dataProcessing/loadData";
 
 const categoriesWithInformation = await getCategories();
@@ -43,39 +42,23 @@ const chartData = computed(() => {
 </script>
 
 <template>
-  <div class="main-content">
-    <PageHeader
-      image-src="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
-      title="Klimastadtvertrag" description="Alles im Blick" />
-
-    <Card>
-      <template #title>
-        Gesamtübersicht über alle Maßnahmen
-      </template>
-      <template #content>
-        <ProgressBarChart :chart-data="chartData" />
-      </template>
-    </Card>
-
-    <CardGrid>
-      <template v-for="category in categoriesWithInformation" :key="category">
-        <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
-      </template>
-    </CardGrid>
-
-    <div class="flex items-center">
-      <Checkbox v-model="onlyUserActionable" binary />
-      <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
-    </div>
-    <Search :measures="filteredMeasures">
-    </Search>
+  <Card>
+    <template #title>
+      Gesamtübersicht über alle Maßnahmen
+    </template>
+    <template #content>
+      <ProgressBarChart :chart-data="chartData" />
+    </template>
+  </Card>
+  <CardGrid>
+    <template v-for="category in categoriesWithInformation" :key="category">
+      <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
+    </template>
+  </CardGrid>
+  <div class="flex items-center">
+    <Checkbox v-model="onlyUserActionable" binary />
+    <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
   </div>
+  <Search :measures="filteredMeasures">
+  </Search>
 </template>
-
-<style>
-.main-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-</style>
