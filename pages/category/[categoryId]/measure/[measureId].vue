@@ -91,7 +91,7 @@
               Was wird im Detail geplant?
             </dt>
             <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-                v-html="measure?.original?.['Action outline']['Action description'].replaceAll('\n', '<br/>')"></dd>
+                v-html="measure?.original?.['Action outline']['Action description'].replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
           </div>
         </dl>
       </div>
@@ -126,7 +126,7 @@
               Geschätzte potentielle CO2-Einsparung
             </dt>
             <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-                v-html="measure?.original?.['Impact & cost']?.['GHG emissions reduction estimate (total) per emission source sector']?.replaceAll('\n', '<br/>')"></dd>
+                v-html="measure?.original?.['Impact & cost']?.['GHG emissions reduction estimate (total) per emission source sector']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
           </div>
           <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
             <dt class="text-sm font-medium text-gray-900">
@@ -169,7 +169,7 @@
               Wer ist noch beteiligt?
             </dt>
             <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-                v-html="measure?.original?.['Implementation']?.['Involved stakeholders']?.replaceAll('\n', '<br/>')"></dd>
+                v-html="measure?.original?.['Implementation']?.['Involved stakeholders']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
           </div>
           <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
             <dt class="text-sm font-medium text-gray-900">
@@ -184,7 +184,7 @@
               Was sind die konkreten Schritte/Fortschritte?
             </dt>
             <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-                v-html="measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>')"></dd>
+                v-html="measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
           </div>
         </dl>
       </div>
@@ -212,7 +212,7 @@
                   <template v-for="(value, key) in measure?.original?.[k]">
                     <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                       <dt class="text-sm font-medium text-gray-900">{{key}}</dt>
-                      <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0" v-html="value.replaceAll('\n', '<br/>')"></dd>
+                      <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0" v-html="value.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
                     </div>
                   </template>
                 </dl>
