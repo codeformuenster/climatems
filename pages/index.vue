@@ -18,6 +18,7 @@ const filteredMeasures = computed(() => {
 
 <template>
   <News></News>
+  <Stale />
   <About />
   <Card>
     <template #title>

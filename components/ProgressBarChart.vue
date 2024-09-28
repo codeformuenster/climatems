@@ -1,5 +1,5 @@
 <template>
-  <MeterGroup :value="[completed, inProgress, unknown]" :max="sum" />
+  <MeterGroup :value="[completed, inProgress, stale, unknown]" :max="sum" />
 </template>
 
 <script lang="ts" setup>
@@ -21,6 +21,13 @@ const completed = {
   color: 'var(--p-green-500)',
   icon: null,
   value: props.measures.filter((measure) => measure.status === 'completed').length,
+};
+
+const stale = {
+  label: 'Veraltet',
+  color: 'var(--color-status-stale)',
+  icon: null,
+  value: props.measures.filter((measure) => measure.status === 'stale').length,
 };
 
 const unknown = {

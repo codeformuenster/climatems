@@ -36,7 +36,6 @@ const fuse = new Fuse(props.measures, options);
 
 const filteredCategories = computed(() => {
   let fuseresults;
-  console.log(props.measures)
   if ("" === props.searchString) {
     fuseresults = props.measures.map((item) => ({item, score: 0}));
   } else {
@@ -65,6 +64,11 @@ const getStatusProps = (status: string) => {
     case 'in_progress':
     return {
         text: 'In Bearbeitung',
+        icon: ClockIcon,
+      };
+    case 'stale':
+    return {
+        text: 'Veraltet',
         icon: ClockIcon,
       };
     default:

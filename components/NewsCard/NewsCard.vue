@@ -65,18 +65,21 @@ const statusColors = {
   completed: 'var(--p-green-500)',
   in_progress: 'var(--p-blue-500)',
   unknown: 'var(--p-gray-500)',
+  stale: 'var(--color-status-stale)',
 };
 
 const binaryValues = {
   completed: "Abgeschlossen",
   in_progress: "In Bearbeitung",
   unknown: "Unbekannt",
+  stale: "Veraltet",
 };
 
 const statusIcon = {
   completed: 'pi pi-check-circle',
   in_progress: 'pi pi-clock',
   unknown: 'pi pi-question-circle',
+  stale: 'pi pi-exclamation-circle',
 };
 
 const changeColor = {

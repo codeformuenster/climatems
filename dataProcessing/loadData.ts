@@ -59,7 +59,7 @@ export interface AdditionalMeasureData {
   cost: Cost;
 }
 
-export type MeasureStatus = 'in_progress' | 'unknown' | 'completed';
+export type MeasureStatus = 'in_progress' | 'unknown' | 'completed' | 'stale';
 type BaseMeasureProgress = {
   id: string;
 }
@@ -115,6 +115,10 @@ const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus =
   if (!progress) return status;
 
   const lastValue = progress.values[progress.values.length - 1];
+
+  if (lastValue.date.getTime() < new Date('2024-01-01').getTime()) {
+    return 'stale';
+  };
 
   if (progress.type === 'percent') {
     if (lastValue.value === 100) {

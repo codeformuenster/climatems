@@ -66,6 +66,7 @@
   gap: 0.5rem;
 
   a {
+
     &:focus-visible,
     &:hover,
     &:active {
@@ -92,5 +93,9 @@
 
   &[data-has-status="completed"] {
     background: var(--color-status-completed);
+  }
+
+  &[data-has-status="stale"] {
+    background: var(--color-status-stale);
   }
 }

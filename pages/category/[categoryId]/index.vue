@@ -11,47 +11,6 @@ const breadcrumb = computed(() =>
 
 const measures = await getMeasuresForCategory(route.params.categoryId);
 
-const rawChartData = measures.reduce((acc, item) => {
-  acc[item.status] = acc[item.status] + 1 || 1;
-  return acc;
-}, {});
-
-const colorScale = {
-  completed: 'var(--p-green-500)',
-  in_progress: 'var(--p-yellow-500)',
-  unknown: 'var(--p-grey-500)',
-};
-
-const chartData = computed(() => {
-  return Object.entries(rawChartData).map(([key, value]) => {
-    return {
-      label: key,
-      color: colorScale[key as keyof typeof colorScale],
-      value
-    };
-  });
-})
-
-const getStatus = (progress: MeasureProgress) => {
-  if (progress.values.length === 0) {
-    return 'unknown';
-  }
-
-  const lastValue = progress.values[progress.values.length - 1];
-
-  if (progress.type === 'binary') {
-    return lastValue.value;
-  }
-
-  if (progress.type === 'count') {
-    return parseInt(lastValue.value, 10) >= progress.goal ? 'completed' : 'in_progress';
-  }
-
-  if (progress.type === 'percent') {
-    return lastValue.value === 100 ? 'completed' : 'in_progress';
-  }
-};
-
 const getChange = (progress: MeasureProgress) => {
   if (progress.values.length === 0) {
     return null;
@@ -67,6 +26,7 @@ const getChange = (progress: MeasureProgress) => {
 
   return lastValue - secondLastValue;
 };
+
 const sortedMeasures = measures.sort((a, b) => {
   if (!a.lastUpdate && !b.lastUpdate) {
     return 0;
@@ -108,7 +68,7 @@ const sortedMeasures = measures.sort((a, b) => {
       v-for="measure in sortedMeasures"
         :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"
         :category="measure.category"
-        :status="getStatus(measure.progress)"
+        :status="measure.status"
         :value="measure.progress.values.length > 0 ? measure.progress.values[measure.progress.values.length - 1].value : 'unknown'"
         :label="measure.progress?.goal"
         :type="measure.progress.type"
