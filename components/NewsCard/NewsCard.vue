@@ -1,4 +1,11 @@
 <template>
+    <NuxtLink
+              :to="`/category/${categoryId}/measure/${measureId}`"
+              class="font-medium text-indigo-600 hover:text-indigo-500"
+              :style="{
+                color: statusColors[status || 'unknown'],
+              }"
+            >
     <div class="relative overflow-hidden rounded-lg bg-white px-4 pb-12 pt-5 shadow sm:px-6 sm:pt-6">
       <dt>
         <div class="absolute flex rounded-md p-3" :style="{ backgroundColor: statusColors[status] }">
@@ -55,6 +62,7 @@
         </div>
       </dd>
     </div>
+  </NuxtLink>
     
 </template>
 
