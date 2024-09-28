@@ -59,18 +59,12 @@ const responsibleBodies = ref([
     <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
       <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
 
-<<<<<<< Updated upstream
-      <div>
-        <Checkbox v-model="onlyUserActionable" binary input-id="onlyUserActionable"/>
-        <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
-=======
       <div class="flex gap-4" style="align-items: center;">
         <Select v-model="selectedResponsibleBody" :options="responsibleBodies" optionLabel="name" placeholder="Wähle eine verantwortliche Stelle" class="w-full md:w-56" showClear="true" />
         <div>
           <Checkbox v-model="onlyUserActionable" binary />
           <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
         </div>
->>>>>>> Stashed changes
       </div>
     </div>
     <CategoryAccordion
