@@ -1,7 +1,7 @@
 <template>
   <Breadcrumbs :items="items"/>
   <section class="container" style="margin-bottom: 2rem;">
-    <h1 class="headline" :data-is-measure="true">
+    <h1 class="headline headline-with-icon" :data-is-measure="true">
       {{ measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'] }}
       <CategoryTag :title="measure?.category || ''" :category-id="measure?.category || ''" />
     </h1>
@@ -344,6 +344,7 @@ const chartOptions = {
     color: #fff;
     margin-block: 0;
     font-weight: 400;
+    font-size: 1.5rem;
   }
 
   &.error {

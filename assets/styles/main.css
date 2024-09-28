@@ -30,7 +30,7 @@ body {
 }
 
 .headline {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--color-primary);
   margin-block-end: 3rem;
@@ -39,24 +39,41 @@ body {
 
   &[data-is-measure="true"] {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
   }
+
+  @media only screen and (min-width: 1000px) {
+    font-size: 2.5rem;
+
+    &[data-is-measure="true"] {
+      flex-direction: row;
+    }
+  }
 }
 
 .sub-headline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-secondary);
   margin-block-end: 2rem;
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
+
+  @media only screen and (min-width: 1000px) {
+    font-size: 2rem;
+  }
 }
 
 .section {
-  padding-block-start: 5rem;
+  padding-block-start: 1.5rem;
+  padding-inline: 1rem;
+
+  @media only screen and (min-width: 1000px) {
+    padding-block-start: 5rem;
+  }
 }
 
 .container {
