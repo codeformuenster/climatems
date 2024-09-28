@@ -247,7 +247,7 @@ const chartData = {
     {
       label: "Fortschritt",
       data: measure?.progress?.values.map((v) => {
-        return {x: v.date, y: v.value};
+        return {x: (v.date as Date).toISOString().split('T')[0], y: v.value};
       }),
       fill: false,
       borderColor: "rgb(75, 192, 192)",
