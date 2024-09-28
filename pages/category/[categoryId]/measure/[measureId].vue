@@ -227,6 +227,7 @@ import AccordionPanel from 'primevue/accordionpanel';
 import AccordionHeader from 'primevue/accordionheader';
 import AccordionContent from 'primevue/accordioncontent';
 import {formatNumber} from "chart.js/helpers";
+import 'chartjs-adapter-moment';
 
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
@@ -242,7 +243,7 @@ const items = ref([
     { label: measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'], icon: 'pi pi-tag' },
 ]);
 const chartData = {
-  labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
+  // labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
   datasets: [
     {
       label: measure?.progress?.label || "Fortschritt",
@@ -256,70 +257,74 @@ const chartData = {
     }
   ]
 }
-let chartOptions;
-if (measure?.progress?.type === 'count') {
-  chartOptions = {
-    scales: {
-      y: {
-        min: measure.progress.yMin,
-        max: measure.progress.yMax,
-        title: {
-          display: true,
-          text: measure.progress.unit,
-          padding: {top: 20, left: 0, right: 0, bottom: 0}
-        }
-      }
+console.log(measure?.progress?.values[0]?.date.toISOString().substring(0, 10));
+const chartOptions = {
+  scales: {
+    x: {
+      min: measure?.progress?.values[0]?.date < new Date("2024-01-01") ? measure?.progress?.values[0]?.date.toISOString().substring(0, 10) : "2023-01-01",
+      max: "2026-10-01",
+      type: 'time',
+      ticks: {
+        stepSize: 3,
+      },
+      time: {
+        unit: 'month',
+        tooltipFormat: 'DD.MM.yyyy',
+        displayFormats: {
+          day: 'DD.MM.yyyy',
+        },
+      },
+      adapters: {
+        date: {
+          locale: 'de',
+        },
+      },
     },
-    plugins: {
-      annotation: {
-        annotations: {
-          start: {
-            type: 'line',
-            yMin: measure.progress.start,
-            yMax: measure.progress.start,
-            borderColor: '#6ee7b7',
-            borderWidth: 2,
-            borderDash: [5, 5],
-            label: {
-              content: 'Start',
-              enabled: true,
-              display: true,
-              position: 'end'
-            }
+    y: {
+      min: measure?.progress?.type === 'count' ? measure.progress.yMin : 0,
+      max: measure?.progress?.type === 'count' ? measure.progress.yMax : 100,
+      title: {
+        display: true,
+        text: measure?.progress?.type === 'count' ? measure.progress.unit : '%',
+        padding: { top: 20, left: 0, right: 0, bottom: 0 },
+      },
+    },
+  },
+  plugins: {
+    annotation: {
+      annotations: measure?.progress?.type === 'count' ? {
+        start: {
+          type: 'line',
+          yMin: measure.progress.start,
+          yMax: measure.progress.start,
+          borderColor: '#6ee7b7',
+          borderWidth: 2,
+          borderDash: [5, 5],
+          label: {
+            content: 'Start',
+            enabled: true,
+            display: true,
+            position: 'end',
           },
-          goal: {
-            type: 'line',
-            yMin: measure.progress.goal,
-            yMax: measure.progress.goal,
-            borderColor: '#6ee7b7',
-            borderWidth: 2,
-            borderDash: [5, 5],
-            label: {
-              content: 'Ziel',
-              display: true,
-              enabled: true,
-              position: 'end'
-            }
-          }
-        }
-      }
-    }
-  }
-} else {
-  chartOptions = {
-    scales: {
-      y: {
-        min: 0,
-        max: 100,
-        title: {
-          display: true,
-          text: '%',
-          padding: {top: 20, left: 0, right: 0, bottom: 0}
-        }
-      }
-    }
-  }
-}
+        },
+        goal: {
+          type: 'line',
+          yMin: measure.progress.goal,
+          yMax: measure.progress.goal,
+          borderColor: '#6ee7b7',
+          borderWidth: 2,
+          borderDash: [5, 5],
+          label: {
+            content: 'Ziel',
+            display: true,
+            enabled: true,
+            position: 'end',
+          },
+        },
+      } : {},
+    },
+  },
+};
 </script>
 
 <style>

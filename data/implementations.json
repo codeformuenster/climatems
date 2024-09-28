@@ -2,7 +2,7 @@
   {
     "id": "energieerzeugung1",
     "type": "count",
-    "label": "Erzeugte Energie pro Jahr",
+    "label": "Erzeugte Energie durch Windkraft pro Jahr",
     "unit": "GWh",
     "start": 92,
     "goal": 280,
@@ -22,7 +22,7 @@
   {
     "id": "energieerzeugung2",
     "type": "count",
-    "label": "Erzeugte Energie pro Jahr",
+    "label": "Erzeugte Energie durch PV pro Jahr",
     "unit": "GWh",
     "start": 9,
     "goal": 100,
