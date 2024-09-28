@@ -567,7 +567,8 @@
     {
         "id": "wirtschaft_und_wissenschaft10",
         "short_title": "Startberatung Energieeffizienz",
-        "summary": "Beratungsangebot für kleine und mittlere Unternehmen zur Energieeinsparung und effizientem Energieeinsatz. Ziel ist die Umsetzung konkreter Klimaschutzmaßnahmen. 2024 sind 20 Beratungen geplant. Kosten für die Stadt: ca. 25.000 € pro Jahr.,""cost": {
+        "summary": "Beratungsangebot für kleine und mittlere Unternehmen zur Energieeinsparung und effizientem Energieeinsatz. Ziel ist die Umsetzung konkreter Klimaschutzmaßnahmen. 2024 sind 20 Beratungen geplant. Kosten für die Stadt: ca. 25.000 € pro Jahr."
+        ,"cost": {
             "until_in_years": 2025,
             "value": 25000,
             "quantity": null
