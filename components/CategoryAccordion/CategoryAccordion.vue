@@ -8,6 +8,7 @@ const props = defineProps<{
   measures: Array<Measure>;
   searchString: string;
   showUserActionable: boolean;
+  showResponsibleBody?: string;
 }>();
 
 const openAccordionPanels = computed(() => {

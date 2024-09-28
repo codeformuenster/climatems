@@ -7,11 +7,20 @@ const searchString = ref('');
 const onlyUserActionable = ref(false);
 
 const filteredMeasures = computed(() => {
+  let filtered = measures;
   if (onlyUserActionable.value) {
-    return measures.filter((measure) => !!measure.additionalData?.user_action);
+    filtered = filtered.filter((measure) => !!measure.additionalData?.user_action);
   }
 
-  return measures;
+  if (selectedResponsibleBody.value) {
+    console.log(selectedResponsibleBody.value);
+    filtered = filtered.filter((measure) => {
+      const responsibleBodies = measure.original?.['Implementation']?.['Responsible bodies/person for implementation'] ?? "";
+      return responsibleBodies.includes(selectedResponsibleBody.value.code);
+    });
+  }
+
+  return filtered;
 });
 
 const scrollToCategories = () => {
@@ -20,6 +29,14 @@ const scrollToCategories = () => {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 };
+
+const selectedResponsibleBody = ref();
+
+const responsibleBodies = ref([
+    { name: 'Stadtwerke Münster', code: 'Stadtwerke Münster' },
+    { name: 'Stadt Münster', code: 'Stadt Münster' },
+    { name: 'Stadtverwaltung Münster', code: 'Stadtverwaltung Münster' },
+]);
 </script>
 
 <template>
@@ -42,15 +59,24 @@ const scrollToCategories = () => {
     <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
       <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
 
+<<<<<<< Updated upstream
       <div>
         <Checkbox v-model="onlyUserActionable" binary input-id="onlyUserActionable"/>
         <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
+=======
+      <div class="flex gap-4" style="align-items: center;">
+        <Select v-model="selectedResponsibleBody" :options="responsibleBodies" optionLabel="name" placeholder="Wähle eine verantwortliche Stelle" class="w-full md:w-56" showClear="true" />
+        <div>
+          <Checkbox v-model="onlyUserActionable" binary />
+          <label for="onlyUserActionable" class="ml-2">Ich kann aktiv werden</label>
+        </div>
+>>>>>>> Stashed changes
       </div>
     </div>
     <CategoryAccordion
       :measures="filteredMeasures"
       :search-string="searchString"
-      :show-user-actionable="onlyUserActionable"
+      :show-user-actionable="onlyUserActionable || selectedResponsibleBody"
     />
   </section>
 </template>
