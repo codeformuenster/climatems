@@ -18,15 +18,15 @@
         <div v-if="measure?.progress?.type === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
-            value: measure?.progress?.values[measure?.progress.values.length - 1].value,
+            value: measure?.progress?.values[measure?.progress?.values.length - 1].value,
             color: 'var(--p-green-500)'
             } ]" />
-          {{ measure?.progress?.values[measure?.progress.values.length - 1].value }} % erreicht
+          {{ measure?.progress?.values[measure?.progress?.values.length - 1].value }} % erreicht
         </div>
 
         <div v-if="measure?.progress?.type === 'binary'">
           Aktueller Status:
-          {{ measure?.progress?.values[measure?.progress.values.length - 1]?.value === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
+          {{ measure?.progress?.values[measure?.progress?.values.length - 1]?.value === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
         </div>
       </template>
     </Card>
@@ -116,7 +116,7 @@ const chartData = {
   datasets: [
     {
       label: "Fortschritt",
-      data: measure?.progress.values.map((v) => {
+      data: measure?.progress?.values.map((v) => {
         return {x: v.date, y: v.value};
       }),
       fill: false,

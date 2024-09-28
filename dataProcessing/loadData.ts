@@ -96,7 +96,7 @@ export interface Measure {
   categoryId: string;
   original: OriginalMeasure;
   additionalData?: AdditionalMeasureData
-  progress: MeasureProgress[];
+  progress: MeasureProgress;
 }
 
 
@@ -110,7 +110,7 @@ const getMeasures = async (): Promise<Measure[]> => {
     categoryId: measure.categoryId,
     original: measure,
     additionalData: additionalData.find(({ id }) => id === measure.id),
-    progress: progresses[measure.id] || [],
+    progress: progresses[measure.id] || undefined,
   }));
 }
 
