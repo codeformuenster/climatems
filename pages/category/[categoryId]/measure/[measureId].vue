@@ -9,21 +9,24 @@
         <p class="prosa">
           {{  measure?.additionalData?.summary }}
         </p>
-        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'percent'">
+        <div v-if="measure?.progress?.type === 'percent'">
           <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
         </div>
-        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'percent'">
+        <div v-if="measure?.progress?.type === 'count'">
+          <Chart type="line" :data="chartData" :options="chartOptions" class="h-[30rem]" />
+        </div>
+        <div v-if="measure?.progress?.type === 'percent'">
           <MeterGroup :value="[{
             label: 'erreicht',
-            value: measure?.progress?.[measure?.progress.length - 1].progress,
+            value: measure?.progress?.values[measure?.progress.values.length - 1].value,
             color: 'var(--p-green-500)'
             } ]" />
-          {{ measure?.progress?.[measure?.progress.length - 1].progress }} % erreicht
+          {{ measure?.progress?.values[measure?.progress.values.length - 1].value }} % erreicht
         </div>
 
-        <div v-if="measure?.progress?.[measure?.progress.length - 1]?.measure === 'binary'">
+        <div v-if="measure?.progress?.type === 'binary'">
           Aktueller Status:
-          {{ measure?.progress?.[measure?.progress.length - 1]?.status === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
+          {{ measure?.progress?.values[measure?.progress.values.length - 1]?.value === 'completed' ? 'Erreicht' : 'Nicht erreicht' }}
         </div>
       </template>
     </Card>
@@ -108,13 +111,14 @@ const items = ref([
     { label: measure?.category, route: `/category/${measure?.categoryId}`, icon: 'pi pi-tag' },
     { label: measure?.additionalData?.short_title || measure?.original['Action outline']['Action name'], icon: 'pi pi-tag' },
 ]);
-
 const chartData = {
   labels: ["2021-01-01", "2021-04-01", "2021-07-01", "2021-10-01", "2022-01-01", "2022-04-01", "2022-07-01", "2022-10-01", "2023-01-01", "2023-04-01", "2023-07-01", "2023-10-01", "2024-01-01", "2024-04-01", "2024-07-01", "2024-10-01"],
   datasets: [
     {
       label: "Fortschritt",
-      data: measure?.progress.map(p => p.progress),
+      data: measure?.progress.values.map((v) => {
+        return {x: v.date, y: v.value};
+      }),
       fill: false,
       borderColor: "rgb(75, 192, 192)",
       tension: 0.1,
