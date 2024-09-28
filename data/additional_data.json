@@ -7,6 +7,11 @@
             "until_in_years": 2028,
             "value": 215000000,
             "quantity": 26
+        },
+        "user_action": {
+            "label": "Bürgerbeteiligung für Windenergieanlagen in Südlohn",
+            "href": "https://buergerbeteiligung.stadtwerke-muenster.de/suedlohn",
+            "description": "In Südlohn werden drei neue Windenergieanlagen gebaut, die ab Anfang 2025 über 10.000 Haushalte mit Strom versorgen sollen. Bürgerinnen und Bürger aus Südlohn, Gescher, Stadtlohn und Velen können sich ab dem 9. September finanziell an dem Projekt beteiligen. Sie können Anteile zwischen 500 und 25.000 Euro erwerben, die jährlich mit 5,25 Prozent verzinst werden. Die Beteiligung läuft bis zum 7. Oktober, und falls danach noch Anteile übrig sind, können auch Ökostromkunden der Stadtwerke Münster investieren."
         }
     },
     {
@@ -510,7 +515,7 @@
         "summary": "Rund 100 Unternehmen in Münster arbeiten jährlich an einer CO2-Bilanz und Klimaschutzmaßnahmen. Die Stadt unterstützt mit Netzwerktreffen, Beratungen und Öffentlichkeitsarbeit. 2024 sind vier Netzwerktreffen und mehrere Beratungen geplant.",
         "cost": {
             "until_in_years": 2025,
-            "value": 25000 ,
+            "value": 25000,
             "quantity": null
         }
     },
@@ -567,8 +572,8 @@
     {
         "id": "wirtschaft_und_wissenschaft10",
         "short_title": "Startberatung Energieeffizienz",
-        "summary": "Beratungsangebot für kleine und mittlere Unternehmen zur Energieeinsparung und effizientem Energieeinsatz. Ziel ist die Umsetzung konkreter Klimaschutzmaßnahmen. 2024 sind 20 Beratungen geplant. Kosten für die Stadt: ca. 25.000 € pro Jahr."
-        ,"cost": {
+        "summary": "Beratungsangebot für kleine und mittlere Unternehmen zur Energieeinsparung und effizientem Energieeinsatz. Ziel ist die Umsetzung konkreter Klimaschutzmaßnahmen. 2024 sind 20 Beratungen geplant. Kosten für die Stadt: ca. 25.000 € pro Jahr.",
+        "cost": {
             "until_in_years": 2025,
             "value": 25000,
             "quantity": null

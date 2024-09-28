@@ -6,25 +6,52 @@
         v-for="measure in newsMeasures"
         :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"
         :category="measure.category"
-        status="in_progress"
+        :status="getStatus(measure.progress)"
         :value="measure.progress.values[measure.progress.values.length - 1].value"
         :label="measure.progress?.goal"
+        :type="measure.progress.type"
         :change="getChange(measure.progress)"
         change-type="increase"
         change-semantic="positive"
         :category-id="measure.categoryId"
         :measure-id="measure.id"
-      />  
+      />
       </dl>
     </section>
   </template>
 
   <script lang="ts" setup>
-import { getMeasures, type Measure } from '~/dataProcessing/loadData';
+import { getMeasures, type Measure, type MeasureProgress } from '~/dataProcessing/loadData';
 
 const measures = await getMeasures();
 
 const NUMBER_OF_NEWS = 6;
+
+const IDS = [
+  'mobilitaet1',
+  'mobilitaet7',
+  'energieerzeugung1'
+]
+
+const getStatus = (progress: MeasureProgress) => {
+  if (progress.values.length === 0) {
+    return 'unknown';
+  }
+
+  const lastValue = progress.values[progress.values.length - 1];
+
+  if (progress.type === 'binary') {
+    return lastValue.value;
+  }
+
+  if (progress.type === 'count') {
+    return parseInt(lastValue.value, 10) >= progress.goal ? 'completed' : 'in_progress';
+  }
+
+  if (progress.type === 'percent') {
+    return lastValue.value === 100 ? 'completed' : 'in_progress';
+  }
+};
 
 const getChange = (progress: MeasureProgress) => {
   if (progress.values.length === 0) {
@@ -58,5 +85,5 @@ const sortedMeasures = measures.sort((a, b) => {
 });
 
 
-const newsMeasures = sortedMeasures.slice(0, NUMBER_OF_NEWS);
+const newsMeasures = sortedMeasures.filter((measure) => IDS.includes(measure.id));
   </script>
