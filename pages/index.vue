@@ -52,14 +52,6 @@ const chartData = computed(() => {
       <ProgressBarChart :chart-data="chartData" />
     </template>
   </Card>
-  
-
-  <CardGrid>
-    <template v-for="category in categoriesWithInformation" :key="category">
-      <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
-    </template>
-  </CardGrid>
-
   <div class="searchbar">
     <InputText v-model="searchString" type="text" size="large" placeholder="Suche" />
     <div>
