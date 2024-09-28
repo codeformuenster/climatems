@@ -50,11 +50,49 @@ const chartData = computed(() => {
       <ProgressBarChart :chart-data="chartData" />
     </template>
   </Card>
+
   <CardGrid>
     <template v-for="category in categoriesWithInformation" :key="category">
       <CategoryCard :title="category.name" :category-id="category.id" :measures="category.measures" :description="category.description"/>
     </template>
   </CardGrid>
+
+  <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="in_progress"
+      value="3"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-type="increase"
+      change-semantic="positive"
+    />
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="completed"
+      value="5"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-semantic="positive"
+      change-type="increase"
+      />
+      
+    <NewsCard
+      title="Windkraftausbau bis 2023"
+      category="Energieerzeugung"
+      content="es gibt drei neue windräder"
+      status="completed"
+      value="5"
+      label="/ 5 Windrädern"
+      :change="1"
+      change-type="decrease"
+      change-semantic="negative"
+    />
+  </dl>
   <div class="flex items-center">
     <Checkbox v-model="onlyUserActionable" binary />
     <label for="onlyUserActionable" class="ml-2">Hier kann ich aktiv werden</label>
