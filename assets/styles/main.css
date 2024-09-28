@@ -36,6 +36,10 @@ body {
   text-align: center;
 }
 
+.section {
+  padding-block-start: 5rem;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;

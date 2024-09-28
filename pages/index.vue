@@ -23,13 +23,13 @@ const scrollToCategories = () => {
 </script>
 
 <template>
-  <section class="container">
+  <section class="section container">
     <News @scroll-to-categories="scrollToCategories" />
   </section>
-  <section>
+  <section class="section">
     <About />
   </section>
-  <section id="categories" class="categories container">
+  <section id="categories" class="section categories container">
     <h1 class="headline">Maßnahmen nach Kategorie</h1>
     <Card>
       <template #title>

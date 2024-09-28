@@ -1,7 +1,4 @@
 .layout--main {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
   padding-block: 3.5rem;
   background: rgb(255, 255, 255);
 }
