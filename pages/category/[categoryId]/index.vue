@@ -47,11 +47,7 @@ const sortedMeasures = measures.sort((a, b) => {
 
 <template>
   <Breadcrumbs :items="breadcrumb" />
-  <PageHeader
-    imageSrc="https://westerwaldkreis.klimaschutzportal.rlp.de/fileadmin/_processed_/b/8/csm_wwkreis_umwelt_logo_neu_rgb_a3cc7eddd8.png"
-    :title="measures[0].category" />
-  <template>
-
+  <section class="container section">
   <Card>
     <template #title>
       Gesamtübersicht über alle Maßnahmen
@@ -60,10 +56,10 @@ const sortedMeasures = measures.sort((a, b) => {
       <ProgressBarChart :measures="sortedMeasures" />
     </template>
   </Card>
-
-  </template>
+  </section>
+  
+  <section class="section container">
   <CardGrid>
-   
     <NewsCard
       v-for="measure in sortedMeasures"
         :title="measure.additionalData?.short_title || measure.original['Action outline']['Action name']"
@@ -80,4 +76,5 @@ const sortedMeasures = measures.sort((a, b) => {
     />
     <!-- <MeasureCard v-for="(measure, index) in measures" :key="index" :measure="measure" /> -->
   </CardGrid>
+</section>
 </template>
