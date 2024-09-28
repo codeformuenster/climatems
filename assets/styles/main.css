@@ -1,6 +1,16 @@
 :root {
   --color-primary: rgb(16, 104, 51);
   --color-primary-hover: rgb(3, 86, 36);
+  --color-status-unknown: rgb(131, 131, 131);
+  --color-status-in-progress: var(--p-blue-500);
+  --color-status-completed: var(--p-green-500);
+
+  --color-primary-energy: rgb(218, 175, 4);
+  --color-primary-building: rgb(159, 53, 44);
+  --color-primary-mobility: rgb(42, 87, 128);
+  --color-primary-climate: rgb(11, 95, 31);
+  --color-primary-education: rgb(202, 119, 0);
+  --color-primary-sciene: rgb(127, 38, 184);
 }
 
 .container {
