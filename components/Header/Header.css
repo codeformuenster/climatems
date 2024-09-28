@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("~/assets/images/header_climate_ms.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.header--logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+}
