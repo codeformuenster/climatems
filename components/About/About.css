@@ -1,0 +1,19 @@
+.about {
+  padding-block: 3.5rem;
+  background-color: var(--color-primary);
+}
+
+.about--inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about--features {
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}

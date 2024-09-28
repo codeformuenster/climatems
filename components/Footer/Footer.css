@@ -12,11 +12,6 @@
   justify-content: flex-end;
 }
 
-.footer--top,
-.footer--bottom {
-  padding-inline: 2rem;
-}
-
 .footer--muensterhack {
   display: flex;
   flex-direction: column;

@@ -1,9 +1,4 @@
-.layout {
-  background: rgb(226, 231, 225);
-}
-
 .layout--main {
   padding-block: 3.5rem;
-  padding-inline: 2rem;
   background: rgb(255, 255, 255);
 }
