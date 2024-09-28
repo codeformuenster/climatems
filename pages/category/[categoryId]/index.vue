@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import MeasureCard from '~/components/MeasureCard/MeasureCard.vue';
 import { getCategory, getMeasuresForCategory, type MeasureProgress } from '~/dataProcessing/loadData';
 
 const route = useRoute();
@@ -98,7 +97,7 @@ const sortedMeasures = measures.sort((a, b) => {
       Gesamtübersicht über alle Maßnahmen
     </template>
     <template #content>
-      <ProgressBarChart :chart-data="chartData" />
+      <ProgressBarChart :measures="sortedMeasures" />
     </template>
   </Card>
 

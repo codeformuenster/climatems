@@ -31,15 +31,6 @@ const colorScale = {
   unknown: 'var(--p-grey-500)',
 };
 
-const chartData = computed(() => {
-  return Object.entries(rawChartData).map(([key, value]) => {
-    return {
-      label: key,
-      color: colorScale[key as keyof typeof colorScale],
-      value
-    };
-  });
-})
 </script>
 
 <template>
@@ -50,7 +41,7 @@ const chartData = computed(() => {
       Gesamtübersicht über alle Maßnahmen
     </template>
     <template #content>
-      <ProgressBarChart :chart-data="chartData" />
+      <ProgressBarChart :measures="measures" />
     </template>
   </Card>
   <div class="searchbar flex" style="justify-content: space-between; align-items: center;">
