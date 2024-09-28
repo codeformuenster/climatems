@@ -1,15 +1,20 @@
 [
   {
     "id": "energieerzeugung1",
-    "type": "percent",
+    "type": "count",
+    "unit": "Erzeugte Energie pro Jahr in GWh",
+    "start": 92,
+    "goal": 280,
+    "yMin": 0,
+    "yMax": 300,
     "values": [
       {
-        "value": 32.86,
-        "date": "2021-01-01"
+        "value": 92,
+        "date": "2023-10-01"
       },
       {
-        "value": 32.86,
-        "date": "2021-04-01"
+        "value": 92,
+        "date": "2024-07-01"
       }
     ]
   },

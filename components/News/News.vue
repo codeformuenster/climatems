@@ -15,7 +15,7 @@
         change-semantic="positive"
         :category-id="measure.categoryId"
         :measure-id="measure.id"
-      />  
+      />
       </dl>
     </section>
   </template>
@@ -28,8 +28,9 @@ const measures = await getMeasures();
 const NUMBER_OF_NEWS = 6;
 
 const IDS = [
-  'mobilitaet1',  
+  'mobilitaet1',
   'mobilitaet7',
+  'energieerzeugung1'
 ]
 
 const getStatus = (progress: MeasureProgress) => {
