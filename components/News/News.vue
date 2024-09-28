@@ -9,6 +9,7 @@
         :status="getStatus(measure.progress)"
         :value="measure.progress.values[measure.progress.values.length - 1].value"
         :label="measure.progress?.goal"
+        :type="measure.progress.type"
         :change="getChange(measure.progress)"
         change-type="increase"
         change-semantic="positive"

@@ -14,7 +14,17 @@
           class="flex items-baseline text-2xl font-semibold"
           :style="{ color: statusColors[status] }"
         >
-          {{value}}
+          <template v-if="type === 'count'">
+            {{value}}
+          </template>
+
+          <template v-if="type === 'percent'">
+            {{value}} %
+          </template>
+
+          <template v-if="type === 'binary'">
+            {{binaryValues[value]}}
+          </template>
           <span class="ml-2 text-sm font-medium text-gray-500">{{ label }}</span>
         </div>
         <p
@@ -54,6 +64,12 @@ const statusColors = {
   unknown: 'var(--p-grey-500)',
 };
 
+const binaryValues = {
+  completed: "Abgeschlossen",
+  in_progress: "In Bearbeitung",
+  unknown: "Unbekannt",
+};
+
 const statusIcon = {
   completed: 'pi pi-check-circle',
   in_progress: 'pi pi-clock',
@@ -76,6 +92,7 @@ defineProps<{
   changeSemantic: 'positive' | 'negative';
   categoryId: string;
   measureId: string;
+  type: 'percent' | 'count' | 'binary';
 }>(); 
 </script>
 
