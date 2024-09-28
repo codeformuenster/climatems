@@ -5,24 +5,6 @@ const props = defineProps<{
   measure: Measure;
 }>();
 
-const { measure } = toRefs(props);
-
-// const iconClass = computed(() => {
-//   if (categoryId.value === "Energieerzeugung") {
-//     return BoltIcon;
-//   }
-//   if (categoryId.value === "Bauen und Sanieren") {
-//     return HomeIcon;
-//   }
-//   if (categoryId.value === "Mobilität") {
-//     return PaperAirplaneIcon;
-//   }
-//   if (categoryId.value === "Klimahaushalt") {
-//     return SunIcon;
-//   }
-//   return TagIcon
-// });
-
 </script>
 
 <template>
@@ -33,7 +15,6 @@ const { measure } = toRefs(props);
       <template #header>
         <div class="category-card--header">
           <h2 class="category-card--title">{{ measure.additionalData?.short_title || measure.original['Action outline']['Action name'] }}</h2>
-          <component class="category-card--icon" :is="iconClass" />
         </div>
       </template>
       <template #content>
