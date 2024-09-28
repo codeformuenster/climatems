@@ -218,7 +218,7 @@
 
 <script lang="ts" setup>
 import Chart from 'primevue/chart';
-import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
+import { getMeasure } from '~/dataProcessing/loadData';
 import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart as ChartJS, registerables } from 'chart.js';
 import { Breadcrumbs } from '~/components';
