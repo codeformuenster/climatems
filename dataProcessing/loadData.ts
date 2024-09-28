@@ -152,7 +152,16 @@ const getMeasures = async (): Promise<Measure[]> => {
     }, null),
     original: measure,
     additionalData: additionalData.find(({ id }) => id === measure.id),
-    progress: progresses[measure.id] || [],
+    progress: progresses[measure.id] || {
+        id: measure.id,
+        type: 'binary',
+        values: [
+            {
+                value: 'unknown',
+                date: new Date('2024-01-01'),
+            }
+        ],
+    },
     status: getStatusForMeasureProgress(progresses[measure.id]),
   }));
 }
