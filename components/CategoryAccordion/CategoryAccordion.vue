@@ -99,7 +99,7 @@ const getCategoryLink = (category: string) => {
             :to="getCategoryLink(category)"
             style="width: 150px"
           >
-            zur Maßnahme
+            zur Kategorie
           </NuxtLink>
         </AccordionHeader>
         <AccordionContent>
