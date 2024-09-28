@@ -74,7 +74,10 @@
 import Chart from 'primevue/chart';
 import { Breadcrumbs } from '~/components';
 import { getMeasure, getProgressForMeasure } from '~/dataProcessing/loadData';
+import annotationPlugin from 'chartjs-plugin-annotation';
+import { Chart as ChartJS, registerables } from 'chart.js';
 
+ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
 
 const measure = await getMeasure(route.params.measureId as string);
@@ -109,6 +112,40 @@ if (measure?.progress?.type === 'count') {
           display: true,
           text: measure.progress.unit,
           padding: {top: 20, left: 0, right: 0, bottom: 0}
+        }
+      }
+    },
+    plugins: {
+      annotation: {
+        annotations: {
+          start: {
+            type: 'line',
+            yMin: measure.progress.start,
+            yMax: measure.progress.start,
+            borderColor: '#6ee7b7',
+            borderWidth: 2,
+            borderDash: [5, 5],
+            label: {
+              content: 'Start',
+              enabled: true,
+              display: true,
+              position: 'end'
+            }
+          },
+          goal: {
+            type: 'line',
+            yMin: measure.progress.goal,
+            yMax: measure.progress.goal,
+            borderColor: '#6ee7b7',
+            borderWidth: 2,
+            borderDash: [5, 5],
+            label: {
+              content: 'Ziel',
+              display: true,
+              enabled: true,
+              position: 'end'
+            }
+          }
         }
       }
     }
