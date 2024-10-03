@@ -22,3 +22,4 @@ frontend/*.log
 .env
 .env.*
 !.env.example
+env
