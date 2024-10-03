@@ -1,9 +1,9 @@
-import measures from '@/data/measures.json';
-import implementations from '@/data/implementations.json';
+import measures from '@/../data/measures.json';
+import implementations from '@/../data/implementations.json';
 
-import additionalData from '@/data/additional_data.json';
+import additionalData from '@/../data/additional_data.json';
 
-import categoryData from '@/data/categories.json';
+import categoryData from '@/../data/categories.json';
 
 
 interface ActionOutline {
