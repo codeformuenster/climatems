@@ -1,0 +1,296 @@
+{
+  "updates": [
+    {
+      "title": "Erneuerbare Energieerzeugung mittels Windenergieanlagen (WEA): 42 WEA und 280 GWh/a grüner Strom",
+      "text_updates": [
+        "Genehmigung nach dem BImSchG für 1 WEA in Lemgo mit einer Nennleistung von 5,7 MW",
+        "Baubeginn und Inbetriebnahme drei geplanten WEAs in Südlohn Eschlohn/Wellschlat mit einer gesamten Nennleistung von 17,1 MW",
+        "Erhalt der Genehmigungen für die Errichtung von insgesamt min. 10 WEA im Münsterland"
+      ],
+      "forecasts": [
+        {
+          "year": 2025,
+          "value": 10.0
+        }
+      ],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 7.6
+        },
+        {
+          "year": 2026,
+          "value": 102.1
+        },
+        {
+          "year": 2027,
+          "value": 51.8
+        },
+        {
+          "year": 2028,
+          "value": 30.5
+        },
+        {
+          "year": 2030,
+          "value": 31.2
+        }
+      ]
+    },
+    {
+      "title": "Erneuerbare Energieerzeugung mittels Photovoltaikanlagen: 100 GWh/a grüner Strom",
+      "text_updates": [
+        "Ziel 2024: Zubau von zusätzlichen 3 GWh/a",
+        "1 MWp Freiflächenanlagen",
+        "2 MWp Dachanlagen",
+        "Baubeginn von 7 MWp Freiflächenanlagen"
+      ],
+      "forecasts": [
+        {
+          "year": 2025,
+          "value": 8.5
+        }
+      ],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 25.7
+        },
+        {
+          "year": 2026,
+          "value": 15.3
+        },
+        {
+          "year": 2027,
+          "value": 20.2
+        },
+        {
+          "year": 2028,
+          "value": 16.3
+        },
+        {
+          "year": 2030,
+          "value": 5.8
+        }
+      ]
+    },
+    {
+      "title": "Bundesförderung für effiziente Wärmenetze (BEW) -Transformationsplan: 30 % erneuerbare Wärme in 2030",
+      "text_updates": [
+        "Untersuchung der Wärmeversorgung des Neubaugebietes \\"Am Dornbusch\\" mit Wärme aus Biogas gestartet",
+        "Wärmenutzung Klarwasser der Hauptkläranlage wird untersucht"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 31.5
+        },
+        {
+          "year": 2026,
+          "value": -0.6
+        },
+        {
+          "year": 2027,
+          "value": 2.8
+        },
+        {
+          "year": 2028,
+          "value": 5.0
+        },
+        {
+          "year": 2030,
+          "value": 59.1
+        }
+      ]
+    },
+    {
+      "title": "BEW-Transformationsplan: Heimatwärme aus der Tiefe – 40 GWh/a erneuerbare Wärme",
+      "text_updates": [
+        "3D-Seismik im Winter 2024/2025 mit Förderung des Landes NRW über 5,7 Mio. €"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": -3.1
+        },
+        {
+          "year": 2026,
+          "value": -2.1
+        },
+        {
+          "year": 2027,
+          "value": 8.9
+        },
+        {
+          "year": 2028,
+          "value": 4.9
+        }
+      ]
+    },
+    {
+      "title": "BEW-Transformationsplan: Großwärmepumpen als Multitalent für Umweltwärme-Nutzung – 100 GWh/a erneuerbare Wärme",
+      "text_updates": [
+        "Großwärmepumpe II (Nutzung Wärme Dortmund-Ems-Kanal) 2 MW in der Errichtung (ca. 20 GWh grüne Wärme; ca. 4 % der Gesamtwärmeerzeugung)"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 0.0
+        },
+        {
+          "year": 2026,
+          "value": 0.0
+        },
+        {
+          "year": 2027,
+          "value": 0.0
+        },
+        {
+          "year": 2028,
+          "value": 0.0
+        },
+        {
+          "year": 2030,
+          "value": 10.7
+        }
+      ]
+    },
+    {
+      "title": "BEW-Transformationsplan: Freiflächen-Solarthermie als Beschleuniger der Transformation – 50 GWh/a erneuerbare Wärme",
+      "text_updates": [
+        "Freiflächen-Solarthermie-Anlage Mecklenbeck-Galgenheide auf einer Fläche von bis zu 19 ha in der Vorplanung"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 34.5
+        },
+        {
+          "year": 2026,
+          "value": 1.6
+        },
+        {
+          "year": 2027,
+          "value": -6.2
+        },
+        {
+          "year": 2030,
+          "value": 29.4
+        }
+      ]
+    },
+    {
+      "title": "BEW-Transformationsplan: grüne Nahwärme für Neubaugebiete",
+      "text_updates": [
+        "Beschlussempfehlung zur Versorgung des Neubaugebietes \\"Albachten Ost\\" mit oberflächennaher Geothermie und kalter Nahwärme geht im Herbst in den Rat; Detailplanung erfolgt"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 1.5
+        },
+        {
+          "year": 2026,
+          "value": 2.1
+        },
+        {
+          "year": 2027,
+          "value": 2.4
+        },
+        {
+          "year": 2028,
+          "value": 1.4
+        }
+      ]
+    },
+    {
+      "title": "110kV-Zielnetzplanung: Münsters Süden soll in 2030 durch ein Hochspannungsnetz versorgt werden.",
+      "text_updates": [
+        "UW-Klinikum ist 1:1 ersetzt",
+        "UW-Geist wird in diesem Jahr ersetzt und erweitert um einen weiteren 110kV/10kV",
+        "UW-Aegidi wurde repariert und instandgesetzt",
+        "UW-Mauritz Grundstückskauf für das UW Mauritz"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 10.8
+        },
+        {
+          "year": 2026,
+          "value": 8.4
+        }
+      ]
+    },
+    {
+      "title": "80 % der Haushalte in Münster mit Glasfaserverbindungen",
+      "text_updates": [
+        "37.484 Homes passed* Wohneinheiten",
+        "2.917 angeschlossene Wohneinheiten",
+        "Ausbaugebiete: Mauritz-West & -Mitte-Süd & -Mitte-Nord & -Ost, Gremmendorf-West & -Ost, Schlachthof, Kreuzviertel, Kinderhaus-West & -Ost, Neutor, Geist, Amelsbüren"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": [
+        {
+          "year": 2025,
+          "value": 5.8
+        },
+        {
+          "year": 2026,
+          "value": 13.9
+        },
+        {
+          "year": 2027,
+          "value": 11.9
+        },
+        {
+          "year": 2028,
+          "value": 11.3
+        },
+        {
+          "year": 2030,
+          "value": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Integriertes Flächenkonzept Münster (IFM): Siedlung, Freiraum und erneuerbare Energien in Balance",
+      "text_updates": [
+        "Abschlussveranstaltung am 09.11.2023",
+        "Beschlussvorlage (V/0192/2024) inklusive umfangreicher Dokumentation erstellt",
+        "Infoveranstaltung mit der Politik am 01.07.2024",
+        "Ratsbeschluss der Vorlage für die Ratssitzung am 11.09.2024 vorgesehen"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": []
+    },
+    {
+      "title": "Kommunale Wärmeplanung / Energienutzungsplanung MS",
+      "text_updates": [
+        "Dezember 2023: Veröffentlichung und Beschluss des Bundesgesetzes zur kommunalen Wärmeplanung",
+        "Dezember 2023 gemeinsamer Auftakt zwischen Stadtverwaltung, Stadtwerken und Stadtnetzen zur Abstimmung der Ziele, Abläufe und Planungen in Bezug auf die kommunale Wärmeplanung",
+        "Seit Anfang 2024 Sammlung von notwendigen Informationen als zentrale Grundlage für die weiteren Bearbeitungsschritte",
+        "Mai / Juni 2024: Zusammenstellung der Datengrundlagensammlung, verbunden mit der Identifizierung von möglichen Lücken und den daraus erforderlichen Anforderungen und Arbeitspakten für einen externen Dienstleister",
+        "Juli 2024: Veröffentlichung der Leistungsausschreibung mit vorgeschaltetem Teilnahmewettbewerb"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": []
+    },
+    {
+      "title": "Sanierungsmanagement in der energetischen und klimagerechten Quartierssanierung",
+      "text_updates": [
+        "Drei Quartiere für Sanierungsmanagement ausgewählt: Gremmendorf West, Gelmer, Kinderhaus West",
+        "Projekt aufgrund des Förderstopps der KfW Bank Ende 2023 kurzfristig gestoppt und umgeplant, dass es mit Finanzmitteln der Stadt Münster umgesetzt werden kann",
+        "Fokussierung auf Sanierungsmanagement für zwei Gebiete (Gremmendorf West und Kinderhaus West)",
+        "Personalstelle zur Betreuung des Projekts seit Sommer 2024 unbesetzt, Nachbesetzungsverfahren läuft"
+      ],
+      "forecasts": [],
+      "forecasts_of_costs": []
+    }
+  ]
+}
