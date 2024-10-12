@@ -191,8 +191,7 @@
                                 </template>
                                 <template #content>
                                     <!-- <img v-if="slotProps.item.image" :src="`https://primefaces.org/cdn/primevue/images/product/${slotProps.item.image}`" :alt="slotProps.item.name" width="200" class="shadow-sm" /> -->
-                                    <p v-html="measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')">
-                                    </p>
+                                    <p v-html=slotProps.item.text></p>
                                     <!-- <Button label="Read more" text></Button> -->
                                 </template>
                             </Card>
@@ -277,18 +276,22 @@ import Timeline from 'primevue/timeline';
 
 import { ref } from "vue";
 
-const events = ref([
-    { status: 'Sachstand 2024', date: '01/08/2024', icon: 'pi pi-cog', color: '#673AB7' },
-    { status: 'Klimastadtvertrag', date: '01/07/2024', icon: 'pi pi-shopping-cart', color: '#9C27B0'},
-    // { status: 'Shipped', date: '15/10/2020 16:15', icon: 'pi pi-shopping-cart', color: '#FF9800' },
-    // { status: 'Delivered', date: '16/10/2020 10:00', icon: 'pi pi-check', color: '#607D8B' }
-]);
-
-
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
 
 const measure = await getMeasure(route.params.measureId as string);
+
+const events = ref([
+  // only show state if it is actually available
+    ...(measure?.additionalData?.state ? [
+        { status: 'Sachstand 2024', date: '01/08/2024', icon: 'pi pi-sign-in', color: '#673AB7', text: measure?.additionalData?.state?.text?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')
+          
+        }
+      ] : []),
+      { 
+        status: 'Klimastadtvertrag', date: '01/07/2024', icon: 'pi pi-file', color: '#9C27B0', text: measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')
+      }
+]);
 
 const items = ref([
     { label: measure?.category, route: `/category/${measure?.categoryId}` },

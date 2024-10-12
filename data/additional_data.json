@@ -13,13 +13,12 @@
             "href": "https://buergerbeteiligung.stadtwerke-muenster.de/suedlohn",
             "description": "In Südlohn werden drei neue Windenergieanlagen gebaut, die ab Anfang 2025 über 10.000 Haushalte mit Strom versorgen sollen. Bürgerinnen und Bürger aus Südlohn, Gescher, Stadtlohn und Velen können sich ab dem 9. September finanziell an dem Projekt beteiligen. Sie können Anteile zwischen 500 und 25.000 Euro erwerben, die jährlich mit 5,25 Prozent verzinst werden. Die Beteiligung läuft bis zum 7. Oktober, und falls danach noch Anteile übrig sind, können auch Ökostromkunden der Stadtwerke Münster investieren."
         },
-        "state": [
+        "state": 
             {
                 "date": "2024-08-01",
                 "text": "Bestand von 21 WEA (16 SWMS eigene) mit ca. 48 MW  insgesamt 92 GWh/a\n- Genehmigung nach dem BImSchG für 1 WEA in Lemgo mit einer Nennleistung von 5,7 MW\n- Baubeginn und Inbetriebnahme drei geplanten WEAs in Südlohn Eschlohn/Wellschlat mit einer gesamten Nennleistung von 17,1 MW\n- Erhalt der Genehmigungen für die Errichtung von insgesamt min. 10 WEA im Münsterland",
                 "verdict": "Kein neuer Sachstand" 
             }
-        ]
     },
     {
         "id": "energieerzeugung2",
