@@ -173,32 +173,28 @@
             <dt class="text-sm font-medium text-gray-900">
               Was sind die konkreten Schritte/Fortschritte?
             </dt>  
-            <template>
-                <div class="card">
-                    <Timeline :value="events" align="alternate" class="customized-timeline">
-                        <template #marker="slotProps">
-                            <span class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
-                                <i :class="slotProps.item.icon"></i>
-                            </span>
-                        </template>
-                        <template #content="slotProps">
-                            <Card style="text-align: left;">
-                                <template #title>
-                                    {{ slotProps.item.status }}
-                                </template>
-                                <template #subtitle>
-                                    {{ slotProps.item.date }}
-                                </template>
-                                <template #content>
-                                    <!-- <img v-if="slotProps.item.image" :src="`https://primefaces.org/cdn/primevue/images/product/${slotProps.item.image}`" :alt="slotProps.item.name" width="200" class="shadow-sm" /> -->
-                                    <p v-html=slotProps.item.text></p>
-                                    <!-- <Button label="Read more" text></Button> -->
-                                </template>
-                            </Card>
-                        </template>
-                    </Timeline>
-                </div>
-            </template>
+              <Timeline :value="events" align="alternate" class="customized-timeline">
+                  <template #marker="slotProps">
+                      <span class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
+                          <i :class="slotProps.item.icon"></i>
+                      </span>
+                  </template>
+                  <template #content="slotProps">
+                      <Card style="text-align: left;">
+                          <template #title>
+                              {{ slotProps.item.status }}
+                          </template>
+                          <template #subtitle>
+                              {{ slotProps.item.date }}
+                          </template>
+                          <template #content>
+                              <!-- <img v-if="slotProps.item.image" :src="`https://primefaces.org/cdn/primevue/images/product/${slotProps.item.image}`" :alt="slotProps.item.name" width="200" class="shadow-sm" /> -->
+                              <p v-html=slotProps.item.text></p>
+                              <!-- <Button label="Read more" text></Button> -->
+                          </template>
+                      </Card>
+                  </template>
+              </Timeline>
             <!-- <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
                 v-html=></dd> -->
           </div>
