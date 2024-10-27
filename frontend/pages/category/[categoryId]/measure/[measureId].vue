@@ -46,7 +46,7 @@
     </div> 
   </section>
 
-  <section class="action-section section error" v-if="measure?.status === 'stale'">
+  <section class="action-section section error" v-if="measure?.status === 'stale' || measure?.status === 'unknown'">
     <div id="alert-additional-content-1" class="container" role="alert">
       <h1 class="headline">Frage nach!</h1>
       <p class="action-section--text">
