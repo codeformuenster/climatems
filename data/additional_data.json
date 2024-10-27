@@ -869,6 +869,7 @@
     },
     {
         "id": "initiative2",
+        "short_title": "Experimentierumgebung für digitale Klimaschutzlösungen",
         "cost": {
             "until_in_years": null,
             "value": null,

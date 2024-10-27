@@ -60,7 +60,7 @@ def extract_from_excel_to_json(
     # iterate through the excel files
     for excel_path in Path(input_path).glob("*.xlsx"):
         if excel_path.name.startswith("~$"):
-            continue # temporary file
+            continue  # temporary file
 
         # open the file
         wb = load_workbook(excel_path)
@@ -182,12 +182,53 @@ def fill_implementations_from_additional_data(
                 print(f"Skipping {measure_id}: value != unknown")
                 continue
 
-            implementation_values.append({"value": "in_progress", "date": sachstand_date})
+            implementation_values.append(
+                {"value": "in_progress", "date": sachstand_date}
+            )
 
     with open(implementations_path, "w", encoding="utf-8") as fp:
         json.dump(implementations, fp=fp, indent=2, ensure_ascii=False)
 
 
+def find_unmatched_entries(
+    additional_data_path: str = "data/additional_data.json",
+    sachstand_path: str = "data/parsed/Sachstandbericht_Klima_plus_Haushaltsinformationen.json",
+):
+    with open(sachstand_path, "r", encoding="utf-8") as fp:
+        sachstand = json.load(fp=fp)
+
+    sachstand_keys = set()
+
+    for area, area_dict in sachstand.items():
+        for key, _ in area_dict.items():
+            sachstand_keys.add(key)
+
+    with open(additional_data_path, "r", encoding="utf-8") as fp:
+        additional_data = json.load(fp=fp)
+
+    matched_keys = set()
+
+    for entry in additional_data:
+        measure_id = entry["id"]
+        measure_short_title = entry.get("short_title", None)
+        if measure_short_title is None:
+            print(f"Missing short title: {measure_id}")
+
+        if "state" not in entry:
+            print(f"Missing state: {measure_id} - {measure_short_title}")
+        else:
+            state = entry["state"]
+            if state["title"] not in sachstand_keys:
+                print(f'Unmatched state title: {measure_id} - {state["title"]}')
+            else:
+                matched_keys.add(state["title"])
+
+    unmatched_keys = sachstand_keys.difference(matched_keys)
+
+    print(f"Unmatched keys: {unmatched_keys}")
+
+
 if __name__ == "__main__":
-    #extract_from_excel_to_json()
-    fill_implementations_from_additional_data()
+    # extract_from_excel_to_json()
+    # fill_implementations_from_additional_data()
+    find_unmatched_entries()
