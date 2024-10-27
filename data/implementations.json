@@ -42,6 +42,10 @@
       {
         "value": "in_progress",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -52,6 +56,10 @@
       {
         "value": "in_progress",
         "date": "2023-04-21"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-08-01"
       }
     ]
   },
@@ -62,6 +70,10 @@
       {
         "value": "unknown",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -72,6 +84,10 @@
       {
         "value": "unknown",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -82,6 +98,10 @@
       {
         "value": "unknown",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -92,6 +112,10 @@
       {
         "value": "unknown",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -102,6 +126,10 @@
       {
         "value": "in_progress",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-07-01"
       }
     ]
   },
@@ -132,6 +160,10 @@
       {
         "value": "in_progress",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   },
@@ -142,6 +174,10 @@
       {
         "value": "unknown",
         "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-07-01"
       }
     ]
   },
@@ -186,6 +222,356 @@
       {
         "value": "completed",
         "date": "2024-03-26"
+      }
+    ]
+  },
+  {
+    "id": "bauen2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet9",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet10",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet11",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft9",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft10",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
       }
     ]
   }
