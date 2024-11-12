@@ -28,6 +28,11 @@ import muensterhackLogo from "~/assets/images/logo_muensterhack.png";
               Klima Münster
             </a>
           </li>
+          <li>
+            <a href="/impressum" class="footer--text">
+              Impressum und Datenschutzerklärung
+            </a>
+          </li>
         </ul>
       </section>
       <div class="footer--muensterhack">
