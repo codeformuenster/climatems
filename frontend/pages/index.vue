@@ -70,6 +70,9 @@ const responsibleBodies = ref([
       :show-user-actionable="onlyUserActionable || selectedResponsibleBody"
     />
   </section>
+  <section class="section">
+    <About />
+  </section>
 </template>
 
 <style scoped>
