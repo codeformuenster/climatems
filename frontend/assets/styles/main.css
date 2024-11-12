@@ -72,7 +72,7 @@ body {
   padding-inline: 1rem;
 
   @media only screen and (min-width: 1000px) {
-    padding-block-start: 5rem;
+    padding-block-start: 2.5rem;
   }
 }
 
