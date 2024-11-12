@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {getMeasures } from "~/dataProcessing/loadData";
+import { getMeasures } from "~/dataProcessing/loadData";
 
 const measures = await getMeasures();
 
@@ -43,9 +43,6 @@ const responsibleBodies = ref([
   <section class="section container">
     <News @scroll-to-categories="scrollToCategories" />
   </section>
-  <section class="section">
-    <About />
-  </section>
   <section id="categories" class="section categories container">
     <h1 class="headline">Maßnahmen nach Kategorie</h1>
     <Card>
@@ -72,6 +69,9 @@ const responsibleBodies = ref([
       :search-string="searchString"
       :show-user-actionable="onlyUserActionable || selectedResponsibleBody"
     />
+  </section>
+  <section class="section">
+    <About />
   </section>
 </template>
 

@@ -6,7 +6,6 @@ import muensterhackLogo from "~/assets/images/logo_muensterhack.png";
   <footer class="footer">
     <div class="footer--top container">
       <section>
-        <h1 class="footer--text">Quellen</h1>
         <ul class="flex" style="flex-direction: column;">
           <li>
             <a href="https://www.stadt-muenster.de/klimastadt/klimastadtvertrag" target="_blank" class="footer--text">
@@ -28,11 +27,18 @@ import muensterhackLogo from "~/assets/images/logo_muensterhack.png";
               Klima Münster
             </a>
           </li>
+          <li>
+            <a href="/impressum" class="footer--text">
+              Impressum und Datenschutzerklärung
+            </a>
+          </li>
         </ul>
       </section>
       <div class="footer--muensterhack">
         <span class="footer--text-muensterhack">featured by</span>
-        <img class="footer--logo-muensterhack" :src="muensterhackLogo" />
+        <a href="https://muensterhack.de/" target="_blank">
+          <img class="footer--logo-muensterhack" :src="muensterhackLogo" />
+        </a>
       </div>
     </div>
     <div class="footer--bottom container">

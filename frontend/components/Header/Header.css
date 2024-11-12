@@ -5,10 +5,10 @@
   background-image: url("~/assets/images/header_climate_ms.jpg");
   background-size: cover;
   background-position: center;
-  height: 250px;
+  height: 100px;
 
   @media only screen and (min-width: 1000px) {
-    height: 400px;
+    height: 200px;
   }
 }
 
@@ -16,15 +16,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 120px;
-  padding: 1rem;
+  width: 150px;
+  height: 90px;
+  padding: 0.5rem;
   background: rgb(255, 255, 255);
   border: 3px solid rgb(0, 0, 0);
 
   @media only screen and (min-width: 1000px) {
-    width: 350px;
-    height: 200px;
-    padding: 2rem;
+    width: 250px;
+    height: 150px;
+    padding: 1rem;
   }
 }

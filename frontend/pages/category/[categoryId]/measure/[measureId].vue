@@ -46,7 +46,7 @@
     </div> 
   </section>
 
-  <section class="action-section section error" v-if="measure?.status === 'stale'">
+  <section class="action-section section error" v-if="measure?.status === 'stale' || measure?.status === 'unknown'">
     <div id="alert-additional-content-1" class="container" role="alert">
       <h1 class="headline">Frage nach!</h1>
       <p class="action-section--text">
@@ -169,12 +169,34 @@
               {{ measure?.additionalData?.cost.until_in_years }}
             </dd>
           </div>
-          <div class="px-4 py-6 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-6">
+          <div class="px-4 py-6 sm:grid sm:grid-cols-1 sm:gap-4 sm:px-6">
             <dt class="text-sm font-medium text-gray-900">
               Was sind die konkreten Schritte/Fortschritte?
-            </dt>
-            <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
-                v-html="measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')"></dd>
+            </dt>  
+              <Timeline :value="events" align="alternate" class="customized-timeline">
+                  <template #marker="slotProps">
+                      <span class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm" :style="{ backgroundColor: slotProps.item.color }">
+                          <i :class="slotProps.item.icon"></i>
+                      </span>
+                  </template>
+                  <template #content="slotProps">
+                      <Card style="text-align: left;">
+                          <template #title>
+                              {{ slotProps.item.status }}
+                          </template>
+                          <template #subtitle>
+                              {{ slotProps.item.date }}
+                          </template>
+                          <template #content>
+                              <!-- <img v-if="slotProps.item.image" :src="`https://primefaces.org/cdn/primevue/images/product/${slotProps.item.image}`" :alt="slotProps.item.name" width="200" class="shadow-sm" /> -->
+                              <p v-html=slotProps.item.text></p>
+                              <!-- <Button label="Read more" text></Button> -->
+                          </template>
+                      </Card>
+                  </template>
+              </Timeline>
+            <!-- <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-3 sm:mt-0"
+                v-html=></dd> -->
           </div>
         </dl>
       </div>
@@ -216,6 +238,24 @@
   </section>
 </template>
 
+<!-- <style lang="scss" scoped>
+@media screen and (max-width: 960px) {
+    ::v-deep(.customized-timeline) {
+        .p-timeline-event:nth-child(even) {
+            flex-direction: row;
+
+            .p-timeline-event-content {
+                text-align: left;
+            }
+        }
+
+        .p-timeline-event-opposite {
+            flex: 0;
+        }
+    }
+}
+</style> -->
+
 <script lang="ts" setup>
 import Chart from 'primevue/chart';
 import { getMeasure } from '~/dataProcessing/loadData';
@@ -228,11 +268,26 @@ import AccordionHeader from 'primevue/accordionheader';
 import AccordionContent from 'primevue/accordioncontent';
 import {formatNumber} from "chart.js/helpers";
 import 'chartjs-adapter-moment';
+import Timeline from 'primevue/timeline';
+
+import { ref } from "vue";
 
 ChartJS.register(...registerables, annotationPlugin);
 const route = useRoute();
 
 const measure = await getMeasure(route.params.measureId as string);
+
+const events = ref([
+  // only show state if it is actually available
+    ...(measure?.additionalData?.state ? [
+        { status: 'Sachstand 2024', date: '01/08/2024', icon: 'pi pi-sign-in', color: '#673AB7', text: measure?.additionalData?.state?.text?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')
+          
+        }
+      ] : []),
+      { 
+        status: 'Klimastadtvertrag', date: '01/07/2024', icon: 'pi pi-file', color: '#9C27B0', text: measure?.original?.['Implementation']?.['Comments on implementation']?.replaceAll('\n', '<br/>').replaceAll('\t', '<span class=\'pl-4\'></span>')
+      }
+]);
 
 const items = ref([
     { label: measure?.category, route: `/category/${measure?.categoryId}` },

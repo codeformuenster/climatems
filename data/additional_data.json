@@ -2,7 +2,7 @@
     {
         "id": "energieerzeugung1",
         "short_title": "Windkraftausbau bis 2030",
-        "summary": "Ziel: Bis 2030 sollen 42 Windkraftanlagen gebaut werden, um 280 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 erzeugen die Stadtwerke M\u00fcnster bereits 92 GWh Windenergie.",
+        "summary": "Ziel: Bis 2030 sollen 42 Windkraftanlagen gebaut werden, um 280 GWh Strom pro Jahr zu erzeugen. Fortschritt: Ende 2023 erzeugen die Stadtwerke Münster bereits 92 GWh Windenergie.",
         "cost": {
             "until_in_years": 2028,
             "value": 215000000,
@@ -12,6 +12,12 @@
             "label": "Bürgerbeteiligung für Windenergieanlagen in Südlohn",
             "href": "https://buergerbeteiligung.stadtwerke-muenster.de/suedlohn",
             "description": "In Südlohn werden drei neue Windenergieanlagen gebaut, die ab Anfang 2025 über 10.000 Haushalte mit Strom versorgen sollen. Bürgerinnen und Bürger aus Südlohn, Gescher, Stadtlohn und Velen können sich ab dem 9. September finanziell an dem Projekt beteiligen. Sie können Anteile zwischen 500 und 25.000 Euro erwerben, die jährlich mit 5,25 Prozent verzinst werden. Die Beteiligung läuft bis zum 7. Oktober, und falls danach noch Anteile übrig sind, können auch Ökostromkunden der Stadtwerke Münster investieren."
+        },
+        "state": {
+            "title": "€ Erneuerbare Energieerzeugung mittels Windenergieanlagen \n(WEA): 42 WEA und 280 GWh/a grüner Strom",
+            "date": "2024-07-01",
+            "text": "Bestand von 21 WEA (16 SWMS eigene) mit ca. 48 MW  insgesamt 92 GWh/a\n- Genehmigung nach dem BImSchG für 1 WEA in Lemgo mit einer Nennleistung von 5,7 MW\n- Baubeginn und Inbetriebnahme drei geplanten WEAs in Südlohn Eschlohn/Wellschlat mit einer gesamten Nennleistung von 17,1 MW\n- Erhalt der Genehmigungen für die Errichtung von insgesamt min. 10 WEA im Münsterland",
+            "verdict": "Kein neuer Sachstand"
         }
     },
     {
@@ -22,87 +28,135 @@
             "until_in_years": 2028,
             "value": 100000000,
             "quantity": 100
+        },
+        "state": {
+			"title": "€ Erneuerbare Energieerzeugung mittels Photovoltaikanlagen:  \n100 GWh/a grüner Strom",
+            "date": "2024-07-01",
+            "text": "Bestand von 62 Anlagen mit 9 GWh/a \n\nZiel 2024: Zubau von zusätzlichen 3 GWh/a \n-       1 MWp Freiflächenanlagen \n-       2 MWp Dachanlagen \n-       Baubeginn von 7 MWp Freiflächenanlagen",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung3",
-        "short_title": "Kommunale W\u00e4rme- und Energienutzungsplanung",
-        "summary": "Ziel: Ein Plan f\u00fcr die Nutzung von W\u00e4rme und Energie in M\u00fcnster wird erstellt. Fortschritt: Grundsatzbeschluss und Einrichtung von Arbeitsgruppen sind geplant.",
+        "short_title": "Kommunale Wärme- und Energienutzungsplanung",
+        "summary": "Ziel: Ein Plan für die Nutzung von Wärme und Energie in Münster wird erstellt. Fortschritt: Grundsatzbeschluss und Einrichtung von Arbeitsgruppen sind geplant.",
         "cost": {
             "until_in_years": null,
             "value": 200000,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Kommunale Wärmeplanung / Energienutzungsplanung MS",
+            "date": "2024-10-01",
+            "text": "-       Dezember 2023: Veröffentlichung und Beschluss des Bundesgesetzes zur kommunalen Wärmeplanung \n-       Dezember 2023 gemeinsamer Auftakt zwischen Stadtverwaltung, Stadtwerken und Stadtnetzen zur Abstimmung der Ziele, Abläufe und Planungen in Bezug auf die kommunale Wärmeplanung \n-       Seit Anfang 2024 Sammlung von notwendigen Informationen als zentrale Grundlage für die weiteren Bearbeitungsschritte. Dabei geht es sowohl um umfassende Datengrundlagen, als auch um die Struktur der verschiedenen relevanten Prozesse (wie den Transformationsplan Fernwärme der Stadtwerke, etc.).  \n-       Mai / Juni 2024: Zusammenstellung der Datengrundlagensammlung, verbunden mit der Identifizierung von möglichen Lücken und den daraus erforderlichen Anforderungen und Arbeitspakten für einen externen Dienstleister \n-       Juli 2024: Veröffentlichung der Leistungsausschreibung mit vorgeschaltetem Teilnahmewettbewerb",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung4",
         "short_title": "BEW-Transformationsplan",
-        "summary": "Ziel: Bis 2030 soll der Anteil erneuerbarer Energien in der Fernw\u00e4rme auf 30 % steigen. Fortschritt: Stadtwerke und Stadtnetze erarbeiten einen Transformationsplan.",
+        "summary": "Ziel: Bis 2030 soll der Anteil erneuerbarer Energien in der Fernwärme auf 30 % steigen. Fortschritt: Stadtwerke und Stadtnetze erarbeiten einen Transformationsplan.",
         "cost": {
             "until_in_years": 2030,
             "value": 149100000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ Bundesförderung für effiziente Wärmenetze (BEW) -Transformationsplan: 30 % erneuerbare Wärme in 2030",
+            "date": "2024-08-01",
+            "text": "Der mit 2 Mio. € geförderte BEW-Trafoplan liegt Ende August vor \nUntersuchung der Wärmeversorgung des Neubaugebietes \"Am \nDornbusch\" mit Wärme aus Biogas gestartet \nWärmenutzung Klarwasser der Hauptkläranlage wird untersucht",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung5",
         "short_title": "Geothermie-Heizwerk bis 2030",
-        "summary": "Ziel: Bis 2030 soll das erste Geothermie-Heizwerk in M\u00fcnster gebaut werden, um 40 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Untersuchung des Potenzials und Vergabeprozess f\u00fcr 3-D-Seismik laufen.",
+        "summary": "Ziel: Bis 2030 soll das erste Geothermie-Heizwerk in Münster gebaut werden, um 40 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Untersuchung des Potenzials und Vergabeprozess für 3-D-Seismik laufen.",
         "cost": {
             "until_in_years": 2030,
             "value": 149100000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ BEW-Transformationsplan: Heimatwärme aus der Tiefe – 40 \nGWh/a erneuerbare Wärme",
+            "date": "2024-10-01",
+            "text": "3D-Seismik im Winter 2024/2025 mit Förderung des Landes NRW über 5,7 Mio. €",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung6",
-        "short_title": "Gro\u00dfw\u00e4rmepumpen bis 2030",
-        "summary": "Ziel: Bis 2030 sollen 4 Gro\u00dfw\u00e4rmepumpen gebaut werden, um 100 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Erste Gro\u00dfw\u00e4rmepumpe wurde technisch abgenommen.",
+        "short_title": "Großwärmepumpen bis 2030",
+        "summary": "Ziel: Bis 2030 sollen 4 Großwärmepumpen gebaut werden, um 100 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Erste Großwärmepumpe wurde technisch abgenommen.",
         "cost": {
             "until_in_years": 2030,
             "value": 149100000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ BEW-Transformationsplan: Großwärmepumpen als Multitalent für Umweltwärme-Nutzung – 100 GWh/a erneuerbare Wärme",
+            "date": "2024-10-01",
+            "text": "Großwärmepumpe I (Nutzung Abwärme HKW) mit 2 MW errichtet \nGroßwärmepumpe II (Nutzung Wärme Dortmund-Ems-Kanal) 2 MW in der Errichtung (ca. 20 GWh grüne Wärme; ca. 4 % der Gesamtwärmeerzeugung)",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung7",
-        "short_title": "Freifl\u00e4chen-Solarthermie bis 2030",
-        "summary": "Ziel: Bis 2030 soll Solarthermie in M\u00fcnster etabliert sein, um 50 GWh W\u00e4rme pro Jahr zu erzeugen. Fortschritt: Fl\u00e4chensicherung und Projektdesign f\u00fcr das erste Pilotprojekt sind geplant.",
+        "short_title": "Freiflächen-Solarthermie bis 2030",
+        "summary": "Ziel: Bis 2030 soll Solarthermie in Münster etabliert sein, um 50 GWh Wärme pro Jahr zu erzeugen. Fortschritt: Flächensicherung und Projektdesign für das erste Pilotprojekt sind geplant.",
         "cost": {
             "until_in_years": 2030,
             "value": 149100000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ BEW-Transformationsplan: Freiflächen-Solarthermie als Beschleuniger der Transformation – 50 GWh/a erneuerbare Wärme",
+            "date": "2024-10-01",
+            "text": "Freiflächen-Solarthermie-Anlage Mecklenbeck-Galgenheide auf einer Fläche von bis zu 19 ha in der Vorplanung",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung8",
-        "short_title": "Gr\u00fcne Nahw\u00e4rme f\u00fcr Neubaugebiete",
-        "summary": "Ziel: Bis 2030 sollen vier Neubaugebiete mit gr\u00fcner Nahw\u00e4rme versorgt werden. Fortschritt: Transformationspl\u00e4ne f\u00fcr bestehende Nahw\u00e4rmenetze werden erstellt.",
+        "short_title": "Grüne Nahwärme für Neubaugebiete",
+        "summary": "Ziel: Bis 2030 sollen vier Neubaugebiete mit grüner Nahwärme versorgt werden. Fortschritt: Transformationspläne für bestehende Nahwärmenetze werden erstellt.",
         "cost": {
             "until_in_years": 2030,
             "value": 149100000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ BEW-Transformationsplan: grüne Nahwärme für Neubaugebiete",
+            "date": "2024-10-01",
+            "text": "Beschlussempfehlung zur Versorgung des Neubaugebietes \"Albachten Ost\" mit oberflächennaher Geothermie und kalter Nahwärme geht im Herbst in den Rat; Detailplanung erfolgt",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung9",
         "short_title": "110kV-Zielnetzplanung",
-        "summary": "Ziel: Bis 2030 soll ein Hochspannungsnetz im S\u00fcden von M\u00fcnster gebaut werden. Fortschritt: Hohe Auslastung des 110-kV-Netzes und Ausbau des Hansa-Business-Parks.",
+        "summary": "Ziel: Bis 2030 soll ein Hochspannungsnetz im Süden von Münster gebaut werden. Fortschritt: Hohe Auslastung des 110-kV-Netzes und Ausbau des Hansa-Business-Parks.",
         "cost": {
             "until_in_years": 2028,
             "value": 58900000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ 110kV-Zielnetzplanung: Münsters Süden soll in 2030 durch ein Hochspannungsnetz versorgt werden.",
+            "date": "2024-07-01",
+            "text": "-       UW-Klinikum ist 1:1 ersetzt \n-       UW-Geist wird in diesem Jahr ersetzt und erweitert um einen weiteren 110kV/10kV  \n-       UW-Aegidi wurde repariert und instandgesetzt  \n-       UW-Mauritz Grundstückskauf für das UW Mauritz",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung10",
-        "short_title": "Netztransformation \u2013 Intelligente Niederspannung",
+        "short_title": "Netztransformation - Intelligente Niederspannung",
         "user_action": {
             "label": "Smart Meter bestellen",
             "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1",
-            "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken M\u00fcnster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
+            "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken Münster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
         },
-        "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromz\u00e4hlern und 100 % mit intelligenten Gasz\u00e4hlern ausgestattet sein. Fortschritt: Ert\u00fcchtigung der Systeme und Abl\u00e4ufe ab Q1 2024.",
+        "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromzählern und 100 % mit intelligenten Gaszählern ausgestattet sein. Fortschritt: Ertüchtigung der Systeme und Abläufe ab Q1 2024.",
         "cost": {
             "until_in_years": 2026,
             "value": 350000000,
@@ -112,7 +166,7 @@
     {
         "id": "energieerzeugung11",
         "short_title": "Gasnetztransformation & Wasserstoff",
-        "summary": "Ziel: Ein Plan zur Umstellung des Gasnetzes auf Wasserstoff wird erstellt. Fortschritt: Partnerfindung und technische Analyse der \u00dcbergabestationen laufen.",
+        "summary": "Ziel: Ein Plan zur Umstellung des Gasnetzes auf Wasserstoff wird erstellt. Fortschritt: Partnerfindung und technische Analyse der Übergabestationen laufen.",
         "cost": {
             "until_in_years": null,
             "value": null,
@@ -121,28 +175,40 @@
     },
     {
         "id": "energieerzeugung12",
-        "short_title": "Integriertes Fl\u00e4chenkonzept MS",
-        "summary": "Ziel: Ein Konzept zur Nutzung von Fl\u00e4chen f\u00fcr erneuerbare Energien und andere Zwecke wird erstellt. Fortschritt: Ratsbeschluss des Konzeptes ist f\u00fcr 1. Halbjahr 2024 geplant.",
+        "short_title": "Integriertes Flächenkonzept MS",
+        "summary": "Ziel: Ein Konzept zur Nutzung von Flächen für erneuerbare Energien und andere Zwecke wird erstellt. Fortschritt: Ratsbeschluss des Konzeptes ist für 1. Halbjahr 2024 geplant.",
         "cost": {
             "until_in_years": null,
             "value": 230000,
             "quantity": null
+        },
+        "state": {
+			"title": "Integriertes Flächenkonzept Münster (IFM): Siedlung, Freiraum und erneuerbare Energien in Balance",
+            "date": "2024-10-01",
+            "text": "In einer Abschlussveranstaltung am 09.11.2023 wurde der auf Basis der vorhergien Werkstatt-Termine und der Auswertung einer Online-Beteiligung entstandene Entwurf eines integrierten räumlichen Gesamtkonzeptes vorgestellt und diskutiert. Die vorgebrachten Anregungen wurden fallweise eingearbeitet und danach in ein Abschlussdokument überführt.  \nFür den nun anstehenden formellen Abschluss des IFM-Prozesses wurde eine entsprechende Beschlussvorlage (V/0192/2024) inklusive umfangreicher Dokumentation erstellt, die in einer Infoveranstaltung mit der Politik (eingeladen waren die Mitglieder des HA, Rates, ASS, AUKB, AWLFW und der BVen) am 01.07.2024 vorgestellt und näher erläutert wurde. Der Ratsbeschluss der Vorlage über das Gesamtkonzept ist für die Ratssitzung am 11.09.2024 vorgesehen. \nDie Finanzierung wurde bereits im Rahmen der Grundsatzvorlage \nV/0908/2021 beschlossen. Für die externe Erarbeitung des IFMKonzepts wurden insgesamt ca. 230.000 € bereitgestellt, die bereits weitgehend abgerechnet sind.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "energieerzeugung13",
-        "short_title": "Glasfaserausbau M\u00fcnster",
-        "summary": "Ziel: Bis 2030 sollen 80 % der Haushalte in M\u00fcnster mit Glasfaserverbindungen versorgt sein. Fortschritt: Kooperation mit der Deutschen Telekom und Implementierung bis 2030.",
+        "short_title": "Glasfaserausbau Münster",
+        "summary": "Ziel: Bis 2030 sollen 80 % der Haushalte in Münster mit Glasfaserverbindungen versorgt sein. Fortschritt: Kooperation mit der Deutschen Telekom und Implementierung bis 2030.",
         "cost": {
             "until_in_years": 2028,
             "value": 76000000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ 80 % der Haushalte in Münster mit Glasfaserverbindungen",
+            "date": "2024-07-01",
+            "text": "-       37.484 Homes passed* Wohneinheiten  \n-       2.917 angeschlossene Wohneinheiten  \n-       Ausbaugebiete: Mauritz-West & -Mitte-Süd & -Mitte-Nord & -Ost, Gremmendorf-West & -Ost, Schlachthof, Kreuzviertel, Kinderaus-West & -Ost, Neutor, Geist, Amelsbüren \n \n*Homes passed – die Immobilien, bei denen mindestens in ihrem Straßenzug, möglicherweise aber auch schon direkt an der Grundstücksgrenze Glasfaser anliegt.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen1",
-        "short_title": "Klimaneutralit\u00e4t st\u00e4dtischer Geb\u00e4ude",
-        "summary": "Ziel: Bis 2030 sollen st\u00e4dtische Geb\u00e4ude saniert werden, um den Energieverbrauch um 50 % und die CO2-Emissionen um 70 % zu senken. Fortschritt: Sanierung von 46 Standorten ist geplant.",
+        "short_title": "Klimaneutralität städtischer Gebäude",
+        "summary": "Ziel: Bis 2030 sollen städtische Gebäude saniert werden, um den Energieverbrauch um 50 % und die CO2-Emissionen um 70 % zu senken. Fortschritt: Sanierung von 46 Standorten ist geplant.",
         "cost": {
             "until_in_years": 20,
             "value": 320000000,
@@ -152,77 +218,119 @@
     {
         "id": "bauen2",
         "short_title": "Energetische Quartierssanierung",
-        "summary": "Ziel: Quartiere in M\u00fcnster sollen energetisch saniert werden. Fortschritt: Ausschreibung f\u00fcr ein Sanierungsmanagement in 2024.",
+        "summary": "Ziel: Quartiere in Münster sollen energetisch saniert werden. Fortschritt: Ausschreibung für ein Sanierungsmanagement in 2024.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Sanierungsmanagement in der energetischen und klimagerechten Quartierssanierung",
+            "date": "2024-10-01",
+            "text": "In einem umfangreichen Beteiligungsprozess wurden zunächst drei Quartiere ausgewählt, für die in den nächsten ca. 1 - 6 Jahren Quartierskonzepte sowie das Sanierungsmanagement unter Einbezug der Fördermittel durch die KfW Bank (KfW 432) erarbeitet und durchgeführt werden sollten. Weitere Quartierskonzepte sollten dann sukzessiv folgen. Damit verfolgt die Stadt Münster eine Strategie, die sich in die Energiestrategie des Bundes einfügt und auf die Förderung von erneuerbaren Energien und Maßnahmen zur Erhöhung der Energieeffizienz abzielt. Mit der Vorlage V/0314/2023 wurde dieses Vorgehen beschlossen sowie die drei 3 konkreten Quartierte identifiziert: Gremmendorf West, Gelmer, Kinderhaus West. \n \nAufgrund des Förderstopps der KfW Bank Ende des Jahres 2023 für die o.g. Programme musste das Projekt kurzfristig gestoppt und so umgeplant werden, dass es mit den zur Verfügung stehenden Finanzmitteln der Stadt Münster umgesetzt werden kann. Diese Anpassung hat zusammen mit den Umfangreichen Recherchen und Datenerhebungen im Vorfeld zu einer Fokussierung auf das Sanierungsmanagement für zwei Gebiete (Gremmendorf West und Kinderhaus West) geführt. Dabei sind die Aufgaben des Sanierungsmanagements stark an das Sanierungsmanagement der KfW Bank angelehnt. \nHierüber hat die Stadtverwaltung im AUKB am 13.02.2024 entsprechend berichtet. \n \nZusätzlich zum Förderstopp ist die Personalstelle zur Betreuung des Projekts seit Sommer 2024 unbesetzt und befindet sich aktuell im Nachbesetzungsverfahren, so dass die weitere Bearbeitung erst nach der Neubesetzung wiederaufgenommen werden kann.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen3",
-        "short_title": "Geb\u00e4udeleitlinien f\u00fcr Neubauten",
-        "summary": "Ziel: Standards f\u00fcr den Bau und die Sanierung st\u00e4dtischer Geb\u00e4ude werden festgelegt. Fortschritt: \u00dcberarbeitete Geb\u00e4udeleitlinien wurden 2020 beschlossen.",
+        "short_title": "Gebäudeleitlinien für Neubauten",
+        "summary": "Ziel: Standards für den Bau und die Sanierung städtischer Gebäude werden festgelegt. Fortschritt: Überarbeitete Gebäudeleitlinien wurden 2020 beschlossen.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Überarbeitung der Gebäudeleitlinien",
+            "date": "2024-10-01",
+            "text": "Die novellierten Gebäudeleitlinien wurden seit dem in Krafttreten 2020 (Erstfassung 2014) erfolgreich umgesetzt.  \nZurzeit befasst sich die Stadt Münster mit einer Aktualisierung der Gebäudeleitlinien. Dazu soll noch in diesem Jahr 2024 eine entsprechende Berichtsvorlage für die Politik erstellt werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen4",
         "short_title": "Sanierungsstrategie Wohn- und Stadtbau",
-        "summary": "Ziel: Die Wohn+Stadtbau GmbH stellt auf CO2-freie W\u00e4rme- und Warmwasserversorgung um. Fortschritt: Betriebsoptimierung und energetische Sanierung laufen.",
+        "summary": "Ziel: Die Wohn+Stadtbau GmbH stellt auf CO2-freie Wärme- und Warmwasserversorgung um. Fortschritt: Betriebsoptimierung und energetische Sanierung laufen.",
         "cost": {
             "until_in_years": null,
             "value": 227000000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ Sanierungsstrategie Wohn + Stadtbau GmbH Münster",
+            "date": "2024-10-01",
+            "text": "-       Erstmalige Portfolioanalyse und Erstellung einer Dekarbonisierungsstrategie im Jahr 2021 inkl. Abstimmung mit Aufsichtsgremien \n-       Dekarbonisierungsstrategie seitdem gelebte Praxis und in Umsetzung \n-       Jährliche Investitionen in den Gebäudebestand für energetische Modernisierungen 10 Mio.+ - in Summe bis 2045 210 Mio. Investition für energetische Modernisierungen (vor Förderung) \n-       Wo möglich Anschluss an Fernwärme in Kooperation mit SWM, in Randgebieten Installationen von Wärmepumpen",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen5",
         "short_title": "Thermografiebefliegung MS",
-        "summary": "Ziel: Eine Thermografiebefliegung zeigt W\u00e4rmeverluste an Geb\u00e4uden, um Sanierungen zu f\u00f6rdern. Fortschritt: Rund 25.000 Menschen wurden f\u00fcr energetische Fragestellungen sensibilisiert.",
+        "summary": "Ziel: Eine Thermografiebefliegung zeigt Wärmeverluste an Gebäuden, um Sanierungen zu fördern. Fortschritt: Rund 25.000 Menschen wurden für energetische Fragestellungen sensibilisiert.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Thermografiebefliegung Münster - Klimaschutz aus der Luft",
+            "date": "2024-10-01",
+            "text": "Die „Thermografiebefliegung Münster“ wurde von Herbst 2019 bis \nDezember 2022 als Gemeinschaftsprojekt der Stabsstelle Smart City Münster (Projektkoordination), dem Vermessungs- und Katasteramt und der Stabsstelle Klima sowie unter Beteiligung der Stadtnetze Münster GmbH durchgeführt. Die Projektbearbeitung erfolgte in mehreren Phasen von der Befliegung über die Datenauswertung, den flächendeckenden Versand der Auswertungen an die Bürger*innen bis hin zur finalen Phase – der kostenfreien (für die Bürger*innen) Energieberatung auf Basis der Wärmebilder. \nEinen Abschlussbericht zum Projekt kann der Vorlage V/0025/2023 entnommen werden. \n \nDie projektspezifische kostenfreie Beratung für alle Gebäudeeigentümer*innen wurde durch die Stabsstelle Klima koordiniert und lief von 2022 bis 2024. Seit Mitte 2024 können die Münsteraner Gebäudeeigentümer*innen die ebenfalls kostenfreie Energieberatung der Stadt Münster in Kooperation mit der Verbraucherzentrale nutzen. Diese ist zur Abdeckung der fortlaufenden Nachfrage nach Energieberatungen entsprechend ausgerichtet. Die Koordination erfolgt ebenfalls durch die Stabsstelle Klima, in Kooperation mit dem Haus der Nachhaltigkeit.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen6",
-        "short_title": "F\u00f6rderprogramm klimafreundliche Wohngeb\u00e4ude",
-        "summary": "Ziel: Die Stadt M\u00fcnster f\u00f6rdert die energetische Sanierung von Wohngeb\u00e4uden. Fortschritt: Neue Richtlinie tritt am 01.01.2024 in Kraft.",
+        "short_title": "Förderprogramm klimafreundliche Wohngebäude",
+        "summary": "Ziel: Die Stadt Münster fördert die energetische Sanierung von Wohngebäuden. Fortschritt: Neue Richtlinie tritt am 01.01.2024 in Kraft.",
         "cost": {
             "until_in_years": null,
             "value": 4200000,
             "quantity": 840
+        },
+        "state": {
+			"title": "€€€ Förderprogramm klimafreundliche Wohngebäude",
+            "date": "2024-10-01",
+            "text": "Der enorme Anstieg der Förderanträge durch Münsteranerinnen und Münsteraner in den letzten Jahren bestätigt eindrücklich den Erfolg und den Beitrag des Förderprogramms „Klimafreundliche Wohngebäude für Münster“ zur Erreichung der städtischen Klimaschutzziele. \nIm Jahr 2023 wurden 602 Anträge gestellt, von denen 437 bewilligt werden konnten. 86 Anträge wurden abgelehnt oder zurückgezogen, 79 Anträge sind in das Jahr 2024 überführt worden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen7",
-        "short_title": "PV-Anlagen auf st\u00e4dtischen Geb\u00e4uden",
-        "summary": "Ziel: Bei Neubauten werden Dachfl\u00e4chen mit Photovoltaikanlagen ausgestattet. Fortschritt: Ratsvorlage f\u00fcr Q2 2024 geplant.",
+        "short_title": "PV-Anlagen auf städtischen Gebäuden",
+        "summary": "Ziel: Bei Neubauten werden Dachflächen mit Photovoltaikanlagen ausgestattet. Fortschritt: Ratsvorlage für Q2 2024 geplant.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ PV-Anlagen auf städtischen Gebäuden",
+            "date": "2024-10-01",
+            "text": "Derzeit sind bei der Stadt Münster 42 PV-Anlagen mit einer Gesamtleistung von 1.300 kWp in Betrieb. Davon werden 29 PV-Anlagen mit insgesamt 1.150 kWp durch das Amt für Immobilienmanagement betrieben, die Übrigen durch das Amt für Tiefbau und Mobilität. Die AWM betreibt ebenfalls PV-Anlagen, deren Anzahl und Größe ist dem Amt 23 jedoch nicht bekannt. Das Amt für Immobilienmanagement baut PV-Anlagen auf allen Neubauten und Erweiterungen sowie im Rahmen von Sanierungen und im Bestand. \n \nZur Abschätzung des Gesamtausbaupotentials für Photovoltaik auf städtischen Dächern dienten die Daten des Solarkatasters vom Landesamt für Natur, Umwelt und Verbraucherschutz Nordrhein-Westfalen (LANUV) als Grundlage (https://www.energieatlas.nrw.de/site/karte_solarkataster). Unter \nBerücksichtigung bereits belegter und aus technischen Gründen ungeeigneter Dachflächen sowie stichprobenweiser Prüfung mit Hilfe vorhandener Daten ergibt sich daraus ein verbleibendes Potential von etwa 13.000 kWp PV-Leistung auf städtischen Bestandsdächern.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen8",
         "short_title": "Leitfaden klimagerechte Bauleitplanung",
-        "summary": "Ziel: Ein Leitfaden f\u00fcr klimagerechte Bauleitplanung wird erstellt. Fortschritt: Bildet den Rahmen f\u00fcr verbindliche Standards im Neubau.",
+        "summary": "Ziel: Ein Leitfaden für klimagerechte Bauleitplanung wird erstellt. Fortschritt: Bildet den Rahmen für verbindliche Standards im Neubau.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Digitaler Leitfaden klimagerechte Stadtentwicklung",
+            "date": "2024-10-01",
+            "text": "Aktuell wird der inhaltliche Ansatz u.a. auf die Grundstücksvergabe, die bauliche Realisierung, den Betrieb und einen potenziellen späteren Rückbau ausgeweitet (Lebenszyklusansatz). Die gesamte Prozesskette der Baulandentwicklung wird mit Unterstützung eines externen Büros nachgezeichnet und auf Klimaoptimierungspotenziale in Planung, Nutzung und (Rück-)Bau untersucht. Der bisherige Leitfaden wird in ein digitales Tool überführt, das für die einzelnen Bearbeiter*innen aufgabengerecht und gezielt Informationen bereitstellt und angesichts der hohen Dynamik im Thema leicht aktualisiert werden kann. Der Prototyp wird mit den späteren Usern aus verschiedenen Arbeitsbereich begleitend getestet und soll im letzten Quartal 2024 mit der Fachöffentlichkeit erörtert werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "bauen9",
-        "short_title": "Standard f\u00fcr klimagerechtes Bauen",
-        "summary": "Ziel: Ein Standard f\u00fcr klimagerechtes Bauen wird in Grundst\u00fcckskaufvertr\u00e4gen festgelegt. Fortschritt: Abstimmung des Vertragstextes und Umsetzung durch Amt 23.",
+        "short_title": "Standard für klimagerechtes Bauen",
+        "summary": "Ziel: Ein Standard für klimagerechtes Bauen wird in Grundstückskaufverträgen festgelegt. Fortschritt: Abstimmung des Vertragstextes und Umsetzung durch Amt 23.",
         "cost": {
             "until_in_years": null,
             "value": 0,
@@ -231,42 +339,66 @@
     },
     {
         "id": "mobilitaet1",
-        "short_title": "Elektrifizierung \u00d6PNV",
-        "summary": "Ziel: Bis 2029 sollen alle Busse in M\u00fcnster elektrisch betrieben werden. Fortschritt: Ende 2023 sind bereits 73 Elektrobusse im Einsatz.",
+        "short_title": "Elektrifizierung ÖPNV",
+        "summary": "Ziel: Bis 2029 sollen alle Busse in Münster elektrisch betrieben werden. Fortschritt: Ende 2023 sind bereits 73 Elektrobusse im Einsatz.",
         "cost": {
             "until_in_years": 2028,
             "value": 21300000,
             "quantity": null
+        },
+        "state": {
+			"title": "€ CO2-freier ÖPNV in Münster",
+            "date": "2024-07-01",
+            "text": "Umstellung auf 73 SMWS-eigene E-Busse (insg. 116 Busse) Zielsetzung 12/2024:  \n-  Umstellung auf 85 E-Busse von 116 Bussen",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet2",
-        "short_title": "Ausbau \u00f6ffentlicher Ladeinfrastruktur",
-        "summary": "Ziel: Die Ladeinfrastruktur f\u00fcr Elektrofahrzeuge wird ausgebaut. Fortschritt: Ausschreibung von 16 Paketen mit je 4 Standorten im Oktober 2023.",
+        "short_title": "Ausbau öffentlicher Ladeinfrastruktur",
+        "summary": "Ziel: Die Ladeinfrastruktur für Elektrofahrzeuge wird ausgebaut. Fortschritt: Ausschreibung von 16 Paketen mit je 4 Standorten im Oktober 2023.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Ausbau öffentlicher Ladesäuleninfrastruktur",
+            "date": "2024-10-01",
+            "text": "-       Aktuell gibt es auf dem Münsteraner Stadtgebiet ca. 170 öffentlich zugängliche Ladesäulen (<300 Ladepunkte), die sich zum Teil im öffentlichen Straßenraum und zum Teil im privaten Raum (z.B. Kundenparkplätze o.ä.) befinden. \n-       Die Stadtwerke Münster errichten im öffentlichen Straßenraum gemäß eines ersten Ausbaukonzeptes aus dem Jahr 2021 60 öffentliche Ladepunkte (knapp 30 sind zum jetzigen Zeitpunkt fertiggestellt). \n-       Mitte des Jahres 2023 wurde beschlossen, dass durch private Anbieter weitere 112 Ladepunkte im öffentlichen Raum errichtet werden sollen. \n-       Das dazugehörige Ausschreibungs- und Vergabeverfahren ist abgeschlossen und die Unternehmen befinden sich derzeit in der Planung bzw. bereits in der Umsetzung (bis zum Herbst 2024 soll ein Großteil der Ladesäulen errichtet worden sein).",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet3",
         "short_title": "Erweiterung E-Carsharing Angebot",
-        "summary": "Ziel: Das Angebot an E-Carsharing wird erweitert. Fortschritt: Ausschreibung von weiteren (E-)Carsharingpl\u00e4tzen im Fr\u00fchjahr 2024.",
+        "summary": "Ziel: Das Angebot an E-Carsharing wird erweitert. Fortschritt: Ausschreibung von weiteren (E-)Carsharingplätzen im Frühjahr 2024.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Erweiterung (E-)Carsharing-Angebot",
+            "date": "2024-10-01",
+            "text": "-       Zum jetzigen Zeitpunkt rund 150 Carsharing-Stationen und ca. 370 Fahrzeuge in Münster, die sich auf die beiden Anbieter Stadtteilauto und ShareNow verteilen.  \n-       Rund 20 öffentliche Carsharing-Stellplätze sind elektrifiziert, weitere auf privater Fläche ebenfalls.  \n-       Knapp 40 weitere elektrifizierte Carsharing-Stellplätze sind beschlossen und sollen in den nächsten Monaten eingerichtet werden (Stadtwerke MS errichten Ladeinfrastruktur).   \n-       Sowohl die Anzahl von E-Carsharing-Fahrzeugen als auch die Anzahl von Carsharing-Fahrzeugen mit Verbrenner-Motor sind in den letzten Monaten bzw. im vergangenen Jahr konstant angestiegen.  \n-       Nachfrage seitens der Nutzerinnen und Nutzer steigt ebenfalls an. \n-       Vergabe- bzw. Verteilungsverfahren öffentlicher CarsharingStellplätze ist in Planung und soll zeitnah realisiert werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet4",
         "short_title": "Ausbau Mobilstationen",
-        "summary": "Ziel: Mobilstationen werden ausgebaut, um die Vernetzung der Verkehrstr\u00e4ger zu verbessern. Fortschritt: Ratsbeschluss zum Standortkonzept Mobilstationen im Februar 2024.",
+        "summary": "Ziel: Mobilstationen werden ausgebaut, um die Vernetzung der Verkehrsträger zu verbessern. Fortschritt: Ratsbeschluss zum Standortkonzept Mobilstationen im Februar 2024.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Mobilstationen - Standortkonzept",
+            "date": "2024-10-01",
+            "text": "-       Das „Mobilstationskonzept der Stadt Münster – Teil A: Qualitätsstandards“ ist politisch beschlossen (V/1052/2020) \n-       Das Mobilstationskonzept der Stadt Münster – Teil B: Standortkonzept“ ist politisch beschlossen (V/0397/2023/2) \n-       Im Ergebnis wurden 146 potenzielle Mobilstationsstandorte identifiziert, differenziert nach drei Größenklassen (S, M und L) \n-       Aktuell erfolgt die Aufstellung eines Umsetzungsprogramms, mit dem die Umsetzung der einzelnen Standorte in eine zeitliche Reihung gebracht werden soll \n-       Dieses soll bis Ende 2024 vorliegen \n-       Parallel dazu werden aufgrund planerischer und/oder baulicher Notwendigkeiten bereits einzelne Pilotstandorte konkret geplant \n(vornehmlich Konversionsquartiere und WLE-Haltepunkte)",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -277,22 +409,34 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Integriertes Parkraumkonzept",
+            "date": "2024-10-01",
+            "text": "Der Rat der Stadt Münster hat in seiner Sitzung am Mittwoch, 19. Juni 2024, ein Konzept zum Parken im öffentlichen Straßenraum beschlossen. Die Verwaltung wird mit der Umsetzung prioritärer Maßnahmen aus dem Integrierten Parkraumkonzept beauftragt. Aktuell erarbeitet die Verwaltung ein entsprechendes Umsetzungsprogramm mit klaren zeitlichen Perspektiven.  \n \nHierzu zählen Maßnahmen zur Aktivierung vorhandener, öffentlich zugänglicher Kundenstellplätze zum Heben des vorhandenen Nutzerpotenzials, die Ausweisung zusätzlicher Carsharing-Stellplätze mit Fokus auf innenstadtnahe Wohnquartiere sowie die Einrichtung von zusätzlichen Zonen für Laden & Liefern an Geschäftsstraßen mit hohem Parkdruck. Zudem soll für die Anfahrts- bzw. Stausituation in der Königsstraße eine Lösung erarbeitet werden. \n \nDarüber hinaus soll das Parkhaus Coesfelder Kreuz als Alternative zu den innerstädtischen Parkhäusern auch an Normalsamstagen öffnen, eine zonal differenzierte Anpassung der Parkgebühren geprüft und sogenannte „Schrotträder“ häufiger beseitigt werden. Auch sollen weitere Bewohnerparkzonen geschaffen und die bestehenden Regelungen zur Bewohnerparkzonen ggf. angeglichen werden. Zudem soll die Barrierefreiheit auf Gehwegen gesteigert werden, insbesondere, wenn wichtige Wegebeziehungen zu Kindergärten, Schulen oder Altenheimen vorliegen.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet6",
         "short_title": "Fahrradnetz 2.0",
-        "summary": "Ziel: Das Fahrradnetz in M\u00fcnster wird verbessert und ausgebaut. Fortschritt: Beschluss zum Fahrradnetz 2.0 im Februar 2024.",
+        "summary": "Ziel: Das Fahrradnetz in Münster wird verbessert und ausgebaut. Fortschritt: Beschluss zum Fahrradnetz 2.0 im Februar 2024.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Fahrradnetz 2.0",
+            "date": "2024-10-01",
+            "text": "Die Verwaltung arbeitet bereits seit einigen Jahren sehr zielgerichtet an der Verbesserung der Radverkehrsinfrastruktur. Zahlreiche Maßnahmen haben dazu geführt, dass das Radfahren in der Fahrradstadt Münster stetig komfortabler, sicherer und zügiger wird. Zu erwähnen sind Projekte wie die Kanalpromenade, die Qualitätsstandards der Fahrradstraßen 2.0 (u.a. Bismarckallee, Bohlweg, Lütkenbecker Weg / Lindberghweg) oder das Leezenflow-System. Dennoch ist eine weitere Transformation des Straßen- und Stadtraums nötig, um den Radverkehr entsprechend der Ziele des Masterplans Mobilität Münster 2035+ auf ein neues Level zu heben und Münsters positive Identität als Fahrradstadt zu stärken. Derzeit befinden sich einige Maßnahmen aufgrund früherer Entscheidungen bereits in fortgeschrittener Planung, Ausschreibung oder Realisierung bzw. es bestehen bereits konkrete Ratsbeschlüsse. Diese Maßnahmen wirken sich allesamt positiv aufs Fahrradnetz 2.0. Darüber hinaus hat das Amt für Mobilität und Tiefbau in enger Abstimmung mit dem für die verkehrsrechtlichen Anordnungen zuständigen Ordnungsamt, der Feuerwehr (aufgrund des abschnittweise betroffenen Vorbehaltsstraßennetzes) und der Polizei (wegen möglicher Verkehrssicherheitsbedenken) ein Umsetzungskonzept aufgestellt, die Grundlage hierfür bilden die 42 gutachterlichen Handlungsempfehlungen, die im Februar 2024 politisch beschlossen wurden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet7",
         "short_title": "Dienstreisen im Umweltverbund",
-        "summary": "Ziel: Ein Rahmen f\u00fcr klimafreundliche Dienstreisen wird definiert. Fortschritt: G\u00fcltig seit 12.12.2023 und in Anwendung.",
+        "summary": "Ziel: Ein Rahmen für klimafreundliche Dienstreisen wird definiert. Fortschritt: Gültig seit 12.12.2023 und in Anwendung.",
         "cost": {
             "until_in_years": null,
             "value": null,
@@ -301,82 +445,130 @@
     },
     {
         "id": "mobilitaet8",
-        "short_title": "Mitarbeitendenmobilit\u00e4ts-Angebote",
-        "summary": "Ziel: Angebote zur umweltfreundlichen Mobilit\u00e4t f\u00fcr Mitarbeitende werden ausgebaut. Fortschritt: Fertigstellung von Fahrradboxen und Fahrradkellern in 2024.",
+        "short_title": "Mitarbeitendenmobilitäts-Angebote",
+        "summary": "Ziel: Angebote zur umweltfreundlichen Mobilität für Mitarbeitende werden ausgebaut. Fortschritt: Fertigstellung von Fahrradboxen und Fahrradkellern in 2024.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Ausbau von Mitarbeitendenmobilitäts-Angeboten",
+            "date": "2024-10-01",
+            "text": "Das betriebliche Mobilitätsmanagement im Personal- und Organisationsamt verfolgt mehrere Maßnahmen für Mobilitätsangebote für die Mitarbeiterinnen und Mitarbeiter der Stadtverwaltung, von denen mehrere bereits umgesetzt sind. \n-       Fahrradleasing: Erfolgreich eingeführt im Mai 2023 \n-       Laden von Pedelec-Akkus am Arbeitsplatz: Seit 09/2023 offiziell möglich unter Beachtung von Sicherheitsanforderungen \n-       JobTicket (umgesetzt für tariflich Beschäftigte): Über 1.000 Abos, fast ausschließlich Deutschlandticket Job \n-       Fahrradboxen / weitere Fahrradabstellmöglichkeiten: Fahrradbox im Parkhaus am Stadthaus 3 ist kurz vor der Eröffnung, weitere Standorte für Fahrradabstellinfrastruktur sind in Prüfung \n-       Zertifizierung als fahrradfreundliche Arbeitsgeberin: In Vorbereitung \nAuch bei der Mitarbeitendengewinnung können Angebote wie das Fahrradleasing die Attraktivität der Stadt Münster als Arbeitgeberin steigern.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet9",
         "short_title": "Elektrifizierung Fuhrpark",
-        "summary": "Ziel: Der st\u00e4dtische Fuhrpark wird auf Elektrofahrzeuge umgestellt. Fortschritt: Sondierung des Fahrzeugbestands und Einf\u00fchrung von Fuhrparkmanagement.",
+        "summary": "Ziel: Der städtische Fuhrpark wird auf Elektrofahrzeuge umgestellt. Fortschritt: Sondierung des Fahrzeugbestands und Einführung von Fuhrparkmanagement.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Reduzierung & Elektrifizierung des städtischen Fuhrparks",
+            "date": "2024-10-01",
+            "text": "-       Abfrage des städtischen Fuhrparks wird vorbereitet. \n-       Das Personal- und Organisationsamt wird (möglichst noch in 2024) bei allen städtischen Ämtern und eigenbetrieblichen Einrichtungen eine Fuhrparkabfrage durchführen und relevante Daten zur Nutzung aller städtischen motorisierten Fahrzeugen erheben.  \n-       Mit der GA Dienstreisen wurde im November 2023 ein Rahmen für die nachhaltige und effiziente Durchführung von Dienstreisen geschaffen. \n-       Grundsätzlich hat der Umweltverbund Vorrang bei der Durchführung von Dienstreisen. Zudem wird Carsharing genutzt. Auch soll der Einsatz privater Pkw minimiert werden. Bei Terminen gilt außerdem online vor offline. \n-       Der städtische Fuhrpark wird elektrifiziert. \n-       Bei Reinvestitionen wird darauf geachtet, dass E-Pkw angeschafft werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet10",
-        "short_title": "S-Bahn-M\u00fcnsterland",
+        "short_title": "S-Bahn-Münsterland",
         "summary": "Ziel: Der Schienenpersonennahverkehr wird ausgebaut, um den Pendlerverkehr zu reduzieren. Fortschritt: Reaktivierung der WLE ab 2026.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ S-Bahn-Münsterland",
+            "date": "2024-10-01",
+            "text": "-       Die Gesamtmaßnahme ist noch im Planfeststellungsverfahren. \nPlanbeschluss voraussichtlich Ende 2024. \n-       Parallel läuft die Ausführungsplanung, wird in Kürze vergeben \n-       bislang unbekannt welche Infrastrukturmaßnahmen insgesamt erforderlich sind, zu welchen Konditionen Verkehrsleistungen eingekauft werden können und welche Finanzierungswege möglich sind. \n-       Die Finanzierung erfolgt über den Infrastrukturfinanzierungsplan des Landes NRW.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "mobilitaet11",
-        "short_title": "Neukonzeption \u00d6PNV-Angebot",
-        "summary": "Ziel: Das bestehende \u00d6PNV-Angebot wird weiterentwickelt. Fortschritt: Erste Schritte zur Hierarchisierung des zuk\u00fcnftigen Angebots beschlossen.",
+        "short_title": "Neukonzeption ÖPNV-Angebot",
+        "summary": "Ziel: Das bestehende ÖPNV-Angebot wird weiterentwickelt. Fortschritt: Erste Schritte zur Hierarchisierung des zukünftigen Angebots beschlossen.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Neukonzeption des bestehenden ÖPNV-Angebotes",
+            "date": "2024-10-01",
+            "text": "-       Beschluss zur Aufstellung des 4. NVP im 1. Quartal 2024 \n-       Erste Beschlüsse zur Ertüchtigung/Beschleunigung der Hochleistungsachsen (V/0204/2024). U.a. Weseler Straße (V/0124/2024), Grevener Straße (V/0315/2024), Warendorfer \nStraße (V/0231/2024), Hammer Straße (V/0307/2024)",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "klimahaushalt1",
-        "short_title": "\u00d6kosoziale Vergaben",
-        "summary": "Ziel: Sozial-\u00f6kologische Kriterien f\u00fcr die Beschaffung von Waren und Dienstleistungen werden entwickelt. Fortschritt: Stellungnahmen der Verwaltung und Ratsentscheidung stehen aus.",
+        "short_title": "Ökosoziale Vergaben",
+        "summary": "Ziel: Sozial-ökologische Kriterien für die Beschaffung von Waren und Dienstleistungen werden entwickelt. Fortschritt: Stellungnahmen der Verwaltung und Ratsentscheidung stehen aus.",
         "cost": {
             "until_in_years": null,
             "value": 0,
             "quantity": null
+        },
+        "state": {
+			"title": "Ökosoziale Vergaben",
+            "date": "2024-10-01",
+            "text": "Die Verwaltung hat dem Arbeitskreis einen Richtlinientext vorgeschlagen und zur Diskussion in den politischen Kreisen mit ihnen nahestehenden Interessenvertretern aus der Zivilgesellschaft überlassen. Zu den Änderungsvorschlägen seitens der politischen Vertretungen hat die Verwaltung Stellungnahmen erstellt.  \nDie Diskussionen aus dem darauffolgenden Arbeitskreis werden nun in einen neuen Entwurf eingearbeitet, sodass dieser dann im Arbeitskreis diskutiert werden kann und entschieden werden kann, welche Inhalte dem Rat vorgeschlagen werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "klimahaushalt2",
         "short_title": "Nachhaltige Geldanlagen",
-        "summary": "Ziel: Die Stadt M\u00fcnster investiert in nachhaltige Geldanlagen. Fortschritt: Weiterentwicklung der Anlagerichtlinie als Beschlussvorlage f\u00fcr Februar 2024.",
+        "summary": "Ziel: Die Stadt Münster investiert in nachhaltige Geldanlagen. Fortschritt: Weiterentwicklung der Anlagerichtlinie als Beschlussvorlage für Februar 2024.",
         "cost": {
             "until_in_years": null,
             "value": 0,
             "quantity": null
+        },
+        "state": {
+			"title": "Nachhaltige Geldanlagen",
+            "date": "2024-10-01",
+            "text": "Die jüngste Anpassung der städtischen Kapitalanlagerichtlinie wurde im Februar 2024 mit der Vorlage V/0104/2024 beschlossen. Erstmalig werden nun auch Investitions- bzw. Ausschlusskriterien für den Erwerb von Staatsanleihen definiert. \nDarüber hinaus müssen für Investitionen in Unternehmen/Staaten zukünftig bestimmte Einstufungen im ESG-Rating erfüllt werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "klimahaushalt3",
         "short_title": "Nachhaltigkeitsberichterstattung",
-        "summary": "Ziel: Nachhaltigkeitsberichte im Stadtkonzern werden gest\u00e4rkt. Fortschritt: Richtvorgabe und \u00dcberblick im Public-Corporate-Governance-Kodex geplant.",
+        "summary": "Ziel: Nachhaltigkeitsberichte im Stadtkonzern werden gestärkt. Fortschritt: Richtvorgabe und Überblick im Public-Corporate-Governance-Kodex geplant.",
         "cost": {
             "until_in_years": null,
             "value": 0,
             "quantity": null
+        },
+        "state": {
+			"title": "Nachhaltigkeitsberichterstattung im Stadtkonzern",
+            "date": "2024-10-01",
+            "text": "-       Die Einbringung des PCGK in den Rat soll noch im Jahr 2024 erfolgen. \n-       Die konkreten Berichtspflichten für die kommunalen Beteiligungen werden sich primär aus der im Laufe des Jahres erwarteten Umsetzung der EU-Richtlinie CSRD in nationales Recht ergeben. Die Beteiligungen werden durch den Kodex dazu ermutigt, darüberhinausgehende Indikatoren zu berichten. \n-       Zeitraum: Jährlichkeitsprinzip wegen der Verknüpfung mit dem Jahresabschluss",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "klimahaushalt4",
         "short_title": "Bauinvestitionscontrolling",
-        "summary": "Ziel: Ein Bauinvestitionscontrolling wird eingerichtet. Fortschritt: Austausch mit anderen Kommunen und Erarbeitung einer Gesch\u00e4ftsanweisung.",
+        "summary": "Ziel: Ein Bauinvestitionscontrolling wird eingerichtet. Fortschritt: Austausch mit anderen Kommunen und Erarbeitung einer Geschäftsanweisung.",
         "cost": {
             "until_in_years": null,
             "value": 0,
             "quantity": null
+        },
+        "state": {
+			"title": "Einrichtung eines Bauinvestitionscontrollings",
+            "date": "2024-10-01",
+            "text": "Erste Austauschgespräche mit anderen Kommunen (best-practice) haben stattgefunden. \nStellenbesetzung fachliche Leitung zum 01.10.2024. \nKonzeptionierung folgt.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -392,11 +584,17 @@
     {
         "id": "klimahaushalt6",
         "short_title": "Green Bonds",
-        "summary": "Ziel: Ein weiterer Green Bond \u00fcber 120 Millionen Euro wird aufgelegt. Fortschritt: Platzierung des 2. Green Bonds ist f\u00fcr 2024 geplant.",
+        "summary": "Ziel: Ein weiterer Green Bond über 120 Millionen Euro wird aufgelegt. Fortschritt: Platzierung des 2. Green Bonds ist für 2024 geplant.",
         "cost": {
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Green Bond/Grüner Schuldschein",
+            "date": "2024-10-01",
+            "text": "Im September 2021 hat der Rat der Stadt Münster mit der Vorlage V/0666/2021 die Verwaltung beauftragt, die nachhaltige Kapitalbeschaffung über einen Green Bond zu initiieren. Die erfolgreiche Platzierung des Schuldscheins am Markt erfolgte im September 2022. \nIm November 2023 wurde die Neuauflage entschieden. \nIm Mai 2024 konnte die Finanzmittelbeschaffung durchgeführt werden. Dabei konnte das geplante Volumen von 100 Mio. € mit 170 Mio. € überzeichnet werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -407,6 +605,12 @@
             "until_in_years": 2030,
             "value": 862.139,
             "quantity": null
+        },
+        "state": {
+            "title": "Aktionsplan Nachhaltiges Ernährungssystem",
+            "date": "2024-10-01",
+            "text": "- Der Rat der Stadt Münster hatte 2019 dieses Projekt als eines der Schlüsselprojekte der Nachhaltigkeitsstrategie Münster 2030 beschlossen (V0669/2021). Die Verwaltung hatte darauf hingewiesen, dass solch ein umfänglicher Ansatz nur mit zusätzlichen personellen Ressourcen umsetzbar ist. \n-       Auch in seiner aktuellen Stellungnahme (V/0262/2024, Anlage 2) stellt der GNK-Beirat weiterhin die Notwendigkeit solch eines übergreifenden Ansatzes heraus. Für die Entwicklung und Umsetzung eines übergreifenden Aktionsplans durch den GNK-Beirat stehen seitens der Verwaltung keine ausreichenden Personal- und Finanzmittel zur Verfügung. Gleichwohl können kleinere Einzelaspekte bei der anstehenden Überarbeitung der GNKNachhaltigkeitsstrategie Berücksichtigung finden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -417,6 +621,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+            "title":"€€€ Bildung für nachhaltige Entwicklung in Münster etablieren",
+            "date": "2024-10-01",
+            "text": "Meilensteine \n-       04/2024 - 03/2026: Weiterentwicklung des BNE-Netzwerks mit außerschulischen Bildungspartner*innen (2 - 3 Netzwerktreffen pro Jahr) und Überarbeitung der Bildungsangebotsbroschüre für das Schuljahr 2024/2025 \n-       04/2024 – 03/2026: Kontinuierliche Unterstützung der Landeskampagne „Schule der Zukunft“ 04/2024 – 03/2025, Mitgestaltung der regionalen und städtischen Auszeichnungsfeiern (10/2024) \n-       Durchführung einer Münsteraner BNE-Tagung (01/2025) \n-       bis 07/2024 und ab 09/2024: Umsetzung des Grundschulprojekts „YooLe - raus aus Schule“ mit derzeit sieben beteiligten Grundschulen; Weiterentwicklung und Ausdehnung des Angebots für das Schuljahr 2024/2025 auf dann insgesamt zehn Schulen \n-       bis 09/2024 Umsetzung des „Zukunftsdiploms“ als Kooperationsprojekt des BNE-Regionalzentrums mit der vhs Münster  \n-       09/2024: Aktionsstand bei den Tagen der Nachhaltigkeit \n-       09/2024: gemeinsame Obsternte auf der Streuobstwiese Haus Kump; Apfelversaftungsaktion mit beteiligten Grundschulen; Austauschtreffen)  \n\n-       11/2024-12/2024: digitale BNE-Module für Lehrkräfte (3 Stück) \n-       03/2025: BNE-Rezertifizierung der Fachstelle Nachhaltigkeit \n-       Ab 03/25: 12 Aktionstage zum Aufstellen und Erstbepflanzen von neuen Hochbeeten an unterschiedlichen Schulen (Kooperationsprojekt mit dem Adolph-Kolping-Berufskolleg)  \n-       Kontinuierlich: BNE-Newsletter \n-       Kontinuierlich: Aufbau des Münsteraner Schulnetzwerkes „Schule der Zukunft“ und Anstreben einer Netzwerk-Zertifizierung in 2025 \n-       Kontinuierlich: Umsetzung des vielfältigen Bildungsprogramms in Kooperation mit Haus Heidhorn, u.a. mit dem Schwerpunkt Schulgarten (Baumschnittkurse, Bildungsprojekt „Samenfeste Sorten“, …)  \n-       Kontinuierlich: Weiterentwicklung des Schulgartennetzwerkes mit beteiligten Schulen \n-       Kontinuierlich: Beratung zur BNE-Schulentwicklung und zum städtischen Förderprogramm „Urbane Bürgergärten“ \n-       Geplant: Einführung einer regelmäßigen „BNE-Sprechstunde“ und/oder BNE-Angeboten im Haus der Nachhaltigkeit",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -427,6 +637,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+            "title": "€€€ Umstellung des städtischen Kantinenessens",
+            "date": "2024-10-01",
+            "text": "-       Bis 2022: Die Verpflegung in den städtischen Kantinen ist zu 20% auf faire, saisonale und regionale Bio-Lebensmittel umgestellt. 33% der Gerichte sind vegetarisch.   \n-       2024: Vorbereitung der benötigten dokumentatorischen Prozesse zur Bio-Zertifizierung",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -437,6 +653,12 @@
             "until_in_years": 2025,
             "value": 60000,
             "quantity": null
+        },
+        "state": {
+            "title": "€€€ KlimaTraining",
+            "date": "2024-10-01",
+            "text": "Von März bis Juni 2024 wurde ein KlimaTraining als Projektkurs (11. Klasse) an der Mathilde Anneke Gesamtschule durchgeführt. \nGleichzeitig fand das KlimaTraining der Bürger*innen statt. Beide Zielgruppen (insgesamt 40 Teilnehmende) nahmen gemeinsam an den Angeboten des KlimaTrainings teil. Die Schüler*innen dokumentierten ihre Erfahrungen zudem in einem Video und erhielten zuvor ein Video-Coaching.  \nIm Rahmen des Städtenetzwerks „Klimaschonende Entscheidungen“ wird aktuell von August bis Oktober 2024 das Konzept eines KlimaTrainings im Quartier als Maßnahme zur Beteiligung von Anwohnenden und anderen Stakeholdern erarbeitet.  \nVon Oktober 2024 bis Januar 2025 findet ein KlimaTraining für Bürger*innen unter Beteiligung des bundesweiten Projektes Klix3 statt. Dieses erfasst die CO2-Bilanz privater Haushalte im Rahmen einer Langzeitstudie.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -457,6 +679,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Aktivierung, Qualifizierung und Multiplikation klimaschonenden Verhaltens in der Gesamtgesellschaft",
+            "date": "2024-10-01",
+            "text": "Die Stadtbücherei ist per se ein nachhaltiger Ort durch das Prinzip: Leihen statt kaufen. Seit mehr als einem Jahr hat sie erfolgreich die „Bibliothek der Dinge“ im Angebot, bietet ein umfassendes Medienangebot an einem Sonderstandort an und plant mit einem Nachhaltigkeitsteam Bildungsangebote etc.  \nThementaschen und Bilderbuchboxen zu Nachhaltigkeitsthemen für Kitas und Schulen ergänzen das Angebot. Die Stadtbücherei ist Mitglied im BNE-Netzwerk, außerdem Mitglied im erweiterten Kernteam \n„Global Nachhaltige Kommune Münster.“  \nAktuell erweitert das monatliche Repair-Café das Portfolio. \nIn ihrer ersten Nachhaltigkeitserklärung nach dem Deutschen Nachhaltigkeitskodex (DNK) hat die vhs Münster viele verschiedene As-\npekte aus den Bereichen Ökologie, Ökonomie und Soziales gesammelt und weiterentwickelt. Um den Nachhaltigkeitskodex zu erfüllen, wurde eine DNK-Erklärung zu den zwanzig DNK-Kriterien und einem ausgewählten Set an quantifizierbaren Leistungsindikatoren erstellt. Unter Mitwirkung des Instituts für Nachhaltigkeitsbildung hat das vhs-Team die Prozesse in der Einrichtung auf Nachhaltigkeit überprüft. In einer Datenbank werden wichtige Indikatoren erfasst, die regelmäßig überprüft werden.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -467,6 +695,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Biostadt Münster und Öko-Modellregion Münsterland",
+            "date": "2024-10-01",
+            "text": "Beschreibung des aktuellen Sachstands \n \nü  Weiterbildung von Verpflegungsdienstleistern in Schule, Kita und Pflegeheimen (Gerechte und nachhaltige Außer-Haus-Angebote gestalten - GeNAH) (Fachhochschule Münster, BMS) \nü  Aufbau „Treffpunkt bioregional!“ als Unternehmensnetzwerk der Ökomodellregion Münsterland, Start 11.03.2024 (ÖMM, BMS) \nü  Verwaltungsinterne Fortbildung zur Vergabe für „nachhaltige“ Verpflegung bei Veranstaltungen (BMS) \nü  Ausstellung eines Ansichtsregals mit bioregionalen Produkten im Haus der Nachhaltigkeit (ÖMM, BMS) \nü  Temporäre Picknickkiste bei Münsterländer Picknicktag auf Biohof Schwienhorst (ÖMM) \nü  Treffpunkt bioregional! Workshop „Küche sucht Hof bietet“ (ÖMM), ggfs. Vermittlung von Lieferkontakten zwischen Produzierenden und Verpflegenden der Außer-Haus-Verpflegung",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -475,8 +709,14 @@
         "summary": "Ziele: Bereitstellung von Trinkwasser im öffentlichen Raum, Klimaschutz, Gesundheitsförderung und Bildung. Teilprojekte umfassen den Bau von Trinkbrunnen, Anwerben von Refill-Standorten und eine Informationskampagne zu den Vorteilen von Leitungswasser.",
         "cost": {
             "until_in_years": null,
-            "value": 350.000,
+            "value": 350.0,
             "quantity": 17
+        },
+        "state": {
+			"title": "„TrinkWasser“-Kampagne",
+            "date": "2024-10-01",
+            "text": "Bei der Vorbereitung des Hitzeaktionsplans für Münster ist die „TrinkWasser“-Kampagne als Maßnahme in die Hitzeaktionsplanung eingebettet worden.  \nDer ämterübergreifende Abstimmungsprozess (Runder Tisch Trinkwasserbrunnen) zur Findung geeigneter Trinkwasserbrunnenstandorte mit Beteiligung der Stadtnetze/ Stadtwerke Münster GmbH wurde im Januar 2024 vom Gesundheits- und Veterinäramt angestoßen. Gemeinsam wurden Standortkriterien definiert und gewichtet. \nDie Anzahl der Refill Stationen in Münster soll deutlich ausgeweitet werden. In Kooperation mit Münster Marketing werden neue RefillStandorte beworben. Über das Quartiersmanagement sollen  Gewerbetreibende, Vereine, etc. in der Innenstadt und in den äußeren Stadtteilen gezielt angesprochen werden. Der Konzern Stadt Münster soll ebenfalls mit einbezogen werden. Das Haus der Nachhaltigkeit und das Gesundheits- und Veterinäramt am Standort Stühmerweg 8 sind bereits Refill Station. Für alle anderen Standorte der Stadtverwaltung soll geklärt werden, ob sie die Kriterien von Refill Deutschland als Refill Station erfüllen. \nDie Informationskampagne „TrinkWasser“ startete im Januar 2024 mit einer Plakatkampagne an Buswartehallen. Die Plakate hingen an 100 Standorten im gesamten Stadtgebiet im Durchschnitt 12 Wochen. Hierbei ist von ca. 32 Millionen Sichtungen (einschließlich \nMehrfachsichtungen) auszugehen. An zwei Aktionstagen (Tag des Wassers, Hitzeaktionstag) wurde mit einem Informations- und Mitmach-Angebot auf die gesundheits- und klimawirksamen Vorteile von Leitungswasser aufmerksam gemacht.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -487,6 +727,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Masterplan Handwerk (Allianz mit dem Handwerk)",
+            "date": "2024-10-01",
+            "text": "In dem Auftaktworkshop im Mai 2023 wurden prioritäre Handlungsfelder identifiziert und abgestimmt. Hierzu gehören: Unterstützung des Handwerks bei „alltäglichen Problemen“, Standortsicherung in Gemengelagen und Entwicklung klimaneutraler/handwerkstauglicher Gewerbegebiete, Weiterentwicklung der laufenden Arbeitsprozesse bei der Klimaneutralität/Klimaanpassung, Wertschätzungskampagne für das Handwerk unter besonderer Berücksichtigung des KlimaHandwerks.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -517,6 +763,12 @@
             "until_in_years": 2025,
             "value": 25000,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Münsters Allianz für Klimaschutz",
+            "date": "2024-10-01",
+            "text": "Das Netzwerk hat in den vergangenen 12 Monaten eine Weiterentwicklung abgeschlossen: Die Unternehmen haben Ihr Bekenntnis zur Allianz durch Unterzeichnung der erneuerten Selbstverpflichtung aufgefrischt. Im gleichen Zuge wurde dabei die in die Jahre gekommene Mitgliedsdatenbank aktualisiert. \nDarüber hinaus haben die Unternehmen aus der Allianz mit 17 individuellen Beiträgen einen wesentlichen Teil zum Klimastadtvertrag beigetragen. Auch sind die gebündelten Selbstverpflichtungen als ein Teil des „Commitments“ in den Prozess zum EU-Programm der „100 climate neutral und smart cities“ eingegangen. \nÜber den Sommer hinweg ist das Einreichungsfenster für die Beiträge der Unternehmen (Bilanz & Maßnahme) geöffnet. Die Unternehmen \nerhalten dazu sowohl von der Stabsstelle Klima als auch vom Dienstleister Gertec alle notwendige Unterstützung und Begleitung. \nFür den Herbst und Winter sind ein weiteres Netzwerktreffen sowie eine Exkursion in den Energiepark nach Saerbeck geplant.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -527,6 +779,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Standortentwicklungsstrategie 2030",
+            "date": "2024-10-01",
+            "text": "Die Standortentwicklungsstrategie liegt als Entwurfsfassung vor, die aktuell mit den Partnerinnen und Partner schlussabgestimmt wird. \n \nAm 01.10.2024 wird die Standortentwicklungsstrategie von den Partnerinnen und Partner in einer gemeinsamen Veranstaltung fachöffentlich vorgestellt.  \n \nDie Standortentwicklungsstrategie soll im Dezember mit einer begleitenden Verwaltungsvorlage in den Rat eingebracht werden. Die Beschlussfassung ist für die erste Ratssitzung 2035 geplant.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -537,6 +795,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€ CO2-Bilanzierung Wirtschaftsförderung Münster",
+            "date": "2024-10-01",
+            "text": "Die Bilanz für 2023 wurde aufgestellt.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -547,6 +811,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "Klimastadt-Vertrag (Climate City Contract)",
+            "date": "2024-10-01",
+            "text": "Im Klimastadt-Vertrag veröffentlichen der Stadtkonzern und Münsteraner*innen ihren Beitrag auf dem Weg zur Klimastadt. Beginnend mit dem Stadtforum im Juni 2023 konnten alle Münsteraner*innen - egal ob Unternehmen, Bürger*in, Verein oder andere Einrichtung - Maßnahmen benennen, die sie selbst umsetzen und so als Beitrag zur Klimastadt zum Klimastadt-Vertrag beisteuern wollen. Jeder Beitrag auf dem Weg zur Klimaneutralität zählt. In einem intensiven Dialog mit Wirtschaft und Hochschulen werden Beiträge zum Klimastadt-Vertrag erarbeitet. Am 28. Februar 2024 fand die feierliche Unterzeichnung von gut 60 Beiträgen durch Vertreterinnen und Vertreter aus Wirtschaft, Wissenschaft und Zivilgesellschaft statt, am 11. März 2024 wurde er bei der EU eingereicht. Im Herbst wird die Europäische Kommission bekannt geben, ob die Stadt Münster das Mission Label erhält. Weitere Informationen: www.klimastadt.ms",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -557,6 +827,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€ Klimaneutrale Gewerbegebiete",
+            "date": "2024-10-01",
+            "text": "Die Bestandsaufnahme der Gewerbegebiete im Sinne einer Grobanalyse mit Blick auf Gebietsgröße, Branchenstruktur, Gebäudebe-  stand, Energieverbrauch, PV-Potential, Fernwärmemöglichkeit, vor-  handene erneuerbare Energie, E-Ladesäulen, ÖPNV wurde für die 43 Gewerbegebiete durchgeführt. Zudem wurde der Projektplan (Prozess und Aufbauorganisation) entwickelt.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -567,6 +843,12 @@
             "until_in_years": null,
             "value": null,
             "quantity": null
+        },
+        "state": {
+			"title": "€ Kreislaufstadt",
+            "date": "2024-10-01",
+            "text": "2023 wurde zunächst relevantes Wissen bezüglich Kreislaufwirtschaft in der WFM aufgebaut. 2024 erfolgte eine Status-quo-Erhebung – im Mittelpunkt stand die Stakeholder-Analyse. Es wurden zwei vom Difu moderierte Workshops durchgeführt mit jeweils ca. 30 Vertretern aus Wirtschaft, Kammern, Verbänden, Verwaltung und Hochschulen. Konkrete Starterprojekte wurden in den Handlungsfeldern „Bau und Gebäude“ sowie „Lebensmittel und Ernährung“ identifiziert. Die Wirtschaftsförderung bringt diese Projekte mit ihrer Rolle als „Vernetzer“ und „Promotor“ voran. Zudem wird durch den Austausch mit städtischen Vertretern Transparenz in die Kreislaufwirtschaftsaktivitäten im Stadtkonzern sukzessive geschaffen.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
@@ -577,10 +859,17 @@
             "until_in_years": 2025,
             "value": 25000,
             "quantity": null
+        },
+        "state": {
+			"title": "€€€ Startberatung Energieeffizienz",
+            "date": "2024-10-01",
+            "text": "Das Angebot findet Anklang und wird von den Unternehmen genutzt. Insgesamt wurden mit dem Angebot in den vergangenen Jahren schon über 100 Unternehmen kostenfrei und niederschwellig beraten. In 2024 konnten in der ersten Jahreshälfte knapp 10 Beratungen durchgeführt werden. Das Jahreskontingent umfasst 20 Beratungen. Das Angebot wurde auf verschiedenen städtischen Kanälen beworben. Auch das beauftragte Energieberatungsbüro nutzt seine Netzwerke und Kanäle, um das Angebot zu verbreiten.",
+            "verdict": "Keine Bewertung"
         }
     },
     {
         "id": "initiative2",
+        "short_title": "Experimentierumgebung für digitale Klimaschutzlösungen",
         "cost": {
             "until_in_years": null,
             "value": null,

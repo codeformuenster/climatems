@@ -57,6 +57,11 @@ export interface AdditionalMeasureData {
   short_title?: string;
   summary: string;
   cost: Cost;
+  state?: {
+    date: string,
+    text: string,
+    verdict: string
+  }
 }
 
 export type MeasureStatus = 'in_progress' | 'unknown' | 'completed' | 'stale';

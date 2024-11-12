@@ -16,11 +16,14 @@ const props = defineProps<{
 }>();
 
 
+const totalMeasures = props.measures.length;
+
 const completed = {
   label: 'Abgeschlossen',
   color: 'var(--p-green-500)',
   icon: null,
   value: props.measures.filter((measure) => measure.status === 'completed').length,
+  width: (props.measures.filter((measure) => measure.status === 'completed').length / totalMeasures) * 100,
 };
 
 const stale = {
@@ -28,6 +31,7 @@ const stale = {
   color: 'var(--color-status-stale)',
   icon: null,
   value: props.measures.filter((measure) => measure.status === 'stale').length,
+  width: (props.measures.filter((measure) => measure.status === 'stale').length / totalMeasures) * 100,
 };
 
 const unknown = {
@@ -35,6 +39,7 @@ const unknown = {
   color: 'var(--p-gray-500)',
   icon: null,
   value: props.measures.filter((measure) => measure.status === 'unknown').length,
+  width: (props.measures.filter((measure) => measure.status === 'unknown').length / totalMeasures) * 100,
 };
 
 const inProgress = {
@@ -42,7 +47,8 @@ const inProgress = {
   color: 'var(--p-blue-500)',
   icon: null,
   value: props.measures.filter((measure) => measure.status === 'in_progress').length,
+  width: (props.measures.filter((measure) => measure.status === 'in_progress').length / totalMeasures) * 100,
 };
 
-const sum = completed.value + unknown.value + inProgress.value;
+const sum = completed.value + unknown.value + inProgress.value + stale.value;
 </script>

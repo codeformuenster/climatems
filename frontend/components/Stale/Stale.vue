@@ -61,5 +61,5 @@ const sortedMeasures = measures.sort((a, b) => {
 });
 
 
-const newsMeasures = sortedMeasures.filter((measure) => measure.status === 'stale').slice(0, NUMBER_OF_NEWS);
+const newsMeasures = sortedMeasures.filter((measure) => measure.status === 'stale' || measure.status === 'unknown').slice(0, NUMBER_OF_NEWS);
   </script>
