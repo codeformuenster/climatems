@@ -8,6 +8,12 @@
             "value": 215000000,
             "quantity": 26
         },
+        "links": [
+            {
+                "title": "Windenergie-Projekte der Stadtwerke Münster",
+                "url": "https://www.stadtwerke-muenster.de/unternehmen/muenster-wird-gruen/energiewende/windenergie"
+            }
+        ],
         "state": {
             "title": "€ Erneuerbare Energieerzeugung mittels Windenergieanlagen \n(WEA): 42 WEA und 280 GWh/a grüner Strom",
             "date": "2024-07-01",
@@ -24,6 +30,12 @@
             "value": 100000000,
             "quantity": 100
         },
+        "links": [
+            {
+                "title": "PV-Projekte der Stadtwerke Münster",
+                "url": "https://www.stadtwerke-muenster.de/unternehmen/muenster-wird-gruen/energiewende/photovoltaik"
+            }
+        ],
         "state": {
 			"title": "€ Erneuerbare Energieerzeugung mittels Photovoltaikanlagen:  \n100 GWh/a grüner Strom",
             "date": "2024-07-01",
@@ -146,11 +158,6 @@
     {
         "id": "energieerzeugung10",
         "short_title": "Netztransformation - Intelligente Niederspannung",
-        "user_action": {
-            "label": "Smart Meter bestellen",
-            "href": "https://www.stadtwerke-muenster.de/zuhause/strom/zeitzonen-strom?gad_source=1",
-            "description": "Mit dem Kauf eines Smart Meters von den Stadtwerken Münster tragen Sie aktiv dazu bei, dieses Ziel zu erreichen. Profitieren Sie von einer transparenten und effizienten Nutzung Ihrer Energie und leisten Sie gleichzeitig einen wichtigen Beitrag zum Umweltschutz."
-        },
         "summary": "Ziel: Bis 2030 sollen 95 % der Haushalte mit intelligenten Stromzählern und 100 % mit intelligenten Gaszählern ausgestattet sein. Fortschritt: Ertüchtigung der Systeme und Abläufe ab Q1 2024.",
         "cost": {
             "until_in_years": 2026,
