@@ -34,6 +34,14 @@
       </template>
     </Card>
   </section>
+  <section class="section container" v-if="measure?.additionalData?.links?.length">
+    <h1 class="headline">Nützliche Links</h1>
+    <ul>
+      <li v-for="link in measure.additionalData.links" :key="link.url">
+        <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+      </li>
+    </ul>
+  </section>
   <section class="action-section section" v-if="!!measure?.additionalData?.user_action">
     <div id="alert-additional-content-1" class="container" role="alert">
       <h1 class="headline">Werde selber aktiv!</h1>
