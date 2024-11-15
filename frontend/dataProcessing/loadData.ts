@@ -57,6 +57,7 @@ export interface AdditionalMeasureData {
   short_title?: string;
   summary: string;
   cost: Cost;
+  links?: { title: string; url: string; }[];
   state?: {
     date: string,
     text: string,
