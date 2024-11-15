@@ -1,0 +1,578 @@
+[
+  {
+    "id": "energieerzeugung1",
+    "type": "count",
+    "label": "Erzeugte Energie durch Windkraft pro Jahr",
+    "unit": "GWh",
+    "start": 92,
+    "goal": 280,
+    "yMin": 0,
+    "yMax": 300,
+    "values": [
+      {
+        "value": 92,
+        "date": "2023-10-01"
+      },
+      {
+        "value": 92,
+        "date": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung2",
+    "type": "count",
+    "label": "Erzeugte Energie durch PV pro Jahr",
+    "unit": "GWh",
+    "start": 9,
+    "goal": 100,
+    "yMin": 0,
+    "yMax": 120,
+    "values": [
+      {
+        "value": 9,
+        "date": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2023-04-21"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-08-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung9",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung10",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung11",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung12",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "energieerzeugung13",
+    "type": "binary",
+    "values": [
+      {
+        "value": "unknown",
+        "date": "2024-01-01"
+      },
+      {
+        "value": "in_progress",
+        "date": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet1",
+    "type": "count",
+    "label": "Elektrobusse",
+    "unit": "Anzahl",
+    "start": 73,
+    "goal": 116,
+    "yMin": 0,
+    "yMax": 120,
+    "values": [
+      {
+        "value": 17,
+        "date": "2021-07-01"
+      },
+      {
+        "value": 39,
+        "date": "2022-07-01"
+      },
+      {
+        "value": 73,
+        "date": "2024-09-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "completed",
+        "date": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "completed",
+        "date": "2024-03-26"
+      }
+    ]
+  },
+  {
+    "id": "bauen2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bauen8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet9",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet10",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "mobilitaet11",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "klimahaushalt6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung2",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung3",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung7",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "bildung_und_ernaehrung8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft1",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft4",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft5",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft6",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft8",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft9",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "id": "wirtschaft_und_wissenschaft10",
+    "type": "binary",
+    "values": [
+      {
+        "value": "in_progress",
+        "date": "2024-10-01"
+      }
+    ]
+  }
+]
