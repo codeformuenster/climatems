@@ -40,7 +40,10 @@
       <template #content>
         <ul>
           <li v-for="link in measure.additionalData.links" :key="link.url">
-            <a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+            <a :href="link.url" target="_blank" rel="noopener noreferrer">
+              <i class="pi pi-external-link" style="margin-right: 0.5rem;"></i>
+              {{ link.title }}
+            </a>
           </li>
         </ul>
       </template>
