@@ -4,7 +4,8 @@ import additionalData from '@/data/additional_data.json';
 import categoryData from '@/data/categories.json';
 
 export default defineEventHandler((event: any) => {
-  const dataType = getRouterParam(event, 'type');
+  const query = getQuery(event)
+  const dataType = query["type"];
 
   switch (dataType) {
     case 'measures':
