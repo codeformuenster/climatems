@@ -1,9 +1,19 @@
-import measures from '@/data/measures.json';
-import implementations from '@/data/implementations.json';
+import axios from 'axios';
 
-import additionalData from '@/data/additional_data.json';
+const fetchData = async (type: string) => {
+  try {
+    const response = await axios.get(`/api/data?type=${type}`);
+    return response.data;
+  } catch (error) {
+    console.error(`Error fetching ${type}:`, error);
+    return [];
+  }
+};
 
-import categoryData from '@/data/categories.json';
+const measures = await fetchData('measures');
+const implementations = await fetchData('implementations');
+const additionalData = await fetchData('additionalData');
+const categoryData = await fetchData('categories');
 
 
 interface ActionOutline {
