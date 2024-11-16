@@ -126,19 +126,19 @@ const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus =
     return 'stale';
   };
 
-  if (progress.type === 'percent') {
+  if (progress.type === 'percent' && typeof lastValue.value === 'number') {
     if (lastValue.value === 100) {
       status = 'completed';
-    } else if (parseInt(lastValue.value, 10) > 0) {
+    } else if (lastValue.value > 0) {
       status = 'in_progress';
     }
-  } else if (progress.type === 'count') {
+  } else if (progress.type === 'count' && typeof lastValue.value === 'number') {
     if (lastValue.value === progress.goal) {
       status = 'completed';
-    } else if (parseInt(lastValue.value) >= progress.start) {
+    } else if (lastValue.value >= progress.start) {
       status = 'in_progress';
     }
-  } else if (progress.type === 'binary' && lastValue.value) {
+  } else if (progress.type === 'binary' && typeof lastValue.value === 'string' && ['in_progress', 'unknown', 'completed', 'stale'].includes(lastValue.value)) {
     status = lastValue.value;
   }
   return status;
