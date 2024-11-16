@@ -9,7 +9,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@primevue/nuxt-module',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@scalar/nuxt'
   ],
   css: [
     'primeicons/primeicons.css',
@@ -29,5 +30,10 @@ export default defineNuxtConfig({
     config: {
       plugins: [tailwindTypography]
     }
-  }
+  },
+  nitro: {
+    experimental: {
+      openAPI: true,
+    },
+  },
 })

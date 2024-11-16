@@ -16,6 +16,7 @@
     "@heroicons/vue": "^2.1.5",
     "@nuxt/eslint": "^0.5.7",
     "@primevue/themes": "^4.0.7",
+    "@scalar/nuxt": "^0.2.142",
     "chart.js": "^4.4.4",
     "chartjs-adapter-moment": "^1.0.1",
     "chartjs-plugin-annotation": "^3.0.1",
