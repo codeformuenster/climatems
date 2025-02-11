@@ -40,11 +40,8 @@ const responsibleBodies = ref([
 </script>
 
 <template>
-  <section class="section container">
-    <News @scroll-to-categories="scrollToCategories" />
-  </section>
   <section id="categories" class="section categories container">
-    <h1 class="headline">Maßnahmen nach Kategorie</h1>
+    <h2 class="headline" style="margin-bottom: 5px;">Maßnahmen des Klimastadtvertrags nach Kategorie</h2>
     <Card>
       <template #title>
         Gesamtübersicht über alle Maßnahmen
@@ -69,6 +66,9 @@ const responsibleBodies = ref([
       :search-string="searchString"
       :show-user-actionable="onlyUserActionable || selectedResponsibleBody"
     />
+  </section>
+  <section class="section container">
+    <News @scroll-to-categories="scrollToCategories" />
   </section>
   <section class="section">
     <About />

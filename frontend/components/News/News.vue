@@ -90,9 +90,6 @@
       />
     </dl>
     <Stale />
-    <div class="news--actions">
-      <Button label="Zu allen Maßnahmen" icon="pi pi-arrow-down" icon-pos="right" @click="$emit('scrollToCategories')" />
-    </div>
   </section>
 </template>
 
