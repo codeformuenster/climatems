@@ -10,10 +10,14 @@ const fetchData = async (type: string) => {
   }
 };
 
-const measures = await fetchData('measures');
-const implementations = await fetchData('implementations');
-const additionalData = await fetchData('additionalData');
-const categoryData = await fetchData('categories');
+async function getData() {
+  const measures = await fetchData('measures');
+  const implementations = await fetchData('implementations');
+  const additionalData = await fetchData('additionalData');
+  const categoryData = await fetchData('categories');
+
+  return [measures, implementations, additionalData, categoryData];
+}
 
 
 interface ActionOutline {
@@ -158,6 +162,7 @@ const getStatusForMeasureProgress = (progress: MeasureProgress): MeasureStatus =
 const getMeasures = async (): Promise<Measure[]> => {
   const progresses = await getAllMeasureProgresses();
   const additionalData = await getAdditionalData();
+  const measures = (await getData())[0];
 
   return measures.map((measure) => ({
     id: measure.id,
@@ -192,11 +197,14 @@ const getMeasure = async (measureId: string): Promise<Measure | undefined> => {
   return measures.find(({ id }) => id === measureId);
 }
 
-const getAdditionalData = async () => additionalData as AdditionalMeasureData[];
+const getAdditionalData = async () => {
+  const additionalData = (await getData())[2];
+  return additionalData as AdditionalMeasureData[];
+}
 
 
 const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgress; }> => {
-
+  const implementations = (await getData())[1];
   return implementations.reduce((acc, progress) => {
     acc[progress.id] = { ...progress, values: progress.values.map(({ value, date }) => ({ value, date: new Date(date) })) };
     return acc;
@@ -204,6 +212,7 @@ const getAllMeasureProgresses = async (): Promise<{ [key: string]: MeasureProgre
 }
 
 const getRawCategories = async () => {
+  const measures = (await getData())[0];
   const rawCategories = measures.map(measure => ({
     name: measure.category,
     id: measure.categoryId,
@@ -225,6 +234,7 @@ const getCategories = async (): Promise<Category[]> => {
 
   const withMetaInformation = await Promise.all(categories.map(async category => {
     const measures = await getMeasuresForCategory(category.id);
+    const categoryData = (await getData())[3];
     const description = categoryData.find(({ id }) => id === category.id)?.description || '';
 
     return {
