@@ -36,4 +36,9 @@ export default defineNuxtConfig({
       openAPI: true,
     },
   },
+  vite: {
+    build: {
+      target: 'esnext'
+    }
+  }
 })
