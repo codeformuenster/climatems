@@ -1,0 +1,28 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v**
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-backend:
+    name: Build backend container
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and push backend container image
+        uses: bCyberGmbH/build-container-image-action@main
+        with:
+          registry_username: ${{ github.repository_owner }}
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
+          image_repository: ${{ github.repository }}
+          dockerfile_path: frontend/Dockerfile
+          build_context: frontend
+          push_to_registry: ${{ github.event_name != 'pull_request' }}
